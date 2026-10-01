@@ -5,6 +5,7 @@ description = "Foundry-side scaffold for the RORgamma hackathon grid: query gene
 requires-python = ">=3.12"
 dependencies = [
     "numpy>=1.26",
+    "rdkit>=2026.3.6",
 ]
 
 [dependency-groups]
