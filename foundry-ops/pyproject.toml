@@ -1,0 +1,16 @@
+[project]
+name = "foundry-ops"
+version = "0.1.0"
+description = "Foundry-side scaffold for the RORgamma hackathon grid: query generation and prediction collection."
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "pytest-xdist>=3.4",
+]
+
+[tool.uv]
+package = false
