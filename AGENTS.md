@@ -29,6 +29,31 @@ Foundry Ops.
     finishes, reads its `result.json`, cross-references `arm_manifest.csv`,
     and copies predictions into `preds/<arm_id>/seed_<seed>/`, appending to
     `job_tracker.csv`. Idempotent — safe to re-run as more groups land.
+  - `tests/`, `pyproject.toml`, `uv.lock` — pytest suite (31 tests, gated at
+    95% coverage) for the two scripts above, managed with
+    [uv](https://docs.astral.sh/uv/).
+  - `Dockerfile` — reproducible container for running the test suite,
+    following [astral's uv Docker guide](https://docs.astral.sh/uv/guides/integration/docker/).
+
+## Running the tests
+
+Locally with uv (installs `.venv` from `uv.lock`, no system pip needed):
+
+```bash
+cd foundry-ops
+uv run pytest
+```
+
+Or in a container, for a host with a broken/missing Python toolchain:
+
+```bash
+cd foundry-ops
+docker build -t foundry-ops .
+docker run --rm foundry-ops
+```
+
+CI (`.github/workflows/ci.yml`) runs the same `uv sync --locked` + `uv run
+pytest` path via `astral-sh/setup-uv`.
 
 ## Where the actual workflow lives
 
@@ -44,7 +69,9 @@ contract details). `commands.txt` prints paths relative to that location.
 - `seeds` and `template_paths` are batch-wide Nextflow model params, not
   per-query — any new arm with a different seed count or template need goes
   in its own group, not patched into an existing `request.json`.
-- Keep `foundry-ops/` stdlib-only (no pip deps) — no package manager is
-  confirmed working on the hackathon host.
+- Keep `build_grid.py`/`submit_and_collect.py` themselves stdlib-only (no
+  runtime deps) — they need to run anywhere, including hosts with a broken
+  system Python. Test/dev tooling (pytest etc.) is fine to manage via uv in
+  `pyproject.toml`/`uv.lock`.
 - This is placeholder-driven scaffolding for a single hackathon day — don't
   generalize it beyond the RORγ grid or add speculative config.
