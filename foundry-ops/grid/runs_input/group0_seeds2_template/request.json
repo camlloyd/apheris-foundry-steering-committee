@@ -1,0 +1,18 @@
+{
+  "queries": [
+    {
+      "query_id": "a6_wrong_template",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+        },
+        {
+          "component_id": "HC2",
+          "chain_id": "B"
+        }
+      ]
+    }
+  ]
+}

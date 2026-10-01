@@ -1,0 +1,28 @@
+{
+  "_todo": "PLACEHOLDER DATA. Replace every value below once Lily delivers targets_rorgamma.json (HANDOFF.md S1): the real RORgamma LBD chain_index layout, the active/inactive pocket residue sets computed from 3KYT vs the chosen inactive reference (gemmi, <=4A ligand contacts), and the shared-pocket-only set for A8. chain_index/residue_index are 0-based per the workflow's pocket_constraint convention (position in the query's chain list / within that chain), NOT author numbering.",
+  "binder_chain_index": 1,
+  "max_distance": 6.0,
+  "active_pocket": {
+    "_todo": "contacts computed from 3KYT (agonist, H12-in) vs 25-HC",
+    "binding_residues": [
+      {"chain_index": 0, "residue_index": 10},
+      {"chain_index": 0, "residue_index": 11},
+      {"chain_index": 0, "residue_index": 15}
+    ]
+  },
+  "inactive_pocket": {
+    "_todo": "contacts computed from the chosen inactive reference (empirically picked per HANDOFF.md S2, e.g. 4ZJW/5IXK) vs its ligand; expected to include back-pocket residues near S404 and H12-facing contacts",
+    "binding_residues": [
+      {"chain_index": 0, "residue_index": 20},
+      {"chain_index": 0, "residue_index": 21},
+      {"chain_index": 0, "residue_index": 25}
+    ]
+  },
+  "shared_pocket": {
+    "_todo": "A8 control: union/shared contact set that does not encode state-specific conditioning",
+    "binding_residues": [
+      {"chain_index": 0, "residue_index": 10},
+      {"chain_index": 0, "residue_index": 20}
+    ]
+  }
+}

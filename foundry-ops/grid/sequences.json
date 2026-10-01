@@ -1,0 +1,22 @@
+{
+  "_todo": "PLACEHOLDER DATA. protein_sequence stands in with ubiquitin (from foundry-predict-workflow/example-input/query.json) until Lily delivers the real RORgamma LBD construct (~230 residues, UniProt P51449) in targets_rorgamma.json. Ligand SMILES/CCD codes are TODO until confirmed from the downloaded reference crystals.",
+  "protein_sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+  "ligands": {
+    "25-HC": {
+      "_todo": "25-hydroxycholesterol, CCD code HC2",
+      "component_id": "HC2"
+    },
+    "inverse_agonist": {
+      "_todo": "SR2211 (SMILES in hand per HANDOFF.md ref [73]) or 4P1/4P3 once CCD codes are confirmed",
+      "smiles": "TODO_SMILES"
+    }
+  },
+  "coactivator_peptide": {
+    "_todo": "SRC2-2 LXXLL 12-mer, sequence per HANDOFF.md B3",
+    "sequence": "TODO_PEPTIDE_SEQUENCE"
+  },
+  "wrong_template_cif": {
+    "_todo": "kinase reference CIF for the A6 negative control; placeholder currently points at the shipped 1B07.cif example so build_grid.py has something real to copy/validate against",
+    "path": "../../../foundry-prototypes-and-demos/foundry-predict-workflow/example-input-templates/1B07.cif"
+  }
+}

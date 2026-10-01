@@ -1,0 +1,157 @@
+{
+  "queries": [
+    {
+      "query_id": "a0_baseline_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+        },
+        {
+          "component_id": "HC2",
+          "chain_id": "B"
+        }
+      ]
+    },
+    {
+      "query_id": "a1_active_steer",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+        },
+        {
+          "component_id": "HC2",
+          "chain_id": "B",
+          "pocket_constraint": {
+            "binder_chain_index": 1,
+            "binding_residues": [
+              {
+                "chain_index": 0,
+                "residue_index": 10
+              },
+              {
+                "chain_index": 0,
+                "residue_index": 11
+              },
+              {
+                "chain_index": 0,
+                "residue_index": 15
+              }
+            ],
+            "max_distance": 6.0
+          }
+        }
+      ]
+    },
+    {
+      "query_id": "a2_cross_control",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+        },
+        {
+          "component_id": "HC2",
+          "chain_id": "B",
+          "pocket_constraint": {
+            "binder_chain_index": 1,
+            "binding_residues": [
+              {
+                "chain_index": 0,
+                "residue_index": 20
+              },
+              {
+                "chain_index": 0,
+                "residue_index": 21
+              },
+              {
+                "chain_index": 0,
+                "residue_index": 25
+              }
+            ],
+            "max_distance": 6.0
+          }
+        }
+      ]
+    },
+    {
+      "query_id": "a7_apo",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+        }
+      ]
+    },
+    {
+      "query_id": "a8_shared_pocket",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+        },
+        {
+          "component_id": "HC2",
+          "chain_id": "B",
+          "pocket_constraint": {
+            "binder_chain_index": 1,
+            "binding_residues": [
+              {
+                "chain_index": 0,
+                "residue_index": 10
+              },
+              {
+                "chain_index": 0,
+                "residue_index": 20
+              }
+            ],
+            "max_distance": 6.0
+          }
+        }
+      ]
+    },
+    {
+      "query_id": "b3_peptide_cofold",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
+        },
+        {
+          "component_id": "HC2",
+          "chain_id": "B",
+          "pocket_constraint": {
+            "binder_chain_index": 1,
+            "binding_residues": [
+              {
+                "chain_index": 0,
+                "residue_index": 10
+              },
+              {
+                "chain_index": 0,
+                "residue_index": 11
+              },
+              {
+                "chain_index": 0,
+                "residue_index": 15
+              }
+            ],
+            "max_distance": 6.0
+          }
+        },
+        {
+          "chain_id": "C",
+          "polymer_type": "protein",
+          "sequence": "TODO_PEPTIDE_SEQUENCE"
+        }
+      ]
+    }
+  ]
+}

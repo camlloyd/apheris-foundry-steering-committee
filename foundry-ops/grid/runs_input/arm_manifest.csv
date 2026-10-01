@@ -1,0 +1,11 @@
+query_id,arm_id,seed_count,conditioning,ligand,group_dir
+a6_wrong_template,A6,2,wrong_template,25-HC,group0_seeds2_template
+a0_baseline_agonist,A0,2,none,25-HC,group1_seeds2
+a1_active_steer,A1,2,active_pocket,25-HC,group1_seeds2
+a2_cross_control,A2,2,inactive_pocket,25-HC,group1_seeds2
+a7_apo,A7,2,none,none,group1_seeds2
+a8_shared_pocket,A8,2,shared_pocket,25-HC,group1_seeds2
+b3_peptide_cofold,B3,2,active_pocket,25-HC,group1_seeds2
+a3_baseline_inverse,A3,5,none,inverse_agonist,group2_seeds5
+a4_money_arm,A4,5,inactive_pocket,inverse_agonist,group2_seeds5
+a5_cross_control,A5,5,active_pocket,inverse_agonist,group2_seeds5
