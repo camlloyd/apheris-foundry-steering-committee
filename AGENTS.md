@@ -62,6 +62,47 @@ it's in the sibling `foundry-prototypes-and-demos/foundry-predict-workflow/`
 checkout (see that repo's own `skills/` for direct-Docker and prediction
 contract details). `commands.txt` prints paths relative to that location.
 
+## `apheris_kit_rorgamma/` (science side, from Lily)
+
+Delivered as `rorgamma_addon.zip` and unzipped here. Its `foundry_emit.py`
+expects a job-submission CLI called `apheris-foundry`
+(`workflows run --workflow predict`, `jobs logs`, `jobs download`) talking to
+a live Foundry Hub, running **Boltz-2** for the primary A-arms (OpenFold3 is
+only the later B0-B3 mirror). **As of 2026-10-01 this CLI is not reachable
+from this host** — checked env vars, `~/.config`, the skills directory, and a
+filesystem-wide search for `apheris-foundry`/`foundry_cli`-style binaries or
+packages. Before assuming it's installed or guessing at credentials, rerun
+that check; don't re-waste time rediscovering this:
+
+```bash
+which apheris-foundry   # expect: not found
+python3 -m pip list | grep -i apheris   # expect: nothing
+env | grep -i -E "apheris|foundry|hub"  # FOUNDRY_USERNAME/PASSWORD/REGISTRY
+                                         # are quay.io *Docker registry* pull
+                                         # creds for the pre-pulled images,
+                                         # NOT Hub API auth - don't confuse them
+```
+
+There IS a `/usr/local/bin/foundry-cli` binary on this host, but it's a
+**different tool** — an artifact/registry browser (`module list`,
+`weight get`, `skill get`, `workflow get`) for downloading things Hub
+publishes, with no `jobs`/`workflows run` subcommand at all. It's also
+unauthenticated by default (`workflow list` → `[]`); using it for real needs
+an Auth0 login (`--auth0-domain`/`--auth0-client-id`/`--auth0-audience` or the
+matching `FOUNDRY_AUTH0_*` env vars) that isn't set here either. Don't
+mistake it for `apheris-foundry` — check `foundry-cli --help`'s command list
+before assuming it can submit a prediction job.
+
+`apheris_kit_rorgamma/` ships its own test/dev deps (`numpy`, `gemmi`) not
+managed by `foundry-ops/`'s uv project — set up a separate venv for it:
+
+```bash
+cd apheris_kit_rorgamma
+uv venv .venv && uv pip install --python .venv numpy gemmi
+.venv/bin/python test_scorer_gate.py   # re-verify the scorer gate
+.venv/bin/python test_kit.py
+```
+
 ## Conventions for agents working here
 
 - Don't fill in `_todo` placeholders with guessed data — wait for the real
