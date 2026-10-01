@@ -58,12 +58,11 @@ def build_query(arm, sequences, pocket_sets):
     ]
 
     lig = ligand_chain(arm["ligand"], sequences)
+    constraint = None
     if lig is not None:
         lig_chain = dict(lig)
         lig_chain["chain_id"] = "B"
         constraint = pocket_constraint(arm["conditioning"], pocket_sets)
-        if constraint is not None:
-            lig_chain["pocket_constraint"] = constraint
         chains.append(lig_chain)
 
     if arm.get("extra_chain") == "coactivator_peptide":
@@ -75,7 +74,14 @@ def build_query(arm, sequences, pocket_sets):
             }
         )
 
-    return {"query_id": arm["query_id_prefix"], "chains": chains}
+    query = {"query_id": arm["query_id_prefix"], "chains": chains}
+    if constraint is not None:
+        # pocket_constraint is a property of the query (sibling of "chains"),
+        # not of the binder chain -- confirmed from the workflow's own JSON
+        # Schema (InputQueryChains.properties: bonds, chains,
+        # pocket_constraint, query_id) and run-predict-workflow's example.
+        query["pocket_constraint"] = constraint
+    return query
 
 
 def group_key(arm):

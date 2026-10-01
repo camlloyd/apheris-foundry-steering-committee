@@ -105,14 +105,18 @@ def test_build_query_ligand_arm_with_no_conditioning_has_no_pocket_constraint():
     lig_chain = query["chains"][1]
     assert lig_chain["chain_id"] == "B"
     assert lig_chain["component_id"] == "HC2"
+    assert "pocket_constraint" not in query
     assert "pocket_constraint" not in lig_chain
 
 
-def test_build_query_conditioned_arm_carries_pocket_constraint_on_ligand_chain():
+def test_build_query_conditioned_arm_carries_pocket_constraint_on_query_not_chain():
+    # pocket_constraint is a property of the query (sibling of "chains"),
+    # per the workflow's JSON Schema (InputQueryChains) -- not of the
+    # binder chain itself.
     arm = {"query_id_prefix": "a1_active_steer", "ligand": "25-HC", "conditioning": "active_pocket"}
     query = build_grid.build_query(arm, SEQUENCES, POCKET_SETS)
-    lig_chain = query["chains"][1]
-    assert lig_chain["pocket_constraint"]["binding_residues"] == POCKET_SETS["active_pocket"]["binding_residues"]
+    assert query["pocket_constraint"]["binding_residues"] == POCKET_SETS["active_pocket"]["binding_residues"]
+    assert "pocket_constraint" not in query["chains"][1]
 
 
 def test_build_query_peptide_cofold_adds_third_chain():
