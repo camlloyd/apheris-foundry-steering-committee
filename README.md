@@ -4,12 +4,12 @@ RORγ Two-State Steering — Hackathon Day 1 Plan (v2, replaces kinase plan)
 Date: 2026-10-01, etc.venues Chancery Lane. Team: 2 (Lily + 1 teammate). Hard constraint: Lily leaves at 17:30 (assumed from "I will have to at 5:30:pm") → figure done by ~17:15, handoff package by 17:30, teammate owns the evening.
 
 1. Target and hypothesis
-Target: RORγ ligand-binding domain (RORC / NR1F3, UniProt UniProt
-UniProt
-), ~230-residue LBD construct.
+Target: RORγ ligand-binding domain (RORC / NR1F3, UniProt P51449), ~230-residue LBD construct.
 The state switch is helix 12 (H12 / AF-2). Agonist 25-hydroxycholesterol (25-HC, CCD HC2) packs H12 against the core (agonist lock H479–Y502–F506), forming the LXXLL coactivator groove [71, 75]. Inverse agonists destabilize or displace H12 → coactivator (SRC2 / RIP140 / NCOA1 / NCOA2 LXXLL peptide) cannot bind → inflammatory cytokine / Th17 transcription drops (challenge slide).
 Critical caveat — state–function decoupling: some inverse agonists co-crystallize with H12 still in the agonist position (diosgenin 9VZQ [70]; "water-trapping" class in 5NTK [62, 79]). Therefore the two reference structures are chosen empirically from CA displacement profiles, not from ligand labels.
 Hypothesis: state-specific pocket conditioning (which residues the ligand is asked to contact) steers Boltz-2 / OpenFold3 between H12-in and H12-out, while naive / shared-pocket conditioning does not. Controls are the differentiator: KinConfBench showed mode collapse and pose≠state [9, 22]; Boltz-2 defaults to the dominant state on kinases [5]; apo RORγ LBD crystallizes active [71, 78], so the unconditioned baseline is expected to sit in H12-in.
+**Pre-registered success criterion (write before any results):** A4 median H12 displacement is closer to the inactive reference than A3, A5 and A8 by more than the seed spread. A null result is reported as a finding.
+**Threats to validity:** (a) contact sets partly encode ligand identity, not H12 state: A5 / A8 are the explicit controls; (b) 3KYT may be in the model's training data / templates: A6 only partly controls for this; (c) the auto-derived H12 region must be validated on crystals first (see §4 gate).
 2. Reference pair (final choice made empirically in execution step 1)
 ACTIVE reference: 3KYT — RORγ LBD + 25-HC (HC2) + SRC2-2 LXXLL peptide (chain B), canonical agonist conformation [72, 74, 78].
 INACTIVE candidates: 5IXK (BIO399, AF-2 destabilized) [63, 64]; 4ZJW (4P1) and 4ZJR (4P3) biaryl carboxylamides, H479 H-bond key [68, 69]; a steric-clash-class member of the 5NTK set [62, 79]; MRL-871 allosteric structure (unprecedented H12 position) [67] as backup.
@@ -30,8 +30,11 @@ A8	LBD	25-HC	shared-pocket-only	control: pocket constraints alone ≠ state stee
 B3 (optional)	LBD + SRC2-2 12-mer	25-HC	active pocket set	LXXLL peptide co-fold; peptide-contact recovery as orthogonal state readout (slide features the coactivator explicitly — good for the pitch)
 Inverse agonist ligand: SR2211 (SMILES in hand [73]) or 4P1 / 4P3 once the CCD codes are confirmed from the downloaded refs.
 Pocket sets: ligand-contact residues (≤4 Å) computed from each reference with gemmi; the inactive set is expected to include back-pocket residues near S404 and H12-facing contacts.
-Seeds: 2 per arm (3 for A1 / A4 if quota allows). Submit the entire grid as ONE batch.
+Core arms (priority): A0, A1, A3, A4, A5, A8. A2, A6, A7 only with spare quota.
+Seeds: 5 per core inverse-agonist arm (A3, A4, A5, A8) — seeds beat extra arms for a mode-collapse claim; 2 for the rest. Submit the entire grid as ONE batch.
+Model: run everything on ONE model (whichever Foundry exposes pocket constraints for); add the second only after the grid is done.
 4. Execution mechanics
+**Go/no-go gates.** (1) Scorer validation (sandbox, before 11:30): score 3KYT vs itself and vs 5IXK / 4ZJW; confirm H12 is the only region that separates them. (2) Schema gate (by 12:15): if Foundry exposes no pocket constraints, pivot the conditioning lever (templates, or a ligand with known H12 preference) instead of patching; the HPC Boltz-2 fallback must also be checked for constraint support.
 Foundry: apheris-foundry CLI v0.5.0 — workflows run --workflow predict --input request.json --model-params @file, jobs logs / download [52]. Emit every arm with foundry_emit.py (probe / emit / collect subcommands). Exact request/params schema to be captured at Q&A (11:05–11:15) or from organizers at lunch. Fallback: classic compute-spec Docker path [44–47].
 Optional de-risk (ask organizers it's OK): 2–3 smoke predictions via sandbox HPC Boltz-2 to confirm the state region and pocket sets behave before committing Foundry quota.
 All scoring is client-side with the kit: state_recovery2 + score_run.py + figure.py. No kinase motif machinery needed (DFG logic drops out; motif_overrides stays unused).
@@ -81,4 +84,4 @@ figure_day1.png / .svg + summary_table.md; results.csv; targets_rorgamma.json; r
 "State-specific pocket conditioning steers co-folding models between RORγ agonist and inverse-agonist H12 states — and the controls show naive conditioning can't." Novelty vs prior art: a controlled head-to-head of ligand-induced state recovery with state-specific (not shared) pocket conditioning on a nuclear receptor, extending the kinase DFG-era benchmarks [5, 9, 12, 22].
 
 10. Compute estimate
-~10 arms × 2 seeds × 1–2 ligand directions ≈ 25–45 predictions; a ~230-residue LBD plus a small ligand runs in minutes per job on the Lyceum GPUs — fits comfortably inside Build I–II. Client-side scoring is <1 min total.
+Core: 4 inverse-agonist arms × 5 seeds + A0 / A1 × 2 seeds = 24 predictions (≈ 35 with A2 / A6 / A7 / B3 at 2 seeds); a ~230-residue LBD plus a small ligand runs in minutes per job on the Lyceum GPUs — fits comfortably inside Build I–II. Client-side scoring is <1 min total.
