@@ -1,0 +1,17 @@
+{
+  "_comment": "RORgamma two-state steering grid, from HANDOFF.md section 3. seeds/template_paths are BATCH-WIDE model params for the foundry-predict-workflow Nextflow pipeline (see apheris-openfold3-predict.json 'parameters' block) -- arms sharing (seeds, template_paths) are submitted together; arms that differ get their own run.",
+  "arms": [
+    {"arm_id": "A0", "query_id_prefix": "a0_baseline_agonist",        "ligand": "25-HC",          "conditioning": "none",           "seeds": 2, "template_paths": null, "purpose": "baseline - expect H12-in"},
+    {"arm_id": "A1", "query_id_prefix": "a1_active_steer",            "ligand": "25-HC",          "conditioning": "active_pocket",  "seeds": 2, "template_paths": null, "purpose": "steering -> active"},
+    {"arm_id": "A2", "query_id_prefix": "a2_cross_control",           "ligand": "25-HC",          "conditioning": "inactive_pocket","seeds": 2, "template_paths": null, "purpose": "cross / conflict control"},
+    {"arm_id": "A3", "query_id_prefix": "a3_baseline_inverse",        "ligand": "inverse_agonist","conditioning": "none",           "seeds": 5, "template_paths": null, "purpose": "baseline - where does model default"},
+    {"arm_id": "A4", "query_id_prefix": "a4_money_arm",               "ligand": "inverse_agonist","conditioning": "inactive_pocket","seeds": 5, "template_paths": null, "purpose": "steering -> inactive (the money arm)"},
+    {"arm_id": "A5", "query_id_prefix": "a5_cross_control",           "ligand": "inverse_agonist","conditioning": "active_pocket",  "seeds": 5, "template_paths": null, "purpose": "cross / conflict control"},
+    {"arm_id": "A6", "query_id_prefix": "a6_wrong_template",          "ligand": "25-HC",          "conditioning": "wrong_template", "seeds": 2, "template_paths": ["wrong_template_ref.cif"], "purpose": "negative control (kinase ref template)"},
+    {"arm_id": "A7", "query_id_prefix": "a7_apo",                     "ligand": "none",           "conditioning": "none",           "seeds": 2, "template_paths": null, "purpose": "apo control"},
+    {"arm_id": "A8", "query_id_prefix": "a8_shared_pocket",           "ligand": "25-HC",          "conditioning": "shared_pocket",  "seeds": 2, "template_paths": null, "purpose": "control: pocket constraints alone != state steering"},
+    {"arm_id": "B3", "query_id_prefix": "b3_peptide_cofold",          "ligand": "25-HC",          "conditioning": "active_pocket",  "seeds": 2, "template_paths": null, "purpose": "LXXLL peptide co-fold (optional)", "extra_chain": "coactivator_peptide"}
+  ],
+  "core_arms": ["A0", "A1", "A2", "A3", "A4", "A5", "A8"],
+  "spare_quota_arms": ["A6", "A7", "B3"]
+}
