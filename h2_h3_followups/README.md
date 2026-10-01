@@ -58,8 +58,39 @@ scripts/             the runnable pipeline:
                              arbitration test, reusable on new ligand sets
   collect_compute_stats.sh    hardware, pinned image digests, wall time,
                              structure counts
+  run_bisect.sh                H2 post-hoc: depths 48/64/96, same query/
+                             weights/seeds as run_msa_titration.sh
+  run_template.sh              H2 post-hoc: depth-128 template arms (4ZJW,
+                             3KYT, 5C4O)
+  run_coactivator.sh           H2 post-hoc: LBD + SRC2-2 peptide + 4P1
+                             co-fold (the fixed version -- see its header
+                             comment for the MSA-dropping bug this works
+                             around)
+  fetch_alt_template_5c4o.sh   downloads + patches PDB 5C4O (the genuinely
+                             alternative-H12-pose template used in
+                             run_template.sh), since 4ZJW/3KYT don't resolve
+                             enough of H12 to serve as an informative
+                             template on their own -- see INTEGRITY_NOTES.md
   rgkit/                      the shared scoring library (structure I/O,
                              state-recovery RMSD) all of the above import
+
+H1_handoff_package_rorgamma_addon.zip  the Day-1 kit as packaged and handed
+                             off (per HANDOFF.md) -- NOT produced by this
+                             round of work, included here because it had
+                             **zero git history on any branch** before this
+                             commit (confirmed via `git log --all`) and so
+                             was at risk of being lost entirely if the VM
+                             were reset. This zip is a snapshot from
+                             2026-10-01 10:35 and excludes two much larger
+                             directories still sitting untracked on the VM:
+                             `apheris_kit_rorgamma/runs/` (52 MB, raw H1
+                             prediction outputs) and `apheris_kit_rorgamma/refs/`
+                             (21 MB, appears to be leftover kinase reference
+                             structures from before the target pivot to
+                             RORγ, not used by anything in this package).
+                             Neither was included here -- ask before adding
+                             either; raw prediction CIFs belong in a release
+                             artifact or object storage, not a git diff.
 results/             every CSV/pickle/report the scripts above produced
 logs/                driver logs for each round (H2, H2 post-hoc, H3) --
                      real docker stdout, including the errors that got fixed
