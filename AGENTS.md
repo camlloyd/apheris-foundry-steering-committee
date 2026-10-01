@@ -103,6 +103,45 @@ uv venv .venv && uv pip install --python .venv numpy gemmi
 .venv/bin/python test_kit.py
 ```
 
+### Resolution (2026-10-01): run the grid locally via OpenFold3, not the Hub CLI
+
+Decided with the user after the `apheris-foundry` CLI investigation above: we
+are **not** waiting on Hub/Boltz-2 access. `apheris_kit_rorgamma`'s A-arms
+(pocket conditioning, templates, MSA-free) are not Boltz-2-specific — our
+local OpenFold3 Nextflow workflow supports `pocket_constraint` and
+`template_paths` identically, and we've verified it end-to-end on this host's
+GPU. So OpenFold3 is now the single model for Day 1 for every arm, run
+through the three pre-pulled Docker images
+(`apheris-openfold3`/`apheris-msa`/`apheris-data`) and the
+`apheris-foundry-setup`/`run-predict-workflow` skills — **not** through
+`foundry_emit.py`'s `apheris-foundry workflows run` path, which stays
+unreachable.
+
+Concretely, this means translating each arm's `foundry_jobs_{invago,25hc}/*.request.json`
++ `*.params.json` (Lily's best-guess Hub schema: `sequences: [{protein},{ligand}]`,
+`pocket: {binder, contacts: [[chain, author_seqid], ...]}`, `template_cif`,
+`msa_mode: "none"`) into this workflow's real query/config shape:
+
+- Protein chain is entity 0, ligand chain is entity 1, in both directions.
+- `targets_rorgamma.json`'s `rorgamma_invago.sequence` starts at author residue
+  **265** (3KYT numbering) — a `contacts` tuple's `author_seqid` converts to
+  this workflow's 0-based `residue_index` as `author_seqid - 265` (verified:
+  e.g. `back_pocket_seqids` 362/379/380/396/401/480, minus 264, equal the
+  `A1_pocket_specific` contacts 98/115/116/132/137/216 exactly).
+- `template_cif` -> batch-wide `template_paths` (group arms needing a
+  template separately from those that don't, same as `build_grid.py` already
+  does for `foundry-ops/`'s own grid).
+- `msa_mode: "none"` (or no `"msa"` key at all in most arms) -> just omit
+  `msa_path`, which is already this workflow's default (verified: our
+  earlier smoke tests never supplied an MSA and ran fine single-sequence).
+- `A0_baseline`/`B0_of3_baseline` ("full MSA") need a real `fetch-msa` run
+  first — confirmed the public ColabFold server (`https://api.colabfold.com`)
+  is reachable from this host and returns a real alignment (2020 sequences)
+  for the actual RORgamma LBD construct.
+
+Don't re-derive the residue-offset math or re-test ColabFold reachability —
+both are confirmed as of this entry.
+
 ## Conventions for agents working here
 
 - Don't fill in `_todo` placeholders with guessed data — wait for the real
