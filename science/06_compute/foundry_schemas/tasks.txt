@@ -1,0 +1,10 @@
+Usage: apheris-data [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  compute-metrics        Compute quality metrics for predictions against...
+  describe
+  preprocess-structures  Preprocess structures into standardised CIF files.
