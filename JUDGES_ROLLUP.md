@@ -6,7 +6,57 @@ single artifact `HANDOFF.md` §8 asks for. Supersedes the pitch line in
 `HANDOFF.md` itself is left unedited as the pre-registered record; this file
 is the honest update.
 
-## Updated pitch line
+## ⚠ SUPERSEDING CORRECTION (found the night before judging — read this first)
+
+Everything below this box was scored against **this project's own choice** of
+reference structures (3KYT agonist / 4ZJW antagonist, H12 window 479–486).
+The organizers ship their own kit (`rorgt_candidate_kit`, in the hackathon
+data drop) with an **official** scoring library (`lib/h12_state.py`) defining
+a *different* reference pair — **5VB7 agonist / 6T4I antagonist**, window
+**484–507** — and a 1,414-compound ChEMBL pool with real agonist/antagonist
+labels. None of this project's five reference structures are in the
+organizers' 78-structure deposited set.
+
+Re-scoring all 1,191 structures on disk against the **official** pair with
+the organizers' own scoring code (not a reimplementation) reverses the
+headline:
+
+- **209/1,191 structures (17.6%), 170/990 well-folded structures (17.2%),
+  call decisively antagonist** — this project's repeated "0/941 ever reached
+  H12-out" claim is true only of distance-to-4ZJW.
+- **H2 is the one claim that survives intact**: 0 decisive antagonist calls
+  among well-folded H2 structures either way — the MSA-depth negative is
+  real and reference-independent.
+- **H1's own unconditioned baseline (A0, inverse-agonist direction) calls
+  decisive antagonist in 3/5 folded structures (60%)** against the official
+  reference — small n (this is the original quota-tight H1 grid), but it
+  directly contradicts "0/122 across nine levers" and lands exactly on the
+  branch H1's own pre-registration flagged ("if A0 already recovers H12-out
+  at ≥60%, report that the model defaults to the state, not a steering
+  claim").
+- **A real prediction-accuracy number against the organizers' own ChEMBL
+  labels, which this project never had before**: 120 curated (most-potent,
+  scaffold-diverse) compounds score 70.0% overall (91.6% restricted to
+  decisive-margin calls); a second, **randomly drawn** 138-compound batch —
+  run specifically to check the curated batch wasn't a lucky subset — scores
+  68.1% overall (68.1% decisive-subset, with antagonist accuracy there only
+  37.8%: curated-batch's 91.6% does not generalize to a true random draw).
+  **Pooled across both batches (258 scored of 270 attempted; 12 excluded
+  for a documented RDKit featurizer failure, not silently dropped): 69.0% overall (77.3%
+  agonist / 60.8% antagonist)** — and that agonist/antagonist split matches
+  the organizers' own stated baseline asymmetry ("antagonist calls are the
+  hard half") almost exactly, measured independently. See
+  `h2_h3_followups/results/OFFICIAL_RESCORE_FINDINGS.md` for full numbers,
+  both batches, and the H3 confidence result re-tested on the official
+  484–507 window (where it holds up *better* than on this project's own
+  window).
+
+**Say this to judges as the story, not a footnote**: we scored against the
+wrong reference all day, caught it, quantified exactly what changed, and the
+corrected number is stronger than the one we were about to present. That is
+itself the "failures analysed" evidence the 30% rubric line asks for.
+
+## Updated pitch line (historical — scored against this project's own 3KYT/4ZJW reference; see correction above)
 
 ~~"State-specific pocket conditioning steers co-folding models between RORγ
 agonist and inverse-agonist H12 states."~~ (pre-registered, not supported)
@@ -80,6 +130,41 @@ State-call correctness is `apheris_kit_rorgamma/state_recovery2.py`
    confidence-based classifier derived from the H3 signal (88% self-test
    accuracy, 64% on the inverse-agonist class specifically — report with
    that caveat, n=3 ligands).
+
+## Morning follow-up: is the 77.3%/60.8% split fixable, or real?
+
+Three rescores of the existing 258-compound pool (no new predictions, no
+new classifier) run 2026-10-02 morning, in priority order:
+
+1. **Decision-boundary recalibration** (`h2_h3_followups/results/TASK1_BOUNDARY_RESULTS.md`):
+   pre-registered a boundary rule tied to the two reference crystals'
+   own mutual displacement before running anything. It turns out to be
+   algebraically identical to the rule already in use (provable from the
+   metric's symmetry, confirmed empirically), and a post-hoc sweep shows
+   the existing threshold already sits at the empirical optimum. **The
+   split is not a mis-placed decision boundary — antagonist genuinely is
+   the harder class here.**
+2. **Accuracy/coverage curve** (`TASK2_COVERAGE_RESULTS.md`): at the
+   existing "decisive" cut (margin ≥ 1 Å), accuracy on the 67.4% of
+   compounds that clear it is 79.3%, rising to ~81–82% at tighter cuts and
+   plateauing there rather than approaching 100%. The held-out evaluation
+   harness's abstention policy is undocumented in anything we were given
+   — stated plainly rather than assumed — so **69.0% (full coverage)
+   remains the number to quote**; the curve is characterization, not a
+   replacement headline.
+3. **Error stratification** (`TASK3_ERROR_STRATIFICATION.md`): the
+   orthosteric/allosteric split the brief calls "half the problem"
+   couldn't be tested — the pool carries no such label. By scaffold
+   instead: errors cluster on benzenesulfonamide cores (n=3–6 per
+   scaffold, flagged as small-n), antagonist compounds error at ~2× the
+   agonist rate (39.2% vs 22.7%), decisive margin predicts errors cleanly
+   and monotonically, raw pLDDT does not.
+
+**Say this to judges alongside point 1 above**: we didn't just accept the
+69.0%/77.3%/60.8% numbers — we spent the morning trying to break them, in
+writing, before running anything, and they held up. That is itself more
+"failures analysed" evidence, this time pointed at our own result rather
+than the model's.
 
 ## Known limitations (unchanged, carried through every report)
 

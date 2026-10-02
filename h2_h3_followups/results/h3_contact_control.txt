@@ -1,0 +1,28 @@
+c1 (agonist): n=50  footprint (3KYT numbering) = [285, 286, 287, 317, 320, 323, 324, 327, 361, 364, 365, 368, 376, 377, 378, 388, 391, 396, 397, 400, 479, 502]
+c2 (inverse_agonist): n=50  footprint (3KYT numbering) = [317, 321, 324, 479, 483]
+c3 (agonist): n=50  footprint (3KYT numbering) = [320, 323, 324, 327, 361, 365, 376, 378, 388, 391, 396, 397, 400, 401, 479]
+
+Union non-H12 contact residues (3KYT numbering): [285, 286, 287, 317, 320, 321, 323, 324, 327, 361, 364, 365, 368, 376, 377, 378, 388, 391, 396, 397, 400, 401, 502]
+
+=== H12 region (479-486) ===
+  c1 (agonist): [75.88 79.01 77.53 78.84 76.34]  mean=77.52
+  c2 (inverse_agonist): [85.21 81.22 81.89 84.22 83.42]  mean=83.19
+  c3 (agonist): [76.76 78.48 76.54 78.61 74.6 ]  mean=77.00
+
+=== Non-H12 ligand-contact residues ===
+  c1 (agonist): [87.9  88.67 88.   88.79 87.85]  mean=88.24
+  c2 (inverse_agonist): [92.38 90.78 90.98 92.06 91.87]  mean=91.61
+  c3 (agonist): [89.19 89.54 88.19 90.48 88.57]  mean=89.19
+
+=== Pairwise comparisons across different labels (permutation test) ===
+c1 vs c2:
+  H12:        diff=-5.67  p=0.0079  Cohen_d=-3.70  Cliffs=-1.00
+  non-H12:    diff=-3.37  p=0.0079  Cohen_d=-5.75  Cliffs=-1.00
+  -> CONTACT-PERTURBATION (non-H12 effect comparable or larger)
+c2 vs c3:
+  H12:        diff=+6.20  p=0.0079  Cohen_d=+3.78  Cliffs=+1.00
+  non-H12:    diff=+2.42  p=0.0079  Cohen_d=+3.03  Cliffs=+1.00
+  -> CONTACT-PERTURBATION (non-H12 effect comparable or larger)
+
+=== Overall verdict ===
+CONTACT-PERTURBATION model supported across all comparisons.

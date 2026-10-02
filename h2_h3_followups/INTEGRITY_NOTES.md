@@ -1,5 +1,12 @@
 # Integrity note — H12 numbering, and what the references actually resolve
 
+> **⚠ Superseded in part by `results/OFFICIAL_RESCORE_FINDINGS.md`.** This
+> note correctly predicted the 501–507 window would be unmeasurable against
+> 4ZJW — but the actual fix wasn't "use our 479–486 window instead," it was
+> "use the organizers' own reference pair (5VB7/6T4I)," which *does* resolve
+> 484–507 in full. Read that file before concluding 479–486 is the right
+> window to report on a slide.
+
 Raised as a risk before the final slide: the challenge deck appears to
 reference an H12 window around residues 501–507, while every H1/H2/H3 result
 in this project uses an auto-derived state region of 479–486 (construct/3KYT

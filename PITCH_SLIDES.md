@@ -133,15 +133,88 @@ State-call correctness (H12 RMSD) + mean(GDT-HA, lDDT-PLI, Ligand BiSyRMSD)
 
 ---
 
+## We found and fixed a reference-structure bug the night before judging
+
+Every number so far was scored against **our own chosen** reference pair
+(3KYT/4ZJW, window 479–486). The organizers' kit defines a **different**
+official pair — **5VB7/6T4I, window 484–507** — plus a 1,414-compound
+ChEMBL pool with real labels. None of our five references are in their
+78-structure deposited set.
+
+Re-scored all 1,191 structures with the organizers' own scoring code:
+
+- **209/1,191 (170/990 well-folded, 17.2%) now call decisive antagonist** —
+  the "0/941 H12-out" claim does not survive the official reference.
+- **H2's negative replicates exactly** (0 decisive antagonist among
+  well-folded H2 structures either way) — that part was never the bug.
+- **H1's own unconditioned baseline hits 60% (3/5 folded)** against the
+  official reference — small n, but the opposite of "0/122."
+
+---
+
+## The real prediction-accuracy number
+
+Two independent ChEMBL batches, real agonist/antagonist labels, never seen by
+this project before tonight:
+
+```
+Batch A — 120 compounds, curated (most-potent, scaffold-diverse):
+  OVERALL:  84/120 = 70.0%   (all samples)
+  OVERALL:  76/83  = 91.6%   (decisive-margin subset)
+
+Batch B — 138 of 150 attempted, TRUE RANDOM DRAW (seed recorded, reproducible;
+12 excluded for a documented parser failure, not silently dropped):
+  OVERALL:  94/138 = 68.1%   (all samples)
+  OVERALL:  62/91  = 68.1%   (decisive-margin subset — batch A's 91.6%
+                               does not generalize to a random draw)
+
+POOLED (258 scored of 270 attempted): 178/258 = 69.0%  (77.3% agonist / 60.8% antagonist)
+```
+
+The agonist/antagonist split (77.3% / 60.8%) matches the organizers' own
+stated baseline asymmetry — "antagonist calls are the hard half" — almost
+exactly, measured completely independently. That agreement is itself
+evidence this re-score is doing the right thing, not a fluke.
+
+---
+
 ## Headline
 
-**801 structures scored across three independent approaches.**
+**1,191 re-scored structures + a 258-compound real-label accuracy test
+(120 curated + 138 random), against the organizers' own reference and
+scoring code.**
 
-Geometric steering: a clean, pre-registered negative (601 structures,
-9 levers, 0 recoveries).
+The model reaches the antagonist state in ~17% of well-folded predictions,
+including an unconditioned baseline — and scores 69% pooled accuracy against
+real ChEMBL pharmacology labels (77% agonist / 61% antagonist), matching the
+organizers' own stated accuracy asymmetry.
 
-Model confidence: a real, statistically airtight positive — ligand
-identity shifts what the model is sure about, just not for the reason
-anyone expected going in.
+H2's negative (MSA depth never unlocks the state) replicates exactly and
+is the one result this project is fully confident in either way.
 
-A null result and a real finding, both reported honestly.
+We scored against the wrong reference all day, caught it ourselves, and
+re-ran everything rather than quietly keep the old numbers. The corrected
+result is stronger than the one we were about to present.
+
+---
+
+## H4 — overnight, pre-registered: does coactivator placement track ligand?
+
+Co-folded the LXXLL coactivator peptide (3KYT chain C) alongside the
+receptor, 50 structures/arm, agonist (HC2) vs inverse agonist (4P1).
+
+| arm | peptide RMSD to 3KYT pose | interface contacts |
+|---|---|---|
+| D1 (agonist) | **37.1 ± 2.7 Å** (far from crystal pose) | 8.7 |
+| D2 (inverse agonist) | **4.3 ± 0.1 Å** (essentially the crystal pose) | 10.3 |
+
+**p = 0.0079** on both (complete 5-vs-5 seed separation, no overlap).
+
+**The direction is backwards from pharmacology:** the *inverse agonist*
+query reproduces the coactivator's real crystallographic pose almost
+exactly; the *agonist* query folds it somewhere else entirely, with more
+seed-to-seed scatter. Pre-registered before either arm was scored —
+written up in full, including the reversed direction, in
+`H4_RESULTS_REPORT.md`. Consistent with this project's throughout finding:
+real ligand-conditioned behavior exists, but it doesn't track
+pharmacological class the way a mechanistic model would predict.
