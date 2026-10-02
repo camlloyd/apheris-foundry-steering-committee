@@ -2,7 +2,7 @@
 
 **Written:** 2026-10-01, evening, after discovering the discrepancy below and re-scoring
 everything against it. This supersedes the headline claims in `H3_RESULTS_REPORT.md`,
-`README.md`, and the steering-committee repo's `JUDGES_ROLLUP.md`/`PITCH_SLIDES.md` — it
+`README.md`, and the steering-committee repo's `JUDGES_ROLLUP.md` and pitch deck — it
 does not replace those documents (their numbers are real and left intact as "scored
 against our own chosen references"), but the project-level conclusion changes.
 
