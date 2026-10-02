@@ -1,0 +1,151 @@
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                         APHERIS OpenFold3 Prediction                         │
+│                      Run OpenFold3 prediction pipeline                       │
+└──────────────────────────────────────────────────────────────────────────────┘
+Set OpenFold3 flavor to of3ob based on weights file                             
+/app/weights/of3-ob-2025-06-30-174k.pt                                          
+df: /tmp/.triton: No such file or directory
+/app/.pixi/envs/openfold3-image/lib/python3.11/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Reading input queries                                                           
+Paired 1/1 entities with an MSA for query 'H3_apo'                              
+Read 1 queries from /in/query.json                                              
+Reading config                                                                  
+Seed set to 42
+Creating data module                                                            
+Seed set to 42
+Creating inference module                                                       
+Creating trainer                                                                
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+Seed set to 42
+Loading weights                                                                 
+Seed set to 42
+Run prediction                                                                  
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Seeding DataModule DatasetMode.prediction generator with 42                     
+/app/.pixi/envs/openfold3-image/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/app/.pixi/envs/openfold3-image/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:434: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+Predicting query 'H3_apo' with 1986 atom(s), 243 token(s), 1 chain(s), 2009     
+MSA(s) (0 paired), 0 template(s)                                                
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_1_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_2_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_3_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_4_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_5_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_6_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_7_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_8_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_9_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_42/H3_apo_seed_42_sample_10_model.cif                          
+Predicting query 'H3_apo' with 1986 atom(s), 243 token(s), 1 chain(s), 2009     
+MSA(s) (0 paired), 0 template(s)                                                
+Seed set to 43
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_1_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_2_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_3_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_4_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_5_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_6_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_7_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_8_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_9_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_43/H3_apo_seed_43_sample_10_model.cif                          
+Predicting query 'H3_apo' with 1986 atom(s), 243 token(s), 1 chain(s), 2009     
+MSA(s) (0 paired), 0 template(s)                                                
+Seed set to 44
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_1_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_2_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_3_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_4_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_5_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_6_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_7_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_8_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_9_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_44/H3_apo_seed_44_sample_10_model.cif                          
+Predicting query 'H3_apo' with 1986 atom(s), 243 token(s), 1 chain(s), 2009     
+MSA(s) (0 paired), 0 template(s)                                                
+Seed set to 45
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_1_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_2_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_3_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_4_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_5_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_6_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_7_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_8_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_9_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_45/H3_apo_seed_45_sample_10_model.cif                          
+Predicting query 'H3_apo' with 1986 atom(s), 243 token(s), 1 chain(s), 2009     
+MSA(s) (0 paired), 0 template(s)                                                
+Seed set to 46
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_1_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_2_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_3_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_4_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_5_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_6_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_7_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_8_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_9_model.cif                           
+Writing predicted structure to                                                  
+/out/H3_apo/seed_46/H3_apo_seed_46_sample_10_model.cif                          
+Prediction summary: 5/5 queries succeeded (0 failed)                            
+Predicting ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5/5 0:00:49 • 0:00:00 0.11it/s 
+/app/.pixi/envs/openfold3-image/lib/python3.11/tempfile.py:934: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/apheris-openfold3-msas-j4oy858i'>
+  _warnings.warn(warn_message, ResourceWarning)

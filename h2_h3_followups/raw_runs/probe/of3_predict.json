@@ -1,0 +1,1366 @@
+{
+  "description": "",
+  "exit_codes": [
+    {
+      "category": "success",
+      "code": 0,
+      "meaning": "success"
+    },
+    {
+      "category": "internal",
+      "code": 1,
+      "meaning": "unexpected or uncaught error"
+    },
+    {
+      "category": "usage",
+      "code": 2,
+      "meaning": "bad invocation or invalid config"
+    },
+    {
+      "category": "input-data",
+      "code": 3,
+      "meaning": "inputs present but invalid"
+    },
+    {
+      "category": "precondition",
+      "code": 4,
+      "meaning": "required resource absent"
+    },
+    {
+      "category": "output",
+      "code": 5,
+      "meaning": "result produced but could not be persisted"
+    },
+    {
+      "category": "cancelled",
+      "code": 130,
+      "meaning": "cancelled by SIGINT or SIGTERM"
+    }
+  ],
+  "input_schema": {
+    "$defs": {
+      "InputQueryBranchedPolymerComponentChain": {
+        "additionalProperties": false,
+        "description": "Input defining a single branched polymer chain.",
+        "properties": {
+          "bonds": {
+            "description": "Bonds connecting the chain's components into a single structure - every component must end up connected, directly or transitively, to the others.",
+            "items": {
+              "$ref": "#/$defs/InputQueryIntraChainBond"
+            },
+            "title": "Connecting Bonds",
+            "type": "array"
+          },
+          "chain_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional chain ID, unique across all chains in the query. Auto-assigned if omitted.",
+            "title": "Chain ID"
+          },
+          "component_ids": {
+            "description": "CCD (or custom) component IDs, one per residue, in order. At least 2 required.",
+            "items": {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "minItems": 2,
+            "title": "Component IDs",
+            "type": "array"
+          },
+          "residue_ids": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional per-residue labels, one per entry in `component_ids`. Auto-numbered if omitted.",
+            "title": "Residue IDs"
+          }
+        },
+        "required": [
+          "component_ids",
+          "bonds"
+        ],
+        "title": "InputQueryBranchedPolymerComponentChain",
+        "type": "object"
+      },
+      "InputQueryChains": {
+        "additionalProperties": false,
+        "description": "Input defining a query inline as chains plus optional inter-chain bonds.",
+        "properties": {
+          "bonds": {
+            "description": "Additional covalent bonds between chains.",
+            "items": {
+              "$ref": "#/$defs/InputQueryInterChainBond"
+            },
+            "title": "Additional Covalent Bonds",
+            "type": "array"
+          },
+          "chains": {
+            "description": "Chains included in the query.",
+            "items": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/InputQueryPolymerSequenceChain"
+                },
+                {
+                  "$ref": "#/$defs/InputQueryBranchedPolymerComponentChain"
+                },
+                {
+                  "$ref": "#/$defs/InputQueryNonPolymerSmilesChain"
+                },
+                {
+                  "$ref": "#/$defs/InputQueryNonPolymerPathChain"
+                },
+                {
+                  "$ref": "#/$defs/InputQueryNonPolymerComponentChain"
+                }
+              ]
+            },
+            "minItems": 1,
+            "title": "Chains",
+            "type": "array",
+            "x-foundry-uniqueItems": [
+              "chain_id"
+            ]
+          },
+          "pocket_constraint": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/PocketConstraint"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Binding pocket to guide a binder chain towards. Not supported by all models. For OpenFold3, only supported by the preview2 and OpenBind weights.",
+            "title": "Pocket Constraint"
+          },
+          "query_id": {
+            "anyOf": [
+              {
+                "pattern": "^[A-Za-z0-9_-][A-Za-z0-9._-]*$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional identifier for the query. Defaults to `query_{n}` (1-indexed) if omitted. May only contain letters, digits, `.`, `_` and `-`, and must not start with `.`.",
+            "title": "Query ID"
+          }
+        },
+        "required": [
+          "chains"
+        ],
+        "title": "InputQueryChains",
+        "type": "object"
+      },
+      "InputQueryInterChainBond": {
+        "additionalProperties": false,
+        "description": "Input defining a single bond between two atoms in different chains.\n\nExtends the intra-chain bond format by requiring each endpoint to also identify a\nchain, either by chain ID or chain index.",
+        "properties": {
+          "atom1_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's atom, by 0-based index. Only supported for SMILES/path chains.",
+            "title": "Start Atom Index"
+          },
+          "atom1_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's atom, by name (e.g. 'SG'). Required for polymer/CCD-component chains; not supported for SMILES/path chains, which use atom1_index instead.",
+            "title": "Start Atom Name"
+          },
+          "atom2_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's atom, by 0-based index. Only supported for SMILES/path chains.",
+            "title": "End Atom Index"
+          },
+          "atom2_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's atom, by name (e.g. 'N'). Required for polymer/CCD-component chains; not supported for SMILES/path chains, which use atom2_index instead.",
+            "title": "End Atom Name"
+          },
+          "chain1_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's chain, by its `chain_id`. Exactly one of chain1_id/chain1_index.",
+            "title": "Start Chain ID"
+          },
+          "chain1_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's chain, by 0-based index in the query's chain list.",
+            "title": "Start Chain Index"
+          },
+          "chain2_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's chain, by its `chain_id`. Exactly one of chain2_id/chain2_index.",
+            "title": "End Chain ID"
+          },
+          "chain2_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's chain, by 0-based index in the query's chain list.",
+            "title": "End Chain Index"
+          },
+          "leaving_atom1_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Same as leaving_atom1_name, by index. Only supported for SMILES/path chains.",
+            "title": "Start Leaving Atom Index"
+          },
+          "leaving_atom1_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional atom in endpoint 1's residue to remove once the bond forms (e.g. an OXT removed when extending a peptide chain).",
+            "title": "Start Leaving Atom Name"
+          },
+          "leaving_atom2_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Same as leaving_atom2_name, by index. Only supported for SMILES/path chains.",
+            "title": "End Leaving Atom Index"
+          },
+          "leaving_atom2_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional atom in endpoint 2's residue to remove once the bond forms.",
+            "title": "End Leaving Atom Name"
+          },
+          "residue1_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's residue, by its `residue_ids` label. Exactly one of residue1_id/residue1_index.",
+            "title": "Start Residue ID"
+          },
+          "residue1_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's residue, by 0-based index within the chain.",
+            "title": "Start Residue Index"
+          },
+          "residue2_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's residue, by its `residue_ids` label. Exactly one of residue2_id/residue2_index.",
+            "title": "End Residue ID"
+          },
+          "residue2_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's residue, by 0-based index within the chain.",
+            "title": "End Residue Index"
+          }
+        },
+        "title": "InputQueryInterChainBond",
+        "type": "object"
+      },
+      "InputQueryIntraChainBond": {
+        "additionalProperties": false,
+        "description": "Input defining a single bond between two atoms in the same chain.\n\nEach endpoint of the bond requires a specification of a residue (either by residue ID\nor residue index) and an atom (either by atom name or atom index). Optionally, a leaving\natom can be specified for each endpoint, which defines an atom which will be removed\nfrom the structure (for example, OXT atoms are removed from the C-terminal residue\nof an amino acid).",
+        "properties": {
+          "atom1_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's atom, by 0-based index. Only supported for SMILES/path chains.",
+            "title": "Start Atom Index"
+          },
+          "atom1_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's atom, by name (e.g. 'SG'). Required for polymer/CCD-component chains; not supported for SMILES/path chains, which use atom1_index instead.",
+            "title": "Start Atom Name"
+          },
+          "atom2_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's atom, by 0-based index. Only supported for SMILES/path chains.",
+            "title": "End Atom Index"
+          },
+          "atom2_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's atom, by name (e.g. 'N'). Required for polymer/CCD-component chains; not supported for SMILES/path chains, which use atom2_index instead.",
+            "title": "End Atom Name"
+          },
+          "leaving_atom1_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Same as leaving_atom1_name, by index. Only supported for SMILES/path chains.",
+            "title": "Start Leaving Atom Index"
+          },
+          "leaving_atom1_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional atom in endpoint 1's residue to remove once the bond forms (e.g. an OXT removed when extending a peptide chain).",
+            "title": "Start Leaving Atom Name"
+          },
+          "leaving_atom2_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Same as leaving_atom2_name, by index. Only supported for SMILES/path chains.",
+            "title": "End Leaving Atom Index"
+          },
+          "leaving_atom2_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional atom in endpoint 2's residue to remove once the bond forms.",
+            "title": "End Leaving Atom Name"
+          },
+          "residue1_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's residue, by its `residue_ids` label. Exactly one of residue1_id/residue1_index.",
+            "title": "Start Residue ID"
+          },
+          "residue1_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 1's residue, by 0-based index within the chain.",
+            "title": "Start Residue Index"
+          },
+          "residue2_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's residue, by its `residue_ids` label. Exactly one of residue2_id/residue2_index.",
+            "title": "End Residue ID"
+          },
+          "residue2_index": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Endpoint 2's residue, by 0-based index within the chain.",
+            "title": "End Residue Index"
+          }
+        },
+        "title": "InputQueryIntraChainBond",
+        "type": "object"
+      },
+      "InputQueryNonPolymerComponentChain": {
+        "additionalProperties": false,
+        "description": "Input defining a single small molecule by CCD or custom component ID.",
+        "properties": {
+          "chain_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional chain ID, unique across all chains in the query. Auto-assigned (A, B, ...) if omitted.",
+            "title": "Chain ID"
+          },
+          "component_id": {
+            "description": "CCD component ID for the small molecule (e.g. 'HEM', 'ATP').",
+            "examples": [
+              "HEM"
+            ],
+            "minLength": 1,
+            "pattern": "\\S",
+            "title": "Component ID",
+            "type": "string"
+          },
+          "residue_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional label for this residue within the chain. Defaults to '1' if omitted.",
+            "title": "Residue ID"
+          },
+          "residue_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Residue Name"
+          }
+        },
+        "required": [
+          "component_id"
+        ],
+        "title": "InputQueryNonPolymerComponentChain",
+        "type": "object"
+      },
+      "InputQueryNonPolymerPathChain": {
+        "additionalProperties": false,
+        "description": "Input defining a single small molecule loaded from a structure file.",
+        "properties": {
+          "chain_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional chain ID, unique across all chains in the query. Auto-assigned (A, B, ...) if omitted.",
+            "title": "Chain ID"
+          },
+          "path": {
+            "description": "Path to a structure file containing this one small molecule. Its atoms get auto-generated names (e.g. 'C1', 'N2'), so bonds to this chain must reference atoms by index, not name.",
+            "format": "file-path",
+            "title": "Molecule Structure File Path",
+            "type": "string"
+          },
+          "residue_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional label for this residue within the chain. Defaults to '1' if omitted.",
+            "title": "Residue ID"
+          },
+          "residue_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional residue name. Auto-generated (e.g. '00', '01') if omitted.",
+            "title": "Residue Name"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "title": "InputQueryNonPolymerPathChain",
+        "type": "object"
+      },
+      "InputQueryNonPolymerSmilesChain": {
+        "additionalProperties": false,
+        "description": "Input defining a single small molecule defined as a SMILES.",
+        "properties": {
+          "chain_id": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional chain ID, unique across all chains in the query. Auto-assigned (A, B, ...) if omitted.",
+            "title": "Chain ID"
+          },
+          "residue_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional label for this residue within the chain. Defaults to '1' if omitted.",
+            "title": "Residue ID"
+          },
+          "residue_name": {
+            "anyOf": [
+              {
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional residue name. Auto-generated (e.g. '00', '01') if omitted.",
+            "title": "Residue Name"
+          },
+          "smiles": {
+            "description": "SMILES string defining the small molecule.",
+            "examples": [
+              "CC(=O)Oc1ccccc1C(=O)O"
+            ],
+            "format": "smiles",
+            "minLength": 1,
+            "pattern": "\\S",
+            "title": "SMILES",
+            "type": "string"
+          }
+        },
+        "required": [
+          "smiles"
+        ],
+        "title": "InputQueryNonPolymerSmilesChain",
+        "type": "object"
+      },
+      "InputQueryPath": {
+        "additionalProperties": false,
+        "description": "Input defining a query by reference to an existing biomolecule file.",
+        "properties": {
+          "path": {
+            "description": "Path to a structure file (CIF/PDB) defining the whole query. Chains, entities, and bonds are all inferred from the file; any water molecules in it are dropped.",
+            "format": "file-path",
+            "title": "Query Structure File Path",
+            "type": "string"
+          },
+          "pocket_constraint": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/PocketConstraint"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Binding pocket to guide a binder chain towards. Not supported by all models. For OpenFold3, only supported by the preview2 and OpenBind weights.",
+            "title": "Pocket Constraint"
+          },
+          "query_id": {
+            "anyOf": [
+              {
+                "pattern": "^[A-Za-z0-9_-][A-Za-z0-9._-]*$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional identifier for the query. Defaults to `query_{n}` (1-indexed) if omitted. May only contain letters, digits, `.`, `_` and `-`, and must not start with `.`.",
+            "title": "Query ID"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "title": "InputQueryPath",
+        "type": "object"
+      },
+      "InputQueryPolymerSequenceChain": {
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "polymer_type": {
+                  "const": "protein"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "sequence": {
+                  "pattern": "^\\s*(?:[ACDEFGHIKLMNOPQRSTUVWXY]\\s*|\\(\\s*(?:[A-Za-z0-9_,.;:\"&<>/\\\\{}'`~!@#$%*|+-]\\s*)+\\)\\s*)*$",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "polymer_type": {
+                  "const": "dna"
+                }
+              },
+              "required": [
+                "polymer_type"
+              ]
+            },
+            "then": {
+              "properties": {
+                "sequence": {
+                  "pattern": "^\\s*(?:[ACGINT]\\s*|\\(\\s*(?:[A-Za-z0-9_,.;:\"&<>/\\\\{}'`~!@#$%*|+-]\\s*)+\\)\\s*)*$",
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "polymer_type": {
+                  "const": "rna"
+                }
+              },
+              "required": [
+                "polymer_type"
+              ]
+            },
+            "then": {
+              "properties": {
+                "sequence": {
+                  "pattern": "^\\s*(?:[ACGINU]\\s*|\\(\\s*(?:[A-Za-z0-9_,.;:\"&<>/\\\\{}'`~!@#$%*|+-]\\s*)+\\)\\s*)*$",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Input defining a single polymer chain.",
+        "properties": {
+          "bonds": {
+            "description": "Additional covalent bonds between atoms within this chain.",
+            "items": {
+              "$ref": "#/$defs/InputQueryIntraChainBond"
+            },
+            "title": "Additional Covalent Bonds",
+            "type": "array"
+          },
+          "chain_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional chain ID, unique across all chains in the query. Auto-assigned (A, B, ...) if omitted. Used to reference this chain from bonds.",
+            "title": "Chain ID"
+          },
+          "cyclic": {
+            "default": false,
+            "description": "Whether the chain is cyclic, adding a bond between its first and last residues.",
+            "title": "Cyclic Polymer Flag",
+            "type": "boolean"
+          },
+          "msa_path": {
+            "anyOf": [
+              {
+                "format": "file-path",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional path to this chain's own MSA file. If omitted, an MSA is instead looked up by sequence from the MSA directory, if one was provided.",
+            "title": "MSA File Path"
+          },
+          "polymer_type": {
+            "default": "protein",
+            "description": "Type of the polymer, which determines the valid alphabet for `sequence`.",
+            "enum": [
+              "protein",
+              "rna",
+              "dna"
+            ],
+            "title": "Polymer Type",
+            "type": "string"
+          },
+          "residue_ids": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional per-residue labels, one per residue in `sequence`. Auto-numbered '1', '2', ... if omitted. Used to reference specific residues from bonds.",
+            "examples": [
+              "1-3,5-6,6A"
+            ],
+            "title": "Residue IDs"
+          },
+          "sequence": {
+            "description": "Sequence of the polymer, with nonstandard residues written in parentheses. For example, \"AC(SEP)T\", when interpreted as a protein, represents the sequence of residues \"ALA-CYS-SEP-THR\", where \"SEP\" is a nonstandard residue.",
+            "examples": [
+              "AC(SEP)T",
+              "GCGCG(5CM)G(5CM)"
+            ],
+            "minLength": 1,
+            "title": "Polymer Sequence",
+            "type": "string"
+          }
+        },
+        "required": [
+          "sequence"
+        ],
+        "title": "InputQueryPolymerSequenceChain",
+        "type": "object"
+      },
+      "PocketConstraint": {
+        "additionalProperties": false,
+        "description": "Constraint guiding a binder chain towards a binding pocket.",
+        "properties": {
+          "binder_chain_index": {
+            "description": "The chain to place in the pocket, by 0-based index in the query's chain list.",
+            "minimum": 0,
+            "title": "Binder Chain Index",
+            "type": "integer"
+          },
+          "binding_residues": {
+            "description": "Residues lining the binding pocket.",
+            "items": {
+              "$ref": "#/$defs/PocketConstraintBindingResidue"
+            },
+            "minItems": 1,
+            "title": "Binding Residues",
+            "type": "array"
+          },
+          "max_distance": {
+            "anyOf": [
+              {
+                "exclusiveMinimum": 0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Maximum distance (\u00c5) between the binder and binding residues. Defaults to the model's default.",
+            "title": "Maximum Distance"
+          }
+        },
+        "required": [
+          "binder_chain_index",
+          "binding_residues"
+        ],
+        "title": "PocketConstraint",
+        "type": "object"
+      },
+      "PocketConstraintBindingResidue": {
+        "additionalProperties": false,
+        "description": "A residue in a binding pocket.",
+        "properties": {
+          "chain_index": {
+            "description": "The residue's chain, by 0-based index in the query's chain list.",
+            "minimum": 0,
+            "title": "Chain Index",
+            "type": "integer"
+          },
+          "residue_index": {
+            "description": "The residue, by 0-based index within its chain.",
+            "minimum": 0,
+            "title": "Residue Index",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "chain_index",
+          "residue_index"
+        ],
+        "title": "PocketConstraintBindingResidue",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "description": "Input for the Apheris OpenFold3 prediction wrapper.",
+    "properties": {
+      "queries": {
+        "description": "One or more structures to predict, each made up of one or more chains.",
+        "items": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/InputQueryChains"
+            },
+            {
+              "$ref": "#/$defs/InputQueryPath"
+            }
+          ]
+        },
+        "minItems": 1,
+        "title": "Queries",
+        "type": "array"
+      }
+    },
+    "required": [
+      "queries"
+    ],
+    "title": "PredictOpenFold3Input",
+    "type": "object"
+  },
+  "inputs": [
+    {
+      "flag": "--input",
+      "repeatable": false,
+      "required": true,
+      "type": "file or directory"
+    }
+  ],
+  "invocation": "apheris-openfold3 predict-openfold3 --input ./in --output ./run --weights <value>",
+  "name": "predict-openfold3",
+  "output": {
+    "flag": "--output",
+    "required": true,
+    "type": "directory"
+  },
+  "output_schema": {
+    "$defs": {
+      "OpenFold3PredictionScores": {
+        "description": "Confidence scores (and a few structural counts) returned for a prediction by OpenFold3.",
+        "properties": {
+          "atom_predicted_local_distance_difference_test": {
+            "description": "Per-atom predicted local distance difference test (pLDDT) score, in [0, 100]. Higher values indicate a higher confidence in the local atom position.",
+            "items": {
+              "type": "number"
+            },
+            "title": "Per-Atom Predicted Local Distance Difference Test (pLDDT)",
+            "type": "array"
+          },
+          "atom_tokens": {
+            "description": "0-based index of the token for each atom. A token is an internal grouping within the model - each polymer residue belongs to a single token, and each non-polymer/ligand heavy atom belongs to a single token.",
+            "items": {
+              "type": "integer"
+            },
+            "title": "Atom Tokens",
+            "type": "array"
+          },
+          "average_predicted_local_distance_difference_test": {
+            "description": "Mean of `atom_predicted_local_distance_difference_test` across all atoms, in [0, 100]. A single global confidence summary for the whole prediction.",
+            "title": "Average Predicted Local Distance Difference Test (pLDDT)",
+            "type": "number"
+          },
+          "chain_chain_interface_predicted_tm_score": {
+            "description": "Pairwise interface predicted TM-score between every pair of chains. The (i, j) entry is the ipTM computed over just chains i and j (the predicted structure's chain i/j, A, B, C, ...); symmetric. `null` if OpenFold3 didn't compute this pair (no inter-chain contact between chains i and j).",
+            "items": {
+              "items": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "type": "array"
+            },
+            "title": "Chain-Chain Interface Predicted TM-Score (ipTM)",
+            "type": "array"
+          },
+          "chain_predicted_tm_score": {
+            "description": "Per-chain predicted TM-score, between 0 and 1. The same pTM computation as `predicted_tm_score`, but restricted to a single chain's tokens. Index i is the predicted structure's chain i (A, B, C, ...).",
+            "items": {
+              "type": "number"
+            },
+            "title": "Per-Chain Predicted TM-Score (pTM)",
+            "type": "array"
+          },
+          "clash_flag": {
+            "description": "Does any pair of polymer chains have a steric clash.",
+            "title": "Clash Flag",
+            "type": "boolean"
+          },
+          "disorder": {
+            "description": "Disorder score: the average relative accessible surface area (RASA), computed from the predicted structure's coordinates, over residues the model left unresolved. Higher indicates more disorder. Only computed when the structure contains protein chains; 0.0 otherwise.",
+            "title": "Disorder",
+            "type": "number"
+          },
+          "global_predicted_distance_error": {
+            "description": "Global predicted distance error (gPDE), in Angstroms. A single scalar summary of `token_token_predicted_distance_error`, weighted by predicted inter-token contact probability. Lower is more confident.",
+            "title": "Global Predicted Distance Error (gPDE)",
+            "type": "number"
+          },
+          "interface_predicted_tm_score": {
+            "description": "Interface predicted TM-score (ipTM), between 0 and 1. Similar to `predicted_tm_score`, but restricted to inter-chain contacts. Higher is more confident.",
+            "title": "Interface Predicted TM-Score (ipTM)",
+            "type": "number"
+          },
+          "model_ranking_score": {
+            "description": "OpenFold3's composite score used to rank diffusion samples. Equal to `0.8 * iptm + 0.2 * ptm + 0.5 * disorder - 100 * clash_flag`. Higher is better; the large clash penalty means any clash dominates the score.",
+            "title": "Model Ranking Score",
+            "type": "number"
+          },
+          "num_atoms": {
+            "description": "Total number of atoms in the predicted structure.",
+            "title": "Number of Atoms",
+            "type": "integer"
+          },
+          "num_bonds": {
+            "description": "Total number of bonds in the predicted structure.",
+            "title": "Number of Bonds",
+            "type": "integer"
+          },
+          "num_chains": {
+            "description": "Total number of chains in the predicted structure.",
+            "title": "Number of Chains",
+            "type": "integer"
+          },
+          "num_residues": {
+            "description": "Total number of residues in the predicted structure.",
+            "title": "Number of Residues",
+            "type": "integer"
+          },
+          "num_tokens": {
+            "description": "Total number of tokens in the predicted structure.",
+            "title": "Number of Tokens",
+            "type": "integer"
+          },
+          "predicted_tm_score": {
+            "description": "Predicted TM-score (pTM) for the full complex, between 0 and 1. Estimate of the TM-score the prediction would achieve against the (unknown) true structure. Higher is more confident.",
+            "title": "Predicted TM-Score (pTM)",
+            "type": "number"
+          },
+          "token_token_predicted_aligned_error": {
+            "description": "Predicted aligned error (PAE) for all pairs of tokens, in Angstroms. The (i, j) entry is the expected position error of token j if the structure were aligned on token i's local frame. Lower is more confident.",
+            "items": {
+              "items": {
+                "type": "number"
+              },
+              "type": "array"
+            },
+            "title": "Token-Token Predicted Aligned Error (PAE)",
+            "type": "array"
+          },
+          "token_token_predicted_distance_error": {
+            "description": "Predicted distance error (PDE) for all pairs of tokens, in Angstroms. The (i, j) entry is the expected error in the distance between tokens i and j; symmetric. Lower is more confident.",
+            "items": {
+              "items": {
+                "type": "number"
+              },
+              "type": "array"
+            },
+            "title": "Token-Token Predicted Distance Error (PDE)",
+            "type": "array"
+          }
+        },
+        "required": [
+          "atom_predicted_local_distance_difference_test",
+          "average_predicted_local_distance_difference_test",
+          "atom_tokens",
+          "token_token_predicted_aligned_error",
+          "token_token_predicted_distance_error",
+          "global_predicted_distance_error",
+          "predicted_tm_score",
+          "interface_predicted_tm_score",
+          "chain_predicted_tm_score",
+          "chain_chain_interface_predicted_tm_score",
+          "disorder",
+          "clash_flag",
+          "model_ranking_score",
+          "num_atoms",
+          "num_bonds",
+          "num_residues",
+          "num_chains",
+          "num_tokens"
+        ],
+        "title": "OpenFold3PredictionScores",
+        "type": "object"
+      },
+      "Prediction": {
+        "description": "A single predicted structure written by the prediction pipeline.",
+        "properties": {
+          "path": {
+            "description": "Path to the predicted structure's CIF file, relative to the task's output folder.",
+            "format": "path",
+            "title": "Structure File Path",
+            "type": "string",
+            "x-foundry-mimetype": "chemical/x-cif"
+          },
+          "query_id": {
+            "description": "Identifier of the query that produced this prediction.",
+            "title": "Query ID",
+            "type": "string"
+          },
+          "query_index": {
+            "description": "The 0-based position of this prediction's query in the input query list.",
+            "title": "Query Index",
+            "type": "integer"
+          },
+          "sample": {
+            "description": "The (1-indexed) diffusion sample number this prediction corresponds to.",
+            "title": "Sample Number",
+            "type": "integer"
+          },
+          "scores_path": {
+            "description": "Path to this prediction's `OpenFold3PredictionScores` JSON file, relative to the task's output folder.",
+            "format": "path",
+            "title": "Scores File Path",
+            "type": "string",
+            "x-foundry-mimetype": "application/json",
+            "x-foundry-schema": {
+              "$ref": "#/$defs/OpenFold3PredictionScores"
+            }
+          },
+          "seed": {
+            "description": "The seed used to generate this prediction.",
+            "title": "Seed",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query_id",
+          "query_index",
+          "path",
+          "sample",
+          "seed",
+          "scores_path"
+        ],
+        "title": "Prediction",
+        "type": "object"
+      }
+    },
+    "description": "Result of the predict-openfold3 task.",
+    "properties": {
+      "predictions": {
+        "description": "Every structure predicted by this run.",
+        "items": {
+          "$ref": "#/$defs/Prediction"
+        },
+        "title": "Predictions",
+        "type": "array"
+      }
+    },
+    "required": [
+      "predictions"
+    ],
+    "title": "PredictOpenFold3Result",
+    "type": "object"
+  },
+  "parameters": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false,
+    "description": "Config for the Apheris OpenFold3 prediction wrapper.",
+    "properties": {
+      "msa_dir": {
+        "anyOf": [
+          {
+            "format": "path",
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Directory of precomputed MSA files. Protein/RNA chains without their own MSA are matched to one here by sequence, not by filename.",
+        "title": "MSA Directory"
+      },
+      "num_diffusion_samples": {
+        "default": 1,
+        "description": "Number of structures to sample from the diffusion model.",
+        "minimum": 1,
+        "title": "Diffusion Sample Count",
+        "type": "integer"
+      },
+      "seeds": {
+        "default": [
+          42
+        ],
+        "description": "Random seeds to use for prediction.",
+        "items": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "minItems": 1,
+        "title": "Seeds",
+        "type": "array"
+      },
+      "template_paths": {
+        "description": "Optional template structure file(s) (CIF/PDB), applied to every query. Each protein/DNA/RNA chain is matched to its best-aligning chain (normalized global-alignment score >0.5) in each file - not by chain ID or order - so multiple files can each contribute one template per chain. Partial matches are allowed: some chains may remain untemplated as long as at least one eligible chain in the query matches. Validation only fails if none of the query's chains match any file. Ligands and other non-polymer entities are never templated.",
+        "examples": [
+          [
+            "templates/6vxx.cif"
+          ]
+        ],
+        "items": {
+          "format": "path",
+          "type": "string"
+        },
+        "title": "Template Structure Paths",
+        "type": "array"
+      },
+      "weights": {
+        "description": "A valid OpenFold3 model checkpoint. Its OpenFold3 variant is inferred from the shape of its weights, not from the filename.",
+        "format": "path",
+        "title": "Model Weights Path",
+        "type": "string"
+      }
+    },
+    "required": [
+      "weights"
+    ],
+    "title": "PredictOpenFold3Config",
+    "type": "object",
+    "x-foundry-flags": {
+      "msa_dir": "--msa-dir",
+      "num_diffusion_samples": "--num-diffusion-samples",
+      "seeds": "--seeds",
+      "template_paths": "--template-paths",
+      "weights": "--weights"
+    }
+  },
+  "schema_version": "foundry.cli.v1"
+}

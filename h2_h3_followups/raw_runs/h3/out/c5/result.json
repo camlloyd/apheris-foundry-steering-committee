@@ -1,0 +1,436 @@
+{
+  "provenance": {
+    "cli_contract_version": "foundry.cli.v1",
+    "ended_at": "2026-10-01T21:01:45.273988Z",
+    "inputs": [
+      {
+        "path": "/in/query.json",
+        "tier": "none"
+      }
+    ],
+    "module": {
+      "name": "apheris-openfold3",
+      "version": "0.15.1"
+    },
+    "resolved_config": {
+      "msa_dir": "/msa",
+      "num_diffusion_samples": 10,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "template_paths": [],
+      "weights": "/app/weights/of3-ob-2025-06-30-174k.pt"
+    },
+    "started_at": "2026-10-01T21:00:38.127249Z"
+  },
+  "result": {
+    "predictions": [
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_1_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_2_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 2,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_3_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 3,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_3_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_4_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 4,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_4_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_5_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 5,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_5_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_6_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 6,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_6_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_7_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 7,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_7_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_8_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 8,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_8_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_9_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 9,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_9_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_10_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 10,
+        "scores_path": "H3_C5_invago_99N/seed_42/H3_C5_invago_99N_seed_42_sample_10_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_1_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_1_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_2_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 2,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_2_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_3_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 3,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_3_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_4_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 4,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_4_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_5_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 5,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_5_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_6_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 6,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_6_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_7_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 7,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_7_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_8_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 8,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_8_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_9_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 9,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_9_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_10_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 10,
+        "scores_path": "H3_C5_invago_99N/seed_43/H3_C5_invago_99N_seed_43_sample_10_scores.json",
+        "seed": 43
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_1_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_1_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_2_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 2,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_2_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_3_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 3,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_3_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_4_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 4,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_4_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_5_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 5,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_5_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_6_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 6,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_6_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_7_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 7,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_7_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_8_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 8,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_8_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_9_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 9,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_9_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_10_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 10,
+        "scores_path": "H3_C5_invago_99N/seed_44/H3_C5_invago_99N_seed_44_sample_10_scores.json",
+        "seed": 44
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_1_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_1_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_2_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 2,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_2_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_3_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 3,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_3_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_4_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 4,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_4_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_5_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 5,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_5_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_6_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 6,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_6_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_7_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 7,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_7_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_8_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 8,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_8_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_9_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 9,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_9_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_10_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 10,
+        "scores_path": "H3_C5_invago_99N/seed_45/H3_C5_invago_99N_seed_45_sample_10_scores.json",
+        "seed": 45
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_1_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_1_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_2_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 2,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_2_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_3_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 3,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_3_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_4_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 4,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_4_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_5_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 5,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_5_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_6_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 6,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_6_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_7_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 7,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_7_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_8_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 8,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_8_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_9_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 9,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_9_scores.json",
+        "seed": 46
+      },
+      {
+        "path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_10_model.cif",
+        "query_id": "H3_C5_invago_99N",
+        "query_index": 0,
+        "sample": 10,
+        "scores_path": "H3_C5_invago_99N/seed_46/H3_C5_invago_99N_seed_46_sample_10_scores.json",
+        "seed": 46
+      }
+    ]
+  },
+  "schema_version": "foundry.cli.v1",
+  "task": "predict-openfold3"
+}

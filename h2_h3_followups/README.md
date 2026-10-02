@@ -89,6 +89,10 @@ logs/                driver logs for each round (H2, H2 post-hoc, H3) --
 INTEGRITY_NOTES.md    numbering verification + what the H12-out reference
                      structure actually resolves (read before quoting any
                      H12 RMSD number against a specific residue range)
+raw_runs/            the actual working directories behind every round
+                     (configs, logs, query inputs, MSA files, result
+                     metadata) -- see raw_runs/README.md for what's
+                     tracked here vs. regenerated from a manifest
 ```
 
 ## Re-running any of it

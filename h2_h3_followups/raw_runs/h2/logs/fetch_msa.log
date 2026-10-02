@@ -1,0 +1,10 @@
+{"timestamp": "2026-10-01T13:48:02.411235+00:00", "level": "info", "logger": "apheris_msa", "message": "starting MSA fetch", "jobs": 1, "provider": "colabfold", "concurrency": 4}
+HTTP Request: POST https://api.colabfold.com/ticket/msa "HTTP/1.1 200 OK"       
+HTTP Request: GET                                                               
+https://api.colabfold.com/ticket/jKMoof6mYAQdVoNJNsIVEcx_c_rWgioy7XC5FQ         
+"HTTP/1.1 200 OK"                                                               
+HTTP Request: GET                                                               
+https://api.colabfold.com/result/download/jKMoof6mYAQdVoNJNsIVEcx_c_rWgioy7XC5FQ
+"HTTP/1.1 200 OK"                                                               
+{"timestamp": "2026-10-01T13:48:06.835384+00:00", "level": "info", "logger": "apheris_msa", "message": "sequence completed", "sequence_index": 0, "outputs": ["msa_input_chain_A.a3m"]}
+{"timestamp": "2026-10-01T13:48:06.835833+00:00", "level": "info", "logger": "apheris_msa", "message": "all jobs completed successfully"}

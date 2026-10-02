@@ -1,0 +1,201 @@
+depth,seed,sample,file,status,plddt,rmsd_H12in,rmsd_H12out,margin,verdict,counts_as_success
+128,42,10,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_10_model.cif,ok,89.4,0.669,7.713,7.044,H12-in,0
+128,42,1,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_1_model.cif,ok,89.9,0.583,7.557,6.974,H12-in,0
+128,42,2,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_2_model.cif,ok,89.9,0.67,7.576,6.906,H12-in,0
+128,42,3,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_3_model.cif,ok,90.0,0.604,7.681,7.077,H12-in,0
+128,42,4,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_4_model.cif,ok,89.5,0.631,7.744,7.113,H12-in,0
+128,42,5,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_5_model.cif,ok,89.8,0.417,7.544,7.127,H12-in,0
+128,42,6,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_6_model.cif,ok,90.1,0.62,7.702,7.082,H12-in,0
+128,42,7,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_7_model.cif,ok,89.7,0.377,7.654,7.277,H12-in,0
+128,42,8,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_8_model.cif,ok,89.6,0.568,7.982,7.414,H12-in,0
+128,42,9,out/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_9_model.cif,ok,89.3,0.646,7.285,6.639,H12-in,0
+128,43,10,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_10_model.cif,ok,89.5,0.419,7.512,7.093,H12-in,0
+128,43,1,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_1_model.cif,ok,89.6,0.613,7.509,6.895,H12-in,0
+128,43,2,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_2_model.cif,ok,90.1,0.536,7.492,6.957,H12-in,0
+128,43,3,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_3_model.cif,ok,89.8,0.583,7.315,6.733,H12-in,0
+128,43,4,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_4_model.cif,ok,89.3,0.591,7.34,6.749,H12-in,0
+128,43,5,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_5_model.cif,ok,89.4,0.566,7.807,7.241,H12-in,0
+128,43,6,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_6_model.cif,ok,89.9,0.676,7.52,6.844,H12-in,0
+128,43,7,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_7_model.cif,ok,89.7,0.582,7.767,7.185,H12-in,0
+128,43,8,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_8_model.cif,ok,89.6,0.467,7.482,7.015,H12-in,0
+128,43,9,out/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_9_model.cif,ok,89.4,0.6,7.468,6.868,H12-in,0
+128,44,10,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_10_model.cif,ok,89.2,0.59,7.73,7.14,H12-in,0
+128,44,1,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_1_model.cif,ok,89.1,0.427,7.643,7.216,H12-in,0
+128,44,2,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_2_model.cif,ok,88.8,0.485,7.709,7.224,H12-in,0
+128,44,3,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_3_model.cif,ok,89.1,0.599,7.601,7.002,H12-in,0
+128,44,4,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_4_model.cif,ok,89.4,0.515,7.619,7.103,H12-in,0
+128,44,5,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_5_model.cif,ok,89.0,0.586,7.81,7.224,H12-in,0
+128,44,6,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_6_model.cif,ok,89.2,0.441,7.498,7.057,H12-in,0
+128,44,7,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_7_model.cif,ok,89.0,0.554,7.686,7.132,H12-in,0
+128,44,8,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_8_model.cif,ok,89.3,0.299,7.564,7.265,H12-in,0
+128,44,9,out/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_9_model.cif,ok,89.3,0.478,7.51,7.032,H12-in,0
+128,45,10,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_10_model.cif,ok,89.9,0.519,7.596,7.078,H12-in,0
+128,45,1,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_1_model.cif,ok,90.4,0.604,7.651,7.047,H12-in,0
+128,45,2,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_2_model.cif,ok,89.6,0.586,7.491,6.904,H12-in,0
+128,45,3,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_3_model.cif,ok,90.2,0.537,7.595,7.057,H12-in,0
+128,45,4,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_4_model.cif,ok,90.5,0.473,7.648,7.174,H12-in,0
+128,45,5,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_5_model.cif,ok,89.8,0.587,7.5,6.913,H12-in,0
+128,45,6,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_6_model.cif,ok,89.8,0.509,7.522,7.013,H12-in,0
+128,45,7,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_7_model.cif,ok,90.4,0.607,7.422,6.815,H12-in,0
+128,45,8,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_8_model.cif,ok,90.3,0.565,7.84,7.275,H12-in,0
+128,45,9,out/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_9_model.cif,ok,90.2,0.522,7.499,6.977,H12-in,0
+128,46,10,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_10_model.cif,ok,89.6,0.492,7.643,7.151,H12-in,0
+128,46,1,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_1_model.cif,ok,89.4,0.613,7.58,6.967,H12-in,0
+128,46,2,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_2_model.cif,ok,89.2,0.629,7.576,6.947,H12-in,0
+128,46,3,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_3_model.cif,ok,89.9,0.725,8.022,7.297,H12-in,0
+128,46,4,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_4_model.cif,ok,89.9,0.559,7.715,7.156,H12-in,0
+128,46,5,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_5_model.cif,ok,89.3,0.664,7.19,6.526,H12-in,0
+128,46,6,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_6_model.cif,ok,89.6,0.492,7.662,7.17,H12-in,0
+128,46,7,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_7_model.cif,ok,89.9,0.498,7.777,7.279,H12-in,0
+128,46,8,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_8_model.cif,ok,89.3,0.455,7.519,7.064,H12-in,0
+128,46,9,out/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_9_model.cif,ok,89.6,0.449,7.728,7.279,H12-in,0
+32,42,10,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_10_model.cif,unscorable,43.2,12.605,28.05,15.445,fold failed (pLDDT 43.2 < 70),0
+32,42,1,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_1_model.cif,unscorable,49.5,21.443,35.022,13.579,fold failed (pLDDT 49.5 < 70),0
+32,42,2,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_2_model.cif,unscorable,44.3,8.251,17.166,8.915,fold failed (pLDDT 44.3 < 70),0
+32,42,3,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_3_model.cif,unscorable,43.0,19.744,29.885,10.141,fold failed (pLDDT 43.0 < 70),0
+32,42,4,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_4_model.cif,unscorable,41.3,30.917,39.318,8.401,fold failed (pLDDT 41.3 < 70),0
+32,42,5,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_5_model.cif,unscorable,44.5,15.471,27.892,12.421,fold failed (pLDDT 44.5 < 70),0
+32,42,6,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_6_model.cif,unscorable,44.4,11.456,20.888,9.432,fold failed (pLDDT 44.4 < 70),0
+32,42,7,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_7_model.cif,unscorable,43.0,46.18,51.993,5.813,fold failed (pLDDT 43.0 < 70),0
+32,42,8,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_8_model.cif,unscorable,42.7,16.105,27.389,11.284,fold failed (pLDDT 42.7 < 70),0
+32,42,9,out/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_9_model.cif,unscorable,43.5,9.466,20.498,11.032,fold failed (pLDDT 43.5 < 70),0
+32,43,10,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_10_model.cif,unscorable,50.5,21.459,36.648,15.189,fold failed (pLDDT 50.5 < 70),0
+32,43,1,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_1_model.cif,unscorable,45.1,13.485,23.511,10.026,fold failed (pLDDT 45.1 < 70),0
+32,43,2,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_2_model.cif,unscorable,44.5,8.393,12.457,4.064,fold failed (pLDDT 44.5 < 70),0
+32,43,3,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_3_model.cif,unscorable,43.1,11.232,16.063,4.831,fold failed (pLDDT 43.1 < 70),0
+32,43,4,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_4_model.cif,unscorable,43.5,11.127,35.541,24.414,fold failed (pLDDT 43.5 < 70),0
+32,43,5,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_5_model.cif,unscorable,45.0,17.231,35.496,18.265,fold failed (pLDDT 45.0 < 70),0
+32,43,6,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_6_model.cif,unscorable,45.8,23.081,38.883,15.802,fold failed (pLDDT 45.8 < 70),0
+32,43,7,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_7_model.cif,unscorable,43.1,15.65,29.157,13.507,fold failed (pLDDT 43.1 < 70),0
+32,43,8,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_8_model.cif,unscorable,44.8,31.309,42.291,10.981,fold failed (pLDDT 44.8 < 70),0
+32,43,9,out/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_9_model.cif,unscorable,42.6,18.62,25.613,6.994,fold failed (pLDDT 42.6 < 70),0
+32,44,10,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_10_model.cif,unscorable,45.0,24.177,35.004,10.827,fold failed (pLDDT 45.0 < 70),0
+32,44,1,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_1_model.cif,unscorable,43.6,20.967,30.268,9.301,fold failed (pLDDT 43.6 < 70),0
+32,44,2,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_2_model.cif,unscorable,43.3,19.04,33.183,14.143,fold failed (pLDDT 43.3 < 70),0
+32,44,3,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_3_model.cif,unscorable,43.8,9.115,19.13,10.014,fold failed (pLDDT 43.8 < 70),0
+32,44,4,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_4_model.cif,unscorable,44.5,20.424,34.165,13.741,fold failed (pLDDT 44.5 < 70),0
+32,44,5,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_5_model.cif,unscorable,41.9,20.327,29.822,9.495,fold failed (pLDDT 41.9 < 70),0
+32,44,6,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_6_model.cif,unscorable,46.6,31.56,41.845,10.285,fold failed (pLDDT 46.6 < 70),0
+32,44,7,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_7_model.cif,unscorable,43.6,16.857,14.012,2.845,fold failed (pLDDT 43.6 < 70),0
+32,44,8,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_8_model.cif,unscorable,44.8,12.747,22.435,9.689,fold failed (pLDDT 44.8 < 70),0
+32,44,9,out/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_9_model.cif,unscorable,44.2,16.709,25.906,9.196,fold failed (pLDDT 44.2 < 70),0
+32,45,10,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_10_model.cif,unscorable,44.4,16.632,24.367,7.735,fold failed (pLDDT 44.4 < 70),0
+32,45,1,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_1_model.cif,unscorable,44.0,37.954,45.718,7.764,fold failed (pLDDT 44.0 < 70),0
+32,45,2,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_2_model.cif,unscorable,41.3,9.093,18.838,9.745,fold failed (pLDDT 41.3 < 70),0
+32,45,3,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_3_model.cif,unscorable,45.8,21.362,34.574,13.212,fold failed (pLDDT 45.8 < 70),0
+32,45,4,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_4_model.cif,unscorable,44.5,9.42,15.616,6.196,fold failed (pLDDT 44.5 < 70),0
+32,45,5,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_5_model.cif,unscorable,51.7,17.166,30.367,13.201,fold failed (pLDDT 51.7 < 70),0
+32,45,6,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_6_model.cif,unscorable,46.5,28.376,40.039,11.663,fold failed (pLDDT 46.5 < 70),0
+32,45,7,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_7_model.cif,unscorable,42.6,9.215,13.493,4.279,fold failed (pLDDT 42.6 < 70),0
+32,45,8,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_8_model.cif,unscorable,41.8,21.536,31.994,10.458,fold failed (pLDDT 41.8 < 70),0
+32,45,9,out/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_9_model.cif,unscorable,47.7,11.89,20.365,8.475,fold failed (pLDDT 47.7 < 70),0
+32,46,10,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_10_model.cif,unscorable,45.0,6.687,6.142,0.545,fold failed (pLDDT 45.0 < 70),0
+32,46,1,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_1_model.cif,unscorable,43.6,28.019,32.43,4.411,fold failed (pLDDT 43.6 < 70),0
+32,46,2,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_2_model.cif,unscorable,45.2,11.219,9.357,1.862,fold failed (pLDDT 45.2 < 70),0
+32,46,3,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_3_model.cif,unscorable,45.4,8.047,13.892,5.845,fold failed (pLDDT 45.4 < 70),0
+32,46,4,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_4_model.cif,unscorable,41.7,19.759,18.494,1.265,fold failed (pLDDT 41.7 < 70),0
+32,46,5,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_5_model.cif,unscorable,43.2,7.871,8.029,0.158,fold failed (pLDDT 43.2 < 70),0
+32,46,6,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_6_model.cif,unscorable,44.8,9.375,12.672,3.296,fold failed (pLDDT 44.8 < 70),0
+32,46,7,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_7_model.cif,unscorable,44.4,15.802,17.296,1.494,fold failed (pLDDT 44.4 < 70),0
+32,46,8,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_8_model.cif,unscorable,48.7,7.438,11.059,3.621,fold failed (pLDDT 48.7 < 70),0
+32,46,9,out/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_9_model.cif,unscorable,41.7,20.635,36.633,15.999,fold failed (pLDDT 41.7 < 70),0
+512,42,10,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_10_model.cif,ok,89.1,0.602,7.839,7.237,H12-in,0
+512,42,1,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_1_model.cif,ok,89.2,0.584,7.764,7.18,H12-in,0
+512,42,2,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_2_model.cif,ok,89.5,0.664,7.755,7.091,H12-in,0
+512,42,3,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_3_model.cif,ok,89.6,0.588,7.777,7.189,H12-in,0
+512,42,4,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_4_model.cif,ok,89.1,0.679,7.885,7.206,H12-in,0
+512,42,5,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_5_model.cif,ok,89.3,0.41,7.681,7.271,H12-in,0
+512,42,6,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_6_model.cif,ok,89.8,0.63,7.868,7.238,H12-in,0
+512,42,7,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_7_model.cif,ok,89.1,0.404,7.813,7.409,H12-in,0
+512,42,8,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_8_model.cif,ok,89.7,0.64,8.107,7.467,H12-in,0
+512,42,9,out/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_9_model.cif,ok,89.0,0.511,7.513,7.001,H12-in,0
+512,43,10,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_10_model.cif,ok,89.1,0.405,7.693,7.288,H12-in,0
+512,43,1,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_1_model.cif,ok,89.1,0.617,7.726,7.109,H12-in,0
+512,43,2,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_2_model.cif,ok,89.5,0.552,7.629,7.077,H12-in,0
+512,43,3,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_3_model.cif,ok,89.0,0.483,7.508,7.025,H12-in,0
+512,43,4,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_4_model.cif,ok,88.9,0.508,7.52,7.012,H12-in,0
+512,43,5,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_5_model.cif,ok,89.4,0.589,7.963,7.374,H12-in,0
+512,43,6,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_6_model.cif,ok,89.5,0.638,7.732,7.095,H12-in,0
+512,43,7,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_7_model.cif,ok,89.7,0.545,7.89,7.345,H12-in,0
+512,43,8,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_8_model.cif,ok,89.1,0.394,7.642,7.248,H12-in,0
+512,43,9,out/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_9_model.cif,ok,89.1,0.554,7.665,7.111,H12-in,0
+512,44,10,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_10_model.cif,ok,89.4,0.634,7.862,7.228,H12-in,0
+512,44,1,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_1_model.cif,ok,89.1,0.449,7.76,7.311,H12-in,0
+512,44,2,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_2_model.cif,ok,88.9,0.498,7.801,7.303,H12-in,0
+512,44,3,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_3_model.cif,ok,89.2,0.598,7.729,7.132,H12-in,0
+512,44,4,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_4_model.cif,ok,89.3,0.514,7.747,7.233,H12-in,0
+512,44,5,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_5_model.cif,ok,89.4,0.604,7.861,7.257,H12-in,0
+512,44,6,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_6_model.cif,ok,89.1,0.398,7.63,7.233,H12-in,0
+512,44,7,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_7_model.cif,ok,90.2,0.63,7.926,7.296,H12-in,0
+512,44,8,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_8_model.cif,ok,89.3,0.294,7.697,7.403,H12-in,0
+512,44,9,out/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_9_model.cif,ok,89.5,0.494,7.674,7.179,H12-in,0
+512,45,10,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_10_model.cif,ok,89.3,0.521,7.762,7.241,H12-in,0
+512,45,1,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_1_model.cif,ok,89.4,0.617,7.818,7.201,H12-in,0
+512,45,2,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_2_model.cif,ok,89.2,0.573,7.668,7.095,H12-in,0
+512,45,3,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_3_model.cif,ok,89.5,0.532,7.724,7.192,H12-in,0
+512,45,4,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_4_model.cif,ok,89.6,0.473,7.793,7.32,H12-in,0
+512,45,5,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_5_model.cif,ok,88.8,0.551,7.69,7.14,H12-in,0
+512,45,6,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_6_model.cif,ok,89.3,0.553,7.745,7.192,H12-in,0
+512,45,7,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_7_model.cif,ok,89.0,0.466,7.642,7.176,H12-in,0
+512,45,8,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_8_model.cif,ok,89.6,0.625,8.003,7.379,H12-in,0
+512,45,9,out/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_9_model.cif,ok,89.5,0.461,7.667,7.207,H12-in,0
+512,46,10,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_10_model.cif,ok,89.5,0.541,7.829,7.288,H12-in,0
+512,46,1,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_1_model.cif,ok,89.1,0.59,7.698,7.108,H12-in,0
+512,46,2,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_2_model.cif,ok,88.9,0.659,7.799,7.14,H12-in,0
+512,46,3,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_3_model.cif,ok,89.7,0.795,8.158,7.363,H12-in,0
+512,46,4,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_4_model.cif,ok,89.3,0.534,7.86,7.326,H12-in,0
+512,46,5,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_5_model.cif,ok,88.9,0.519,7.398,6.88,H12-in,0
+512,46,6,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_6_model.cif,ok,89.3,0.499,7.805,7.306,H12-in,0
+512,46,7,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_7_model.cif,ok,89.5,0.544,7.919,7.374,H12-in,0
+512,46,8,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_8_model.cif,ok,89.1,0.467,7.695,7.228,H12-in,0
+512,46,9,out/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_9_model.cif,ok,89.2,0.483,7.963,7.481,H12-in,0
+8,42,10,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_10_model.cif,unscorable,47.9,13.946,33.859,19.912,fold failed (pLDDT 47.9 < 70),0
+8,42,1,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_1_model.cif,unscorable,50.2,29.973,37.18,7.208,fold failed (pLDDT 50.2 < 70),0
+8,42,2,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_2_model.cif,unscorable,45.9,26.892,37.934,11.042,fold failed (pLDDT 45.9 < 70),0
+8,42,3,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_3_model.cif,unscorable,44.2,26.656,42.667,16.011,fold failed (pLDDT 44.2 < 70),0
+8,42,4,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_4_model.cif,unscorable,46.6,20.6,40.298,19.698,fold failed (pLDDT 46.6 < 70),0
+8,42,5,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_5_model.cif,unscorable,44.3,24.72,35.185,10.465,fold failed (pLDDT 44.3 < 70),0
+8,42,6,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_6_model.cif,unscorable,44.6,9.623,41.349,31.726,fold failed (pLDDT 44.6 < 70),0
+8,42,7,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_7_model.cif,unscorable,47.3,15.259,37.1,21.841,fold failed (pLDDT 47.3 < 70),0
+8,42,8,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_8_model.cif,unscorable,45.8,23.076,34.492,11.416,fold failed (pLDDT 45.8 < 70),0
+8,42,9,out/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_9_model.cif,unscorable,44.2,37.31,41.227,3.918,fold failed (pLDDT 44.2 < 70),0
+8,43,10,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_10_model.cif,unscorable,49.0,20.418,30.374,9.956,fold failed (pLDDT 49.0 < 70),0
+8,43,1,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_1_model.cif,unscorable,44.6,31.646,40.443,8.796,fold failed (pLDDT 44.6 < 70),0
+8,43,2,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_2_model.cif,unscorable,46.1,27.396,34.567,7.171,fold failed (pLDDT 46.1 < 70),0
+8,43,3,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_3_model.cif,unscorable,45.7,17.125,24.121,6.996,fold failed (pLDDT 45.7 < 70),0
+8,43,4,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_4_model.cif,unscorable,46.3,32.282,36.812,4.529,fold failed (pLDDT 46.3 < 70),0
+8,43,5,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_5_model.cif,unscorable,46.2,33.774,41.357,7.583,fold failed (pLDDT 46.2 < 70),0
+8,43,6,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_6_model.cif,unscorable,45.3,36.345,40.752,4.407,fold failed (pLDDT 45.3 < 70),0
+8,43,7,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_7_model.cif,unscorable,44.5,37.04,42.575,5.535,fold failed (pLDDT 44.5 < 70),0
+8,43,8,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_8_model.cif,unscorable,45.9,11.669,34.545,22.876,fold failed (pLDDT 45.9 < 70),0
+8,43,9,out/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_9_model.cif,unscorable,48.3,15.509,34.534,19.025,fold failed (pLDDT 48.3 < 70),0
+8,44,10,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_10_model.cif,unscorable,49.7,31.94,39.808,7.868,fold failed (pLDDT 49.7 < 70),0
+8,44,1,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_1_model.cif,unscorable,45.3,25.273,36.487,11.213,fold failed (pLDDT 45.3 < 70),0
+8,44,2,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_2_model.cif,unscorable,45.8,11.441,28.232,16.791,fold failed (pLDDT 45.8 < 70),0
+8,44,3,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_3_model.cif,unscorable,47.0,14.054,27.907,13.852,fold failed (pLDDT 47.0 < 70),0
+8,44,4,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_4_model.cif,unscorable,49.4,24.824,34.232,9.409,fold failed (pLDDT 49.4 < 70),0
+8,44,5,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_5_model.cif,unscorable,45.9,34.869,38.656,3.786,fold failed (pLDDT 45.9 < 70),0
+8,44,6,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_6_model.cif,unscorable,45.4,27.795,39.527,11.732,fold failed (pLDDT 45.4 < 70),0
+8,44,7,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_7_model.cif,unscorable,45.1,29.857,36.398,6.541,fold failed (pLDDT 45.1 < 70),0
+8,44,8,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_8_model.cif,unscorable,45.9,37.287,45.757,8.47,fold failed (pLDDT 45.9 < 70),0
+8,44,9,out/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_9_model.cif,unscorable,49.5,12.446,35.59,23.144,fold failed (pLDDT 49.5 < 70),0
+8,45,10,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_10_model.cif,unscorable,50.0,18.874,39.14,20.266,fold failed (pLDDT 50.0 < 70),0
+8,45,1,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_1_model.cif,unscorable,48.1,37.587,41.631,4.044,fold failed (pLDDT 48.1 < 70),0
+8,45,2,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_2_model.cif,unscorable,48.8,11.626,34.583,22.956,fold failed (pLDDT 48.8 < 70),0
+8,45,3,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_3_model.cif,unscorable,46.3,35.311,43.999,8.688,fold failed (pLDDT 46.3 < 70),0
+8,45,4,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_4_model.cif,unscorable,45.3,32.127,38.541,6.414,fold failed (pLDDT 45.3 < 70),0
+8,45,5,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_5_model.cif,unscorable,45.4,32.879,41.989,9.11,fold failed (pLDDT 45.4 < 70),0
+8,45,6,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_6_model.cif,unscorable,51.3,34.783,44.062,9.279,fold failed (pLDDT 51.3 < 70),0
+8,45,7,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_7_model.cif,unscorable,46.8,19.813,31.849,12.035,fold failed (pLDDT 46.8 < 70),0
+8,45,8,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_8_model.cif,unscorable,51.7,19.524,31.969,12.446,fold failed (pLDDT 51.7 < 70),0
+8,45,9,out/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_9_model.cif,unscorable,50.6,16.729,37.703,20.973,fold failed (pLDDT 50.6 < 70),0
+8,46,10,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_10_model.cif,unscorable,44.3,30.923,39.803,8.88,fold failed (pLDDT 44.3 < 70),0
+8,46,1,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_1_model.cif,unscorable,47.0,29.36,37.133,7.773,fold failed (pLDDT 47.0 < 70),0
+8,46,2,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_2_model.cif,unscorable,44.4,32.182,41.355,9.173,fold failed (pLDDT 44.4 < 70),0
+8,46,3,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_3_model.cif,unscorable,46.6,15.62,30.293,14.672,fold failed (pLDDT 46.6 < 70),0
+8,46,4,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_4_model.cif,unscorable,48.4,27.814,37.456,9.642,fold failed (pLDDT 48.4 < 70),0
+8,46,5,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_5_model.cif,unscorable,43.4,29.555,31.798,2.243,fold failed (pLDDT 43.4 < 70),0
+8,46,6,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_6_model.cif,unscorable,43.2,28.986,35.308,6.323,fold failed (pLDDT 43.2 < 70),0
+8,46,7,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_7_model.cif,unscorable,45.3,19.797,39.116,19.319,fold failed (pLDDT 45.3 < 70),0
+8,46,8,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_8_model.cif,unscorable,44.3,31.088,41.131,10.043,fold failed (pLDDT 44.3 < 70),0
+8,46,9,out/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_9_model.cif,unscorable,44.3,16.558,33.236,16.678,fold failed (pLDDT 44.3 < 70),0

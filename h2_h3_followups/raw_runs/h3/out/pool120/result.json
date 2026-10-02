@@ -1,0 +1,1952 @@
+{
+  "provenance": {
+    "cli_contract_version": "foundry.cli.v1",
+    "ended_at": "2026-10-01T21:35:23.898758Z",
+    "inputs": [
+      {
+        "path": "/in/query.json",
+        "tier": "none"
+      }
+    ],
+    "module": {
+      "name": "apheris-openfold3",
+      "version": "0.15.1"
+    },
+    "resolved_config": {
+      "msa_dir": "/msa",
+      "num_diffusion_samples": 2,
+      "seeds": [
+        42
+      ],
+      "template_paths": [],
+      "weights": "/app/weights/of3-ob-2025-06-30-174k.pt"
+    },
+    "started_at": "2026-10-01T21:22:43.553530Z"
+  },
+  "result": {
+    "predictions": [
+      {
+        "path": "POOL_CHEMBL5741244_agonist/seed_42/POOL_CHEMBL5741244_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5741244_agonist",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5741244_agonist/seed_42/POOL_CHEMBL5741244_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5741244_agonist/seed_42/POOL_CHEMBL5741244_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5741244_agonist",
+        "query_index": 0,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5741244_agonist/seed_42/POOL_CHEMBL5741244_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5827660_agonist/seed_42/POOL_CHEMBL5827660_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5827660_agonist",
+        "query_index": 1,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5827660_agonist/seed_42/POOL_CHEMBL5827660_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5827660_agonist/seed_42/POOL_CHEMBL5827660_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5827660_agonist",
+        "query_index": 1,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5827660_agonist/seed_42/POOL_CHEMBL5827660_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5083464_agonist/seed_42/POOL_CHEMBL5083464_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5083464_agonist",
+        "query_index": 2,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5083464_agonist/seed_42/POOL_CHEMBL5083464_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5083464_agonist/seed_42/POOL_CHEMBL5083464_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5083464_agonist",
+        "query_index": 2,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5083464_agonist/seed_42/POOL_CHEMBL5083464_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4446140_agonist/seed_42/POOL_CHEMBL4446140_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4446140_agonist",
+        "query_index": 3,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4446140_agonist/seed_42/POOL_CHEMBL4446140_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4446140_agonist/seed_42/POOL_CHEMBL4446140_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4446140_agonist",
+        "query_index": 3,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4446140_agonist/seed_42/POOL_CHEMBL4446140_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4851214_agonist/seed_42/POOL_CHEMBL4851214_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4851214_agonist",
+        "query_index": 4,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4851214_agonist/seed_42/POOL_CHEMBL4851214_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4851214_agonist/seed_42/POOL_CHEMBL4851214_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4851214_agonist",
+        "query_index": 4,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4851214_agonist/seed_42/POOL_CHEMBL4851214_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3609409_agonist/seed_42/POOL_CHEMBL3609409_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3609409_agonist",
+        "query_index": 5,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3609409_agonist/seed_42/POOL_CHEMBL3609409_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3609409_agonist/seed_42/POOL_CHEMBL3609409_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3609409_agonist",
+        "query_index": 5,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3609409_agonist/seed_42/POOL_CHEMBL3609409_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3609404_agonist/seed_42/POOL_CHEMBL3609404_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3609404_agonist",
+        "query_index": 6,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3609404_agonist/seed_42/POOL_CHEMBL3609404_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3609404_agonist/seed_42/POOL_CHEMBL3609404_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3609404_agonist",
+        "query_index": 6,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3609404_agonist/seed_42/POOL_CHEMBL3609404_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5864984_agonist/seed_42/POOL_CHEMBL5864984_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5864984_agonist",
+        "query_index": 7,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5864984_agonist/seed_42/POOL_CHEMBL5864984_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5864984_agonist/seed_42/POOL_CHEMBL5864984_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5864984_agonist",
+        "query_index": 7,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5864984_agonist/seed_42/POOL_CHEMBL5864984_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4870796_agonist/seed_42/POOL_CHEMBL4870796_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4870796_agonist",
+        "query_index": 8,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4870796_agonist/seed_42/POOL_CHEMBL4870796_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4870796_agonist/seed_42/POOL_CHEMBL4870796_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4870796_agonist",
+        "query_index": 8,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4870796_agonist/seed_42/POOL_CHEMBL4870796_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5425541_agonist/seed_42/POOL_CHEMBL5425541_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5425541_agonist",
+        "query_index": 9,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5425541_agonist/seed_42/POOL_CHEMBL5425541_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5425541_agonist/seed_42/POOL_CHEMBL5425541_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5425541_agonist",
+        "query_index": 9,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5425541_agonist/seed_42/POOL_CHEMBL5425541_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4874284_agonist/seed_42/POOL_CHEMBL4874284_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4874284_agonist",
+        "query_index": 10,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4874284_agonist/seed_42/POOL_CHEMBL4874284_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4874284_agonist/seed_42/POOL_CHEMBL4874284_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4874284_agonist",
+        "query_index": 10,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4874284_agonist/seed_42/POOL_CHEMBL4874284_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4634701_agonist/seed_42/POOL_CHEMBL4634701_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4634701_agonist",
+        "query_index": 11,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4634701_agonist/seed_42/POOL_CHEMBL4634701_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4634701_agonist/seed_42/POOL_CHEMBL4634701_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4634701_agonist",
+        "query_index": 11,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4634701_agonist/seed_42/POOL_CHEMBL4634701_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4868437_agonist/seed_42/POOL_CHEMBL4868437_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4868437_agonist",
+        "query_index": 12,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4868437_agonist/seed_42/POOL_CHEMBL4868437_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4868437_agonist/seed_42/POOL_CHEMBL4868437_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4868437_agonist",
+        "query_index": 12,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4868437_agonist/seed_42/POOL_CHEMBL4868437_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3609403_agonist/seed_42/POOL_CHEMBL3609403_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3609403_agonist",
+        "query_index": 13,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3609403_agonist/seed_42/POOL_CHEMBL3609403_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3609403_agonist/seed_42/POOL_CHEMBL3609403_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3609403_agonist",
+        "query_index": 13,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3609403_agonist/seed_42/POOL_CHEMBL3609403_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4875850_agonist/seed_42/POOL_CHEMBL4875850_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4875850_agonist",
+        "query_index": 14,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4875850_agonist/seed_42/POOL_CHEMBL4875850_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4875850_agonist/seed_42/POOL_CHEMBL4875850_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4875850_agonist",
+        "query_index": 14,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4875850_agonist/seed_42/POOL_CHEMBL4875850_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5864404_agonist/seed_42/POOL_CHEMBL5864404_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5864404_agonist",
+        "query_index": 15,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5864404_agonist/seed_42/POOL_CHEMBL5864404_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5864404_agonist/seed_42/POOL_CHEMBL5864404_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5864404_agonist",
+        "query_index": 15,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5864404_agonist/seed_42/POOL_CHEMBL5864404_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5410038_agonist/seed_42/POOL_CHEMBL5410038_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5410038_agonist",
+        "query_index": 16,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5410038_agonist/seed_42/POOL_CHEMBL5410038_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5410038_agonist/seed_42/POOL_CHEMBL5410038_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5410038_agonist",
+        "query_index": 16,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5410038_agonist/seed_42/POOL_CHEMBL5410038_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4642011_agonist/seed_42/POOL_CHEMBL4642011_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4642011_agonist",
+        "query_index": 17,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4642011_agonist/seed_42/POOL_CHEMBL4642011_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4642011_agonist/seed_42/POOL_CHEMBL4642011_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4642011_agonist",
+        "query_index": 17,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4642011_agonist/seed_42/POOL_CHEMBL4642011_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3581543_agonist/seed_42/POOL_CHEMBL3581543_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3581543_agonist",
+        "query_index": 18,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3581543_agonist/seed_42/POOL_CHEMBL3581543_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3581543_agonist/seed_42/POOL_CHEMBL3581543_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3581543_agonist",
+        "query_index": 18,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3581543_agonist/seed_42/POOL_CHEMBL3581543_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4856642_agonist/seed_42/POOL_CHEMBL4856642_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4856642_agonist",
+        "query_index": 19,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4856642_agonist/seed_42/POOL_CHEMBL4856642_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4856642_agonist/seed_42/POOL_CHEMBL4856642_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4856642_agonist",
+        "query_index": 19,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4856642_agonist/seed_42/POOL_CHEMBL4856642_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4849340_agonist/seed_42/POOL_CHEMBL4849340_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4849340_agonist",
+        "query_index": 20,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4849340_agonist/seed_42/POOL_CHEMBL4849340_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4849340_agonist/seed_42/POOL_CHEMBL4849340_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4849340_agonist",
+        "query_index": 20,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4849340_agonist/seed_42/POOL_CHEMBL4849340_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4783854_agonist/seed_42/POOL_CHEMBL4783854_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4783854_agonist",
+        "query_index": 21,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4783854_agonist/seed_42/POOL_CHEMBL4783854_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4783854_agonist/seed_42/POOL_CHEMBL4783854_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4783854_agonist",
+        "query_index": 21,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4783854_agonist/seed_42/POOL_CHEMBL4783854_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5083860_agonist/seed_42/POOL_CHEMBL5083860_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5083860_agonist",
+        "query_index": 22,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5083860_agonist/seed_42/POOL_CHEMBL5083860_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5083860_agonist/seed_42/POOL_CHEMBL5083860_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5083860_agonist",
+        "query_index": 22,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5083860_agonist/seed_42/POOL_CHEMBL5083860_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4868594_agonist/seed_42/POOL_CHEMBL4868594_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4868594_agonist",
+        "query_index": 23,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4868594_agonist/seed_42/POOL_CHEMBL4868594_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4868594_agonist/seed_42/POOL_CHEMBL4868594_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4868594_agonist",
+        "query_index": 23,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4868594_agonist/seed_42/POOL_CHEMBL4868594_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4648410_agonist/seed_42/POOL_CHEMBL4648410_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4648410_agonist",
+        "query_index": 24,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4648410_agonist/seed_42/POOL_CHEMBL4648410_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4648410_agonist/seed_42/POOL_CHEMBL4648410_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4648410_agonist",
+        "query_index": 24,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4648410_agonist/seed_42/POOL_CHEMBL4648410_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4870621_agonist/seed_42/POOL_CHEMBL4870621_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4870621_agonist",
+        "query_index": 25,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4870621_agonist/seed_42/POOL_CHEMBL4870621_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4870621_agonist/seed_42/POOL_CHEMBL4870621_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4870621_agonist",
+        "query_index": 25,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4870621_agonist/seed_42/POOL_CHEMBL4870621_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5092600_agonist/seed_42/POOL_CHEMBL5092600_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5092600_agonist",
+        "query_index": 26,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5092600_agonist/seed_42/POOL_CHEMBL5092600_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5092600_agonist/seed_42/POOL_CHEMBL5092600_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5092600_agonist",
+        "query_index": 26,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5092600_agonist/seed_42/POOL_CHEMBL5092600_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5075133_agonist/seed_42/POOL_CHEMBL5075133_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5075133_agonist",
+        "query_index": 27,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5075133_agonist/seed_42/POOL_CHEMBL5075133_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5075133_agonist/seed_42/POOL_CHEMBL5075133_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5075133_agonist",
+        "query_index": 27,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5075133_agonist/seed_42/POOL_CHEMBL5075133_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4644213_agonist/seed_42/POOL_CHEMBL4644213_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4644213_agonist",
+        "query_index": 28,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4644213_agonist/seed_42/POOL_CHEMBL4644213_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4644213_agonist/seed_42/POOL_CHEMBL4644213_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4644213_agonist",
+        "query_index": 28,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4644213_agonist/seed_42/POOL_CHEMBL4644213_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5401542_agonist/seed_42/POOL_CHEMBL5401542_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5401542_agonist",
+        "query_index": 29,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5401542_agonist/seed_42/POOL_CHEMBL5401542_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5401542_agonist/seed_42/POOL_CHEMBL5401542_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5401542_agonist",
+        "query_index": 29,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5401542_agonist/seed_42/POOL_CHEMBL5401542_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4863518_agonist/seed_42/POOL_CHEMBL4863518_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4863518_agonist",
+        "query_index": 30,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4863518_agonist/seed_42/POOL_CHEMBL4863518_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4863518_agonist/seed_42/POOL_CHEMBL4863518_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4863518_agonist",
+        "query_index": 30,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4863518_agonist/seed_42/POOL_CHEMBL4863518_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5090127_agonist/seed_42/POOL_CHEMBL5090127_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5090127_agonist",
+        "query_index": 31,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5090127_agonist/seed_42/POOL_CHEMBL5090127_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5090127_agonist/seed_42/POOL_CHEMBL5090127_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5090127_agonist",
+        "query_index": 31,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5090127_agonist/seed_42/POOL_CHEMBL5090127_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4543504_agonist/seed_42/POOL_CHEMBL4543504_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4543504_agonist",
+        "query_index": 32,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4543504_agonist/seed_42/POOL_CHEMBL4543504_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4543504_agonist/seed_42/POOL_CHEMBL4543504_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4543504_agonist",
+        "query_index": 32,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4543504_agonist/seed_42/POOL_CHEMBL4543504_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4865740_agonist/seed_42/POOL_CHEMBL4865740_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4865740_agonist",
+        "query_index": 33,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4865740_agonist/seed_42/POOL_CHEMBL4865740_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4865740_agonist/seed_42/POOL_CHEMBL4865740_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4865740_agonist",
+        "query_index": 33,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4865740_agonist/seed_42/POOL_CHEMBL4865740_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5420330_agonist/seed_42/POOL_CHEMBL5420330_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5420330_agonist",
+        "query_index": 34,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5420330_agonist/seed_42/POOL_CHEMBL5420330_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5420330_agonist/seed_42/POOL_CHEMBL5420330_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5420330_agonist",
+        "query_index": 34,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5420330_agonist/seed_42/POOL_CHEMBL5420330_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5091222_agonist/seed_42/POOL_CHEMBL5091222_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5091222_agonist",
+        "query_index": 35,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5091222_agonist/seed_42/POOL_CHEMBL5091222_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5091222_agonist/seed_42/POOL_CHEMBL5091222_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5091222_agonist",
+        "query_index": 35,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5091222_agonist/seed_42/POOL_CHEMBL5091222_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5092956_agonist/seed_42/POOL_CHEMBL5092956_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5092956_agonist",
+        "query_index": 36,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5092956_agonist/seed_42/POOL_CHEMBL5092956_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5092956_agonist/seed_42/POOL_CHEMBL5092956_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5092956_agonist",
+        "query_index": 36,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5092956_agonist/seed_42/POOL_CHEMBL5092956_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4863222_agonist/seed_42/POOL_CHEMBL4863222_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4863222_agonist",
+        "query_index": 37,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4863222_agonist/seed_42/POOL_CHEMBL4863222_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4863222_agonist/seed_42/POOL_CHEMBL4863222_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4863222_agonist",
+        "query_index": 37,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4863222_agonist/seed_42/POOL_CHEMBL4863222_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5431510_agonist/seed_42/POOL_CHEMBL5431510_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5431510_agonist",
+        "query_index": 38,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5431510_agonist/seed_42/POOL_CHEMBL5431510_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5431510_agonist/seed_42/POOL_CHEMBL5431510_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5431510_agonist",
+        "query_index": 38,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5431510_agonist/seed_42/POOL_CHEMBL5431510_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4879322_agonist/seed_42/POOL_CHEMBL4879322_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4879322_agonist",
+        "query_index": 39,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4879322_agonist/seed_42/POOL_CHEMBL4879322_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4879322_agonist/seed_42/POOL_CHEMBL4879322_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4879322_agonist",
+        "query_index": 39,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4879322_agonist/seed_42/POOL_CHEMBL4879322_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4871865_agonist/seed_42/POOL_CHEMBL4871865_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4871865_agonist",
+        "query_index": 40,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4871865_agonist/seed_42/POOL_CHEMBL4871865_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4871865_agonist/seed_42/POOL_CHEMBL4871865_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4871865_agonist",
+        "query_index": 40,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4871865_agonist/seed_42/POOL_CHEMBL4871865_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5434833_agonist/seed_42/POOL_CHEMBL5434833_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5434833_agonist",
+        "query_index": 41,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5434833_agonist/seed_42/POOL_CHEMBL5434833_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5434833_agonist/seed_42/POOL_CHEMBL5434833_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5434833_agonist",
+        "query_index": 41,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5434833_agonist/seed_42/POOL_CHEMBL5434833_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3313999_agonist/seed_42/POOL_CHEMBL3313999_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3313999_agonist",
+        "query_index": 42,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3313999_agonist/seed_42/POOL_CHEMBL3313999_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3313999_agonist/seed_42/POOL_CHEMBL3313999_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3313999_agonist",
+        "query_index": 42,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3313999_agonist/seed_42/POOL_CHEMBL3313999_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5087837_agonist/seed_42/POOL_CHEMBL5087837_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5087837_agonist",
+        "query_index": 43,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5087837_agonist/seed_42/POOL_CHEMBL5087837_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5087837_agonist/seed_42/POOL_CHEMBL5087837_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5087837_agonist",
+        "query_index": 43,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5087837_agonist/seed_42/POOL_CHEMBL5087837_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4645125_agonist/seed_42/POOL_CHEMBL4645125_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4645125_agonist",
+        "query_index": 44,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4645125_agonist/seed_42/POOL_CHEMBL4645125_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4645125_agonist/seed_42/POOL_CHEMBL4645125_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4645125_agonist",
+        "query_index": 44,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4645125_agonist/seed_42/POOL_CHEMBL4645125_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5413139_agonist/seed_42/POOL_CHEMBL5413139_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5413139_agonist",
+        "query_index": 45,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5413139_agonist/seed_42/POOL_CHEMBL5413139_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5413139_agonist/seed_42/POOL_CHEMBL5413139_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5413139_agonist",
+        "query_index": 45,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5413139_agonist/seed_42/POOL_CHEMBL5413139_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4459436_agonist/seed_42/POOL_CHEMBL4459436_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4459436_agonist",
+        "query_index": 46,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4459436_agonist/seed_42/POOL_CHEMBL4459436_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4459436_agonist/seed_42/POOL_CHEMBL4459436_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4459436_agonist",
+        "query_index": 46,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4459436_agonist/seed_42/POOL_CHEMBL4459436_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5408607_agonist/seed_42/POOL_CHEMBL5408607_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5408607_agonist",
+        "query_index": 47,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5408607_agonist/seed_42/POOL_CHEMBL5408607_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5408607_agonist/seed_42/POOL_CHEMBL5408607_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5408607_agonist",
+        "query_index": 47,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5408607_agonist/seed_42/POOL_CHEMBL5408607_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4777230_agonist/seed_42/POOL_CHEMBL4777230_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4777230_agonist",
+        "query_index": 48,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4777230_agonist/seed_42/POOL_CHEMBL4777230_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4777230_agonist/seed_42/POOL_CHEMBL4777230_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4777230_agonist",
+        "query_index": 48,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4777230_agonist/seed_42/POOL_CHEMBL4777230_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4875075_agonist/seed_42/POOL_CHEMBL4875075_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4875075_agonist",
+        "query_index": 49,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4875075_agonist/seed_42/POOL_CHEMBL4875075_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4875075_agonist/seed_42/POOL_CHEMBL4875075_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4875075_agonist",
+        "query_index": 49,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4875075_agonist/seed_42/POOL_CHEMBL4875075_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314000_agonist/seed_42/POOL_CHEMBL3314000_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3314000_agonist",
+        "query_index": 50,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3314000_agonist/seed_42/POOL_CHEMBL3314000_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314000_agonist/seed_42/POOL_CHEMBL3314000_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3314000_agonist",
+        "query_index": 50,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3314000_agonist/seed_42/POOL_CHEMBL3314000_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5867155_agonist/seed_42/POOL_CHEMBL5867155_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5867155_agonist",
+        "query_index": 51,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5867155_agonist/seed_42/POOL_CHEMBL5867155_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5867155_agonist/seed_42/POOL_CHEMBL5867155_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5867155_agonist",
+        "query_index": 51,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5867155_agonist/seed_42/POOL_CHEMBL5867155_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5801363_agonist/seed_42/POOL_CHEMBL5801363_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5801363_agonist",
+        "query_index": 52,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5801363_agonist/seed_42/POOL_CHEMBL5801363_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5801363_agonist/seed_42/POOL_CHEMBL5801363_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5801363_agonist",
+        "query_index": 52,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5801363_agonist/seed_42/POOL_CHEMBL5801363_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3217768_agonist/seed_42/POOL_CHEMBL3217768_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3217768_agonist",
+        "query_index": 53,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3217768_agonist/seed_42/POOL_CHEMBL3217768_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3217768_agonist/seed_42/POOL_CHEMBL3217768_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3217768_agonist",
+        "query_index": 53,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3217768_agonist/seed_42/POOL_CHEMBL3217768_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5436004_agonist/seed_42/POOL_CHEMBL5436004_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5436004_agonist",
+        "query_index": 54,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5436004_agonist/seed_42/POOL_CHEMBL5436004_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5436004_agonist/seed_42/POOL_CHEMBL5436004_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5436004_agonist",
+        "query_index": 54,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5436004_agonist/seed_42/POOL_CHEMBL5436004_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4851155_agonist/seed_42/POOL_CHEMBL4851155_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4851155_agonist",
+        "query_index": 55,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4851155_agonist/seed_42/POOL_CHEMBL4851155_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4851155_agonist/seed_42/POOL_CHEMBL4851155_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4851155_agonist",
+        "query_index": 55,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4851155_agonist/seed_42/POOL_CHEMBL4851155_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5083229_agonist/seed_42/POOL_CHEMBL5083229_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5083229_agonist",
+        "query_index": 56,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5083229_agonist/seed_42/POOL_CHEMBL5083229_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5083229_agonist/seed_42/POOL_CHEMBL5083229_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5083229_agonist",
+        "query_index": 56,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5083229_agonist/seed_42/POOL_CHEMBL5083229_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4777967_agonist/seed_42/POOL_CHEMBL4777967_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4777967_agonist",
+        "query_index": 57,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4777967_agonist/seed_42/POOL_CHEMBL4777967_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4777967_agonist/seed_42/POOL_CHEMBL4777967_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4777967_agonist",
+        "query_index": 57,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4777967_agonist/seed_42/POOL_CHEMBL4777967_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5401254_agonist/seed_42/POOL_CHEMBL5401254_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5401254_agonist",
+        "query_index": 58,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5401254_agonist/seed_42/POOL_CHEMBL5401254_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5401254_agonist/seed_42/POOL_CHEMBL5401254_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5401254_agonist",
+        "query_index": 58,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5401254_agonist/seed_42/POOL_CHEMBL5401254_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4434744_agonist/seed_42/POOL_CHEMBL4434744_agonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4434744_agonist",
+        "query_index": 59,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4434744_agonist/seed_42/POOL_CHEMBL4434744_agonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4434744_agonist/seed_42/POOL_CHEMBL4434744_agonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4434744_agonist",
+        "query_index": 59,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4434744_agonist/seed_42/POOL_CHEMBL4434744_agonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5433435_antagonist/seed_42/POOL_CHEMBL5433435_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5433435_antagonist",
+        "query_index": 60,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5433435_antagonist/seed_42/POOL_CHEMBL5433435_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5433435_antagonist/seed_42/POOL_CHEMBL5433435_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5433435_antagonist",
+        "query_index": 60,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5433435_antagonist/seed_42/POOL_CHEMBL5433435_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4127127_antagonist/seed_42/POOL_CHEMBL4127127_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4127127_antagonist",
+        "query_index": 61,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4127127_antagonist/seed_42/POOL_CHEMBL4127127_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4127127_antagonist/seed_42/POOL_CHEMBL4127127_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4127127_antagonist",
+        "query_index": 61,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4127127_antagonist/seed_42/POOL_CHEMBL4127127_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5418139_antagonist/seed_42/POOL_CHEMBL5418139_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5418139_antagonist",
+        "query_index": 62,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5418139_antagonist/seed_42/POOL_CHEMBL5418139_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5418139_antagonist/seed_42/POOL_CHEMBL5418139_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5418139_antagonist",
+        "query_index": 62,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5418139_antagonist/seed_42/POOL_CHEMBL5418139_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5908482_antagonist/seed_42/POOL_CHEMBL5908482_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5908482_antagonist",
+        "query_index": 63,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5908482_antagonist/seed_42/POOL_CHEMBL5908482_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5908482_antagonist/seed_42/POOL_CHEMBL5908482_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5908482_antagonist",
+        "query_index": 63,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5908482_antagonist/seed_42/POOL_CHEMBL5908482_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6032768_antagonist/seed_42/POOL_CHEMBL6032768_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL6032768_antagonist",
+        "query_index": 64,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL6032768_antagonist/seed_42/POOL_CHEMBL6032768_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6032768_antagonist/seed_42/POOL_CHEMBL6032768_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL6032768_antagonist",
+        "query_index": 64,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL6032768_antagonist/seed_42/POOL_CHEMBL6032768_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5900812_antagonist/seed_42/POOL_CHEMBL5900812_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5900812_antagonist",
+        "query_index": 65,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5900812_antagonist/seed_42/POOL_CHEMBL5900812_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5900812_antagonist/seed_42/POOL_CHEMBL5900812_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5900812_antagonist",
+        "query_index": 65,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5900812_antagonist/seed_42/POOL_CHEMBL5900812_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5973554_antagonist/seed_42/POOL_CHEMBL5973554_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5973554_antagonist",
+        "query_index": 66,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5973554_antagonist/seed_42/POOL_CHEMBL5973554_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5973554_antagonist/seed_42/POOL_CHEMBL5973554_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5973554_antagonist",
+        "query_index": 66,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5973554_antagonist/seed_42/POOL_CHEMBL5973554_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5868879_antagonist/seed_42/POOL_CHEMBL5868879_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5868879_antagonist",
+        "query_index": 67,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5868879_antagonist/seed_42/POOL_CHEMBL5868879_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5868879_antagonist/seed_42/POOL_CHEMBL5868879_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5868879_antagonist",
+        "query_index": 67,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5868879_antagonist/seed_42/POOL_CHEMBL5868879_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5740366_antagonist/seed_42/POOL_CHEMBL5740366_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5740366_antagonist",
+        "query_index": 68,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5740366_antagonist/seed_42/POOL_CHEMBL5740366_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5740366_antagonist/seed_42/POOL_CHEMBL5740366_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5740366_antagonist",
+        "query_index": 68,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5740366_antagonist/seed_42/POOL_CHEMBL5740366_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5834744_antagonist/seed_42/POOL_CHEMBL5834744_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5834744_antagonist",
+        "query_index": 69,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5834744_antagonist/seed_42/POOL_CHEMBL5834744_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5834744_antagonist/seed_42/POOL_CHEMBL5834744_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5834744_antagonist",
+        "query_index": 69,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5834744_antagonist/seed_42/POOL_CHEMBL5834744_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5977227_antagonist/seed_42/POOL_CHEMBL5977227_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5977227_antagonist",
+        "query_index": 70,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5977227_antagonist/seed_42/POOL_CHEMBL5977227_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5977227_antagonist/seed_42/POOL_CHEMBL5977227_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5977227_antagonist",
+        "query_index": 70,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5977227_antagonist/seed_42/POOL_CHEMBL5977227_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4125757_antagonist/seed_42/POOL_CHEMBL4125757_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4125757_antagonist",
+        "query_index": 71,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4125757_antagonist/seed_42/POOL_CHEMBL4125757_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4125757_antagonist/seed_42/POOL_CHEMBL4125757_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4125757_antagonist",
+        "query_index": 71,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4125757_antagonist/seed_42/POOL_CHEMBL4125757_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5424936_antagonist/seed_42/POOL_CHEMBL5424936_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5424936_antagonist",
+        "query_index": 72,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5424936_antagonist/seed_42/POOL_CHEMBL5424936_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5424936_antagonist/seed_42/POOL_CHEMBL5424936_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5424936_antagonist",
+        "query_index": 72,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5424936_antagonist/seed_42/POOL_CHEMBL5424936_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6034196_antagonist/seed_42/POOL_CHEMBL6034196_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL6034196_antagonist",
+        "query_index": 73,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL6034196_antagonist/seed_42/POOL_CHEMBL6034196_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6034196_antagonist/seed_42/POOL_CHEMBL6034196_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL6034196_antagonist",
+        "query_index": 73,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL6034196_antagonist/seed_42/POOL_CHEMBL6034196_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6057772_antagonist/seed_42/POOL_CHEMBL6057772_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL6057772_antagonist",
+        "query_index": 74,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL6057772_antagonist/seed_42/POOL_CHEMBL6057772_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6057772_antagonist/seed_42/POOL_CHEMBL6057772_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL6057772_antagonist",
+        "query_index": 74,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL6057772_antagonist/seed_42/POOL_CHEMBL6057772_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5984243_antagonist/seed_42/POOL_CHEMBL5984243_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5984243_antagonist",
+        "query_index": 75,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5984243_antagonist/seed_42/POOL_CHEMBL5984243_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5984243_antagonist/seed_42/POOL_CHEMBL5984243_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5984243_antagonist",
+        "query_index": 75,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5984243_antagonist/seed_42/POOL_CHEMBL5984243_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5863097_antagonist/seed_42/POOL_CHEMBL5863097_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5863097_antagonist",
+        "query_index": 76,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5863097_antagonist/seed_42/POOL_CHEMBL5863097_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5863097_antagonist/seed_42/POOL_CHEMBL5863097_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5863097_antagonist",
+        "query_index": 76,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5863097_antagonist/seed_42/POOL_CHEMBL5863097_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4128575_antagonist/seed_42/POOL_CHEMBL4128575_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4128575_antagonist",
+        "query_index": 77,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4128575_antagonist/seed_42/POOL_CHEMBL4128575_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4128575_antagonist/seed_42/POOL_CHEMBL4128575_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4128575_antagonist",
+        "query_index": 77,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4128575_antagonist/seed_42/POOL_CHEMBL4128575_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5795554_antagonist/seed_42/POOL_CHEMBL5795554_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5795554_antagonist",
+        "query_index": 78,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5795554_antagonist/seed_42/POOL_CHEMBL5795554_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5795554_antagonist/seed_42/POOL_CHEMBL5795554_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5795554_antagonist",
+        "query_index": 78,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5795554_antagonist/seed_42/POOL_CHEMBL5795554_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5824934_antagonist/seed_42/POOL_CHEMBL5824934_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5824934_antagonist",
+        "query_index": 79,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5824934_antagonist/seed_42/POOL_CHEMBL5824934_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5824934_antagonist/seed_42/POOL_CHEMBL5824934_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5824934_antagonist",
+        "query_index": 79,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5824934_antagonist/seed_42/POOL_CHEMBL5824934_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5830559_antagonist/seed_42/POOL_CHEMBL5830559_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5830559_antagonist",
+        "query_index": 80,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5830559_antagonist/seed_42/POOL_CHEMBL5830559_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5830559_antagonist/seed_42/POOL_CHEMBL5830559_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5830559_antagonist",
+        "query_index": 80,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5830559_antagonist/seed_42/POOL_CHEMBL5830559_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5817629_antagonist/seed_42/POOL_CHEMBL5817629_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5817629_antagonist",
+        "query_index": 81,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5817629_antagonist/seed_42/POOL_CHEMBL5817629_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5817629_antagonist/seed_42/POOL_CHEMBL5817629_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5817629_antagonist",
+        "query_index": 81,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5817629_antagonist/seed_42/POOL_CHEMBL5817629_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4578385_antagonist/seed_42/POOL_CHEMBL4578385_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4578385_antagonist",
+        "query_index": 82,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4578385_antagonist/seed_42/POOL_CHEMBL4578385_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4578385_antagonist/seed_42/POOL_CHEMBL4578385_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4578385_antagonist",
+        "query_index": 82,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4578385_antagonist/seed_42/POOL_CHEMBL4578385_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5860429_antagonist/seed_42/POOL_CHEMBL5860429_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5860429_antagonist",
+        "query_index": 83,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5860429_antagonist/seed_42/POOL_CHEMBL5860429_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5860429_antagonist/seed_42/POOL_CHEMBL5860429_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5860429_antagonist",
+        "query_index": 83,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5860429_antagonist/seed_42/POOL_CHEMBL5860429_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6021812_antagonist/seed_42/POOL_CHEMBL6021812_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL6021812_antagonist",
+        "query_index": 84,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL6021812_antagonist/seed_42/POOL_CHEMBL6021812_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6021812_antagonist/seed_42/POOL_CHEMBL6021812_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL6021812_antagonist",
+        "query_index": 84,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL6021812_antagonist/seed_42/POOL_CHEMBL6021812_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5786443_antagonist/seed_42/POOL_CHEMBL5786443_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5786443_antagonist",
+        "query_index": 85,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5786443_antagonist/seed_42/POOL_CHEMBL5786443_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5786443_antagonist/seed_42/POOL_CHEMBL5786443_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5786443_antagonist",
+        "query_index": 85,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5786443_antagonist/seed_42/POOL_CHEMBL5786443_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5852043_antagonist/seed_42/POOL_CHEMBL5852043_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5852043_antagonist",
+        "query_index": 86,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5852043_antagonist/seed_42/POOL_CHEMBL5852043_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5852043_antagonist/seed_42/POOL_CHEMBL5852043_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5852043_antagonist",
+        "query_index": 86,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5852043_antagonist/seed_42/POOL_CHEMBL5852043_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314023_antagonist/seed_42/POOL_CHEMBL3314023_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3314023_antagonist",
+        "query_index": 87,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3314023_antagonist/seed_42/POOL_CHEMBL3314023_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314023_antagonist/seed_42/POOL_CHEMBL3314023_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3314023_antagonist",
+        "query_index": 87,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3314023_antagonist/seed_42/POOL_CHEMBL3314023_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4848024_antagonist/seed_42/POOL_CHEMBL4848024_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4848024_antagonist",
+        "query_index": 88,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4848024_antagonist/seed_42/POOL_CHEMBL4848024_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4848024_antagonist/seed_42/POOL_CHEMBL4848024_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4848024_antagonist",
+        "query_index": 88,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4848024_antagonist/seed_42/POOL_CHEMBL4848024_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314025_antagonist/seed_42/POOL_CHEMBL3314025_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3314025_antagonist",
+        "query_index": 89,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3314025_antagonist/seed_42/POOL_CHEMBL3314025_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314025_antagonist/seed_42/POOL_CHEMBL3314025_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3314025_antagonist",
+        "query_index": 89,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3314025_antagonist/seed_42/POOL_CHEMBL3314025_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5934872_antagonist/seed_42/POOL_CHEMBL5934872_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5934872_antagonist",
+        "query_index": 90,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5934872_antagonist/seed_42/POOL_CHEMBL5934872_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5934872_antagonist/seed_42/POOL_CHEMBL5934872_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5934872_antagonist",
+        "query_index": 90,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5934872_antagonist/seed_42/POOL_CHEMBL5934872_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314026_antagonist/seed_42/POOL_CHEMBL3314026_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3314026_antagonist",
+        "query_index": 91,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3314026_antagonist/seed_42/POOL_CHEMBL3314026_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314026_antagonist/seed_42/POOL_CHEMBL3314026_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3314026_antagonist",
+        "query_index": 91,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3314026_antagonist/seed_42/POOL_CHEMBL3314026_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5939878_antagonist/seed_42/POOL_CHEMBL5939878_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5939878_antagonist",
+        "query_index": 92,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5939878_antagonist/seed_42/POOL_CHEMBL5939878_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5939878_antagonist/seed_42/POOL_CHEMBL5939878_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5939878_antagonist",
+        "query_index": 92,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5939878_antagonist/seed_42/POOL_CHEMBL5939878_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4126317_antagonist/seed_42/POOL_CHEMBL4126317_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4126317_antagonist",
+        "query_index": 93,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4126317_antagonist/seed_42/POOL_CHEMBL4126317_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4126317_antagonist/seed_42/POOL_CHEMBL4126317_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4126317_antagonist",
+        "query_index": 93,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4126317_antagonist/seed_42/POOL_CHEMBL4126317_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5755790_antagonist/seed_42/POOL_CHEMBL5755790_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5755790_antagonist",
+        "query_index": 94,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5755790_antagonist/seed_42/POOL_CHEMBL5755790_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5755790_antagonist/seed_42/POOL_CHEMBL5755790_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5755790_antagonist",
+        "query_index": 94,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5755790_antagonist/seed_42/POOL_CHEMBL5755790_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6065414_antagonist/seed_42/POOL_CHEMBL6065414_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL6065414_antagonist",
+        "query_index": 95,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL6065414_antagonist/seed_42/POOL_CHEMBL6065414_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6065414_antagonist/seed_42/POOL_CHEMBL6065414_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL6065414_antagonist",
+        "query_index": 95,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL6065414_antagonist/seed_42/POOL_CHEMBL6065414_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5978464_antagonist/seed_42/POOL_CHEMBL5978464_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5978464_antagonist",
+        "query_index": 96,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5978464_antagonist/seed_42/POOL_CHEMBL5978464_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5978464_antagonist/seed_42/POOL_CHEMBL5978464_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5978464_antagonist",
+        "query_index": 96,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5978464_antagonist/seed_42/POOL_CHEMBL5978464_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5757163_antagonist/seed_42/POOL_CHEMBL5757163_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5757163_antagonist",
+        "query_index": 97,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5757163_antagonist/seed_42/POOL_CHEMBL5757163_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5757163_antagonist/seed_42/POOL_CHEMBL5757163_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5757163_antagonist",
+        "query_index": 97,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5757163_antagonist/seed_42/POOL_CHEMBL5757163_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5949130_antagonist/seed_42/POOL_CHEMBL5949130_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5949130_antagonist",
+        "query_index": 98,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5949130_antagonist/seed_42/POOL_CHEMBL5949130_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5949130_antagonist/seed_42/POOL_CHEMBL5949130_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5949130_antagonist",
+        "query_index": 98,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5949130_antagonist/seed_42/POOL_CHEMBL5949130_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6004596_antagonist/seed_42/POOL_CHEMBL6004596_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL6004596_antagonist",
+        "query_index": 99,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL6004596_antagonist/seed_42/POOL_CHEMBL6004596_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6004596_antagonist/seed_42/POOL_CHEMBL6004596_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL6004596_antagonist",
+        "query_index": 99,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL6004596_antagonist/seed_42/POOL_CHEMBL6004596_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314028_antagonist/seed_42/POOL_CHEMBL3314028_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3314028_antagonist",
+        "query_index": 100,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3314028_antagonist/seed_42/POOL_CHEMBL3314028_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314028_antagonist/seed_42/POOL_CHEMBL3314028_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3314028_antagonist",
+        "query_index": 100,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3314028_antagonist/seed_42/POOL_CHEMBL3314028_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314027_antagonist/seed_42/POOL_CHEMBL3314027_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL3314027_antagonist",
+        "query_index": 101,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL3314027_antagonist/seed_42/POOL_CHEMBL3314027_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL3314027_antagonist/seed_42/POOL_CHEMBL3314027_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL3314027_antagonist",
+        "query_index": 101,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL3314027_antagonist/seed_42/POOL_CHEMBL3314027_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5880629_antagonist/seed_42/POOL_CHEMBL5880629_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5880629_antagonist",
+        "query_index": 102,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5880629_antagonist/seed_42/POOL_CHEMBL5880629_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5880629_antagonist/seed_42/POOL_CHEMBL5880629_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5880629_antagonist",
+        "query_index": 102,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5880629_antagonist/seed_42/POOL_CHEMBL5880629_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6062185_antagonist/seed_42/POOL_CHEMBL6062185_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL6062185_antagonist",
+        "query_index": 103,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL6062185_antagonist/seed_42/POOL_CHEMBL6062185_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6062185_antagonist/seed_42/POOL_CHEMBL6062185_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL6062185_antagonist",
+        "query_index": 103,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL6062185_antagonist/seed_42/POOL_CHEMBL6062185_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5996220_antagonist/seed_42/POOL_CHEMBL5996220_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5996220_antagonist",
+        "query_index": 104,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5996220_antagonist/seed_42/POOL_CHEMBL5996220_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5996220_antagonist/seed_42/POOL_CHEMBL5996220_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5996220_antagonist",
+        "query_index": 104,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5996220_antagonist/seed_42/POOL_CHEMBL5996220_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5997076_antagonist/seed_42/POOL_CHEMBL5997076_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5997076_antagonist",
+        "query_index": 105,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5997076_antagonist/seed_42/POOL_CHEMBL5997076_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5997076_antagonist/seed_42/POOL_CHEMBL5997076_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5997076_antagonist",
+        "query_index": 105,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5997076_antagonist/seed_42/POOL_CHEMBL5997076_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5740855_antagonist/seed_42/POOL_CHEMBL5740855_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5740855_antagonist",
+        "query_index": 106,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5740855_antagonist/seed_42/POOL_CHEMBL5740855_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5740855_antagonist/seed_42/POOL_CHEMBL5740855_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5740855_antagonist",
+        "query_index": 106,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5740855_antagonist/seed_42/POOL_CHEMBL5740855_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5847061_antagonist/seed_42/POOL_CHEMBL5847061_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5847061_antagonist",
+        "query_index": 107,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5847061_antagonist/seed_42/POOL_CHEMBL5847061_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5847061_antagonist/seed_42/POOL_CHEMBL5847061_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5847061_antagonist",
+        "query_index": 107,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5847061_antagonist/seed_42/POOL_CHEMBL5847061_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5409745_antagonist/seed_42/POOL_CHEMBL5409745_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5409745_antagonist",
+        "query_index": 108,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5409745_antagonist/seed_42/POOL_CHEMBL5409745_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5409745_antagonist/seed_42/POOL_CHEMBL5409745_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5409745_antagonist",
+        "query_index": 108,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5409745_antagonist/seed_42/POOL_CHEMBL5409745_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5964745_antagonist/seed_42/POOL_CHEMBL5964745_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5964745_antagonist",
+        "query_index": 109,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5964745_antagonist/seed_42/POOL_CHEMBL5964745_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5964745_antagonist/seed_42/POOL_CHEMBL5964745_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5964745_antagonist",
+        "query_index": 109,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5964745_antagonist/seed_42/POOL_CHEMBL5964745_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4127932_antagonist/seed_42/POOL_CHEMBL4127932_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4127932_antagonist",
+        "query_index": 110,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4127932_antagonist/seed_42/POOL_CHEMBL4127932_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4127932_antagonist/seed_42/POOL_CHEMBL4127932_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4127932_antagonist",
+        "query_index": 110,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4127932_antagonist/seed_42/POOL_CHEMBL4127932_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4128363_antagonist/seed_42/POOL_CHEMBL4128363_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4128363_antagonist",
+        "query_index": 111,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4128363_antagonist/seed_42/POOL_CHEMBL4128363_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4128363_antagonist/seed_42/POOL_CHEMBL4128363_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4128363_antagonist",
+        "query_index": 111,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4128363_antagonist/seed_42/POOL_CHEMBL4128363_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5943552_antagonist/seed_42/POOL_CHEMBL5943552_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5943552_antagonist",
+        "query_index": 112,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5943552_antagonist/seed_42/POOL_CHEMBL5943552_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5943552_antagonist/seed_42/POOL_CHEMBL5943552_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5943552_antagonist",
+        "query_index": 112,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5943552_antagonist/seed_42/POOL_CHEMBL5943552_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5859342_antagonist/seed_42/POOL_CHEMBL5859342_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5859342_antagonist",
+        "query_index": 113,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5859342_antagonist/seed_42/POOL_CHEMBL5859342_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5859342_antagonist/seed_42/POOL_CHEMBL5859342_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5859342_antagonist",
+        "query_index": 113,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5859342_antagonist/seed_42/POOL_CHEMBL5859342_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5742173_antagonist/seed_42/POOL_CHEMBL5742173_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5742173_antagonist",
+        "query_index": 114,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5742173_antagonist/seed_42/POOL_CHEMBL5742173_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5742173_antagonist/seed_42/POOL_CHEMBL5742173_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5742173_antagonist",
+        "query_index": 114,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5742173_antagonist/seed_42/POOL_CHEMBL5742173_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6046710_antagonist/seed_42/POOL_CHEMBL6046710_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL6046710_antagonist",
+        "query_index": 115,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL6046710_antagonist/seed_42/POOL_CHEMBL6046710_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL6046710_antagonist/seed_42/POOL_CHEMBL6046710_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL6046710_antagonist",
+        "query_index": 115,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL6046710_antagonist/seed_42/POOL_CHEMBL6046710_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5937804_antagonist/seed_42/POOL_CHEMBL5937804_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5937804_antagonist",
+        "query_index": 116,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5937804_antagonist/seed_42/POOL_CHEMBL5937804_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5937804_antagonist/seed_42/POOL_CHEMBL5937804_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5937804_antagonist",
+        "query_index": 116,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5937804_antagonist/seed_42/POOL_CHEMBL5937804_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4126366_antagonist/seed_42/POOL_CHEMBL4126366_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4126366_antagonist",
+        "query_index": 117,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4126366_antagonist/seed_42/POOL_CHEMBL4126366_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4126366_antagonist/seed_42/POOL_CHEMBL4126366_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4126366_antagonist",
+        "query_index": 117,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4126366_antagonist/seed_42/POOL_CHEMBL4126366_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5438268_antagonist/seed_42/POOL_CHEMBL5438268_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL5438268_antagonist",
+        "query_index": 118,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL5438268_antagonist/seed_42/POOL_CHEMBL5438268_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL5438268_antagonist/seed_42/POOL_CHEMBL5438268_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL5438268_antagonist",
+        "query_index": 118,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL5438268_antagonist/seed_42/POOL_CHEMBL5438268_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4129494_antagonist/seed_42/POOL_CHEMBL4129494_antagonist_seed_42_sample_1_model.cif",
+        "query_id": "POOL_CHEMBL4129494_antagonist",
+        "query_index": 119,
+        "sample": 1,
+        "scores_path": "POOL_CHEMBL4129494_antagonist/seed_42/POOL_CHEMBL4129494_antagonist_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "path": "POOL_CHEMBL4129494_antagonist/seed_42/POOL_CHEMBL4129494_antagonist_seed_42_sample_2_model.cif",
+        "query_id": "POOL_CHEMBL4129494_antagonist",
+        "query_index": 119,
+        "sample": 2,
+        "scores_path": "POOL_CHEMBL4129494_antagonist/seed_42/POOL_CHEMBL4129494_antagonist_seed_42_sample_2_scores.json",
+        "seed": 42
+      }
+    ]
+  },
+  "schema_version": "foundry.cli.v1",
+  "task": "predict-openfold3"
+}

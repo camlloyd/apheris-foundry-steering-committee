@@ -1,0 +1,3 @@
+{"timestamp": "2026-10-01T13:48:02.411314+00:00", "level": "info", "logger": "apheris_msa", "message": "starting MSA fetch", "jobs": 1, "provider": "colabfold", "concurrency": 4}
+{"timestamp": "2026-10-01T13:48:06.835453+00:00", "level": "info", "logger": "apheris_msa", "message": "sequence completed", "sequence_index": 0, "outputs": ["msa_input_chain_A.a3m"]}
+{"timestamp": "2026-10-01T13:48:06.835866+00:00", "level": "info", "logger": "apheris_msa", "message": "all jobs completed successfully"}

@@ -1,0 +1,40 @@
+apheris-msa 0.9.0
+CLI contract: foundry.cli.v1
+
+Tasks:
+  fetch-msa - Fetch multiple sequence alignments (MSAs) from a configured provider.
+The input format is selected with --input-format.
+
+fasta:
+    --input is a FASTA file. One sequence<N>.a3m is written to --output per input
+    sequence.
+
+foundry-v1:
+    --input is a directory containing one foundry-v1 request JSON plus any provided
+    .a3m files. An MSA is ensured for every protein chain, named by its 'msa_path' field
+    or a synthesized msa_input_<chain_id>.a3m. Provided MSAs are copied to --output and
+    reused; only the still-missing MSAs are generated, and the request (with msa_path
+    fields filled in for every protein chain) is written to --output for downstream prediction.
+
+cif:
+    --input is a directory of CIF structure files (.cif / .mmcif). One
+    <structure>_<chain>.a3m is written to --output per unique protein sequence across all
+    structures; chains sharing a sequence (e.g. homodimer chains, or the same structure
+    in multiple files) produce a single output file. Non-protein chains are skipped.
+
+openfold3-dataset-v1:
+    --input is an OpenFold3 dataset v1 manifest. Train, validation, and test split
+    fields are ignored for MSA generation; one <structure-id>_<chain>.a3m is written
+    to --output for every protein chain.
+
+For new OpenFold3 workflows, prefer the typed fetch-openfold3-dataset-msa task.
+  fetch-openfold3-dataset-msa - Fetch MSAs for an OpenFold3 dataset v1 manifest.
+
+The input is the same JSON/YAML manifest used by OpenFold3 dataset generation. Train,
+validation, and test split fields are ignored for MSA generation; one
+<structure-id>_<chain>.a3m is written to --output for every protein chain.
+
+This task does not rewrite the manifest. Downstream OpenFold3 data prep receives the
+original manifest plus the MSA output directory and matches alignments by sequence.
+
+Use '<task> describe' for details, or add --json for machine output.

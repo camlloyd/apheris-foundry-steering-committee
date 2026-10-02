@@ -222,3 +222,17 @@ __marimo__/
 # apheris_kit_rorgamma/RAW_PREDICTIONS_MANIFEST.csv for the sha256 manifest
 # and apheris_kit_rorgamma/RUNBOOK_rorgamma.md for how to regenerate them.
 apheris_kit_rorgamma/runs/**/*_model.cif
+
+# Raw H2/H2-posthoc/H3/H4 prediction structures and per-atom confidence
+# files - regenerable from the pipeline, not tracked. See
+# h2_h3_followups/raw_runs/README.md for the manifests and mean-pLDDT
+# summaries kept in their place.
+h2_h3_followups/raw_runs/**/*_model.cif
+h2_h3_followups/raw_runs/**/*_scores.json
+
+# Driver/job logs are real evidence in this project (docker stdout,
+# including the errors that got fixed along the way) - un-ignore them
+# specifically; the blanket *.log rule above is from the default Python
+# template and was silently swallowing them.
+!h2_h3_followups/logs/*.log
+!h2_h3_followups/raw_runs/**/*.log

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "cli_contract_version": "foundry.cli.v1",
+    "ended_at": "2026-10-01T13:48:06.836170Z",
+    "inputs": [
+      {
+        "path": "/in",
+        "tier": "none"
+      }
+    ],
+    "module": {
+      "name": "apheris-msa",
+      "version": "0.9.0"
+    },
+    "resolved_config": {
+      "concurrency": 4,
+      "input_format": "foundry-v1",
+      "jitter_ratio": 0.2,
+      "job_timeout": "300s",
+      "max_attempts": 5,
+      "poll_interval": "5s",
+      "progress": "",
+      "request_timeout": "300s",
+      "retry_base_delay": "5s",
+      "retry_max_delay": "120s",
+      "server": {
+        "config": {},
+        "databases": [],
+        "e_value": "",
+        "headers": [],
+        "number_of_sequences": "",
+        "type": "colabfold",
+        "url": "https://api.colabfold.com"
+      }
+    },
+    "started_at": "2026-10-01T13:48:02.258797Z"
+  },
+  "result": {
+    "request": "query.json"
+  },
+  "schema_version": "foundry.cli.v1",
+  "task": "fetch-msa"
+}

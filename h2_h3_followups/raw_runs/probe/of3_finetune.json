@@ -1,0 +1,419 @@
+{
+  "description": "",
+  "exit_codes": [
+    {
+      "category": "success",
+      "code": 0,
+      "meaning": "success"
+    },
+    {
+      "category": "internal",
+      "code": 1,
+      "meaning": "unexpected or uncaught error"
+    },
+    {
+      "category": "usage",
+      "code": 2,
+      "meaning": "bad invocation or invalid config"
+    },
+    {
+      "category": "input-data",
+      "code": 3,
+      "meaning": "inputs present but invalid"
+    },
+    {
+      "category": "precondition",
+      "code": 4,
+      "meaning": "required resource absent"
+    },
+    {
+      "category": "output",
+      "code": 5,
+      "meaning": "result produced but could not be persisted"
+    },
+    {
+      "category": "cancelled",
+      "code": 130,
+      "meaning": "cancelled by SIGINT or SIGTERM"
+    }
+  ],
+  "inputs": [
+    {
+      "flag": "--input",
+      "repeatable": false,
+      "required": true,
+      "type": "directory"
+    }
+  ],
+  "invocation": "apheris-openfold3 finetune-openfold3 --input ./in --output ./run --max-steps <value>",
+  "name": "finetune-openfold3",
+  "output": {
+    "flag": "--output",
+    "required": true,
+    "type": "directory"
+  },
+  "output_schema": {
+    "$defs": {
+      "EpochDetails": {
+        "description": "Detailed inputs and per-structure metrics for one finetuning epoch.",
+        "properties": {
+          "aggregate_metrics": {
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "description": "Per-metric values aggregated across this epoch.",
+            "title": "Aggregate Metrics",
+            "type": "object"
+          },
+          "epoch": {
+            "description": "1-indexed training epoch this result is for (0 for sanity check).",
+            "title": "Epoch",
+            "type": "integer"
+          },
+          "epoch_steps": {
+            "description": "Number of optimizer steps completed during this epoch.",
+            "title": "Epoch Steps",
+            "type": "integer"
+          },
+          "total_steps": {
+            "description": "Total number of optimizer steps completed so far.",
+            "title": "Total Steps",
+            "type": "integer"
+          },
+          "training_samples": {
+            "description": "Per-structure metrics for training samples seen during this epoch.",
+            "items": {
+              "$ref": "#/$defs/StructureMetrics"
+            },
+            "title": "Training Samples",
+            "type": "array"
+          },
+          "validation_samples": {
+            "description": "Per-structure metrics for validation samples seen during this epoch.",
+            "items": {
+              "$ref": "#/$defs/StructureMetrics"
+            },
+            "title": "Validation Samples",
+            "type": "array"
+          }
+        },
+        "required": [
+          "epoch",
+          "epoch_steps",
+          "total_steps",
+          "aggregate_metrics",
+          "training_samples",
+          "validation_samples"
+        ],
+        "title": "EpochDetails",
+        "type": "object"
+      },
+      "EpochResult": {
+        "description": "Metrics and checkpoint recorded for a complete epoch or the final partial epoch.",
+        "properties": {
+          "checkpoint_path": {
+            "anyOf": [
+              {
+                "format": "path",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Retained top-K checkpoint, or `last.ckpt` for the final partial epoch.",
+            "title": "Checkpoint Path"
+          },
+          "details_path": {
+            "description": "Path to this epoch's aggregate and per-structure metric details.",
+            "format": "path",
+            "title": "Epoch Details Path",
+            "type": "string",
+            "x-foundry-mimetype": "application/json",
+            "x-foundry-schema": {
+              "$ref": "#/$defs/EpochDetails"
+            }
+          },
+          "epoch": {
+            "description": "1-indexed training epoch this result is for (0 for sanity check).",
+            "title": "Epoch",
+            "type": "integer"
+          },
+          "epoch_steps": {
+            "description": "Number of optimizer steps completed during this epoch.",
+            "title": "Epoch Steps",
+            "type": "integer"
+          },
+          "total_steps": {
+            "description": "Total number of optimizer steps completed so far.",
+            "title": "Total Steps",
+            "type": "integer"
+          },
+          "train_loss": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Mean training loss over this epoch.",
+            "title": "Training Loss"
+          },
+          "val_loss": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Mean validation loss over this epoch.",
+            "title": "Validation Loss"
+          },
+          "val_model_selection": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Value of `val/model_selection` for this epoch. Checkpoint ranking uses the metric configured by `checkpoint_metric` instead.",
+            "title": "Validation Model Selection Metric"
+          }
+        },
+        "required": [
+          "epoch",
+          "epoch_steps",
+          "total_steps",
+          "details_path",
+          "checkpoint_path",
+          "train_loss",
+          "val_loss",
+          "val_model_selection"
+        ],
+        "title": "EpochResult",
+        "type": "object"
+      },
+      "StructureMetrics": {
+        "description": "Metrics calculated for one structure during an epoch.",
+        "properties": {
+          "metrics": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "description": "Per-metric values calculated for this structure.",
+            "title": "Metrics",
+            "type": "object"
+          },
+          "structure_id": {
+            "description": "Identifier of the structure this sample is for.",
+            "title": "Structure ID",
+            "type": "string"
+          }
+        },
+        "required": [
+          "structure_id",
+          "metrics"
+        ],
+        "title": "StructureMetrics",
+        "type": "object"
+      }
+    },
+    "description": "Result of the finetune-openfold3 task.",
+    "properties": {
+      "epoch_metrics_path": {
+        "description": "Compact CSV of per-epoch validation metrics.",
+        "format": "path",
+        "title": "Epoch Metrics Path",
+        "type": "string",
+        "x-foundry-mimetype": "text/csv"
+      },
+      "epochs": {
+        "description": "Metrics and checkpoint for every training epoch.",
+        "items": {
+          "$ref": "#/$defs/EpochResult"
+        },
+        "title": "Epochs",
+        "type": "array"
+      },
+      "step_metrics_path": {
+        "description": "Compact CSV of per-step training metrics.",
+        "format": "path",
+        "title": "Step Metrics Path",
+        "type": "string",
+        "x-foundry-mimetype": "text/csv"
+      }
+    },
+    "required": [
+      "epochs",
+      "step_metrics_path",
+      "epoch_metrics_path"
+    ],
+    "title": "FinetuneOpenFold3Result",
+    "type": "object"
+  },
+  "parameters": {
+    "$defs": {
+      "FinetuningPrecision": {
+        "description": "Floating point precision used for training, per `pytorch_lightning.Trainer(precision=...)`.",
+        "enum": [
+          "fp32",
+          "bf16"
+        ],
+        "title": "FinetuningPrecision",
+        "type": "string"
+      }
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false,
+    "description": "Config for the Apheris OpenFold3 finetuning wrapper.",
+    "properties": {
+      "batches_per_step": {
+        "default": 1,
+        "description": "Number of training batches accumulated into each optimizer step.",
+        "minimum": 1,
+        "title": "Batches Per Step",
+        "type": "integer"
+      },
+      "checkpoint_metric": {
+        "default": "lddt_inter_protein_ligand",
+        "description": "Validation metric used to select the best checkpoint(s), when keep_top_n_checkpoints is set.",
+        "enum": [
+          "lddt_intra_protein",
+          "lddt_inter_protein_ligand",
+          "lddt_inter_protein_protein"
+        ],
+        "title": "Checkpoint Selection Metric",
+        "type": "string"
+      },
+      "crop_size": {
+        "anyOf": [
+          {
+            "exclusiveMinimum": 0,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Per-sample token crop size (OpenFold3 default: 384). The main lever for memory usage.",
+        "title": "Token Crop Size"
+      },
+      "ema_decay": {
+        "anyOf": [
+          {
+            "exclusiveMinimum": 0,
+            "maximum": 1,
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Exponential moving average decay (OpenFold3 default: 0.999).",
+        "title": "EMA Decay"
+      },
+      "keep_top_n_checkpoints": {
+        "default": 1,
+        "description": "Number of best checkpoints to keep by checkpoint_metric, plus the most recent. -1 keeps all.",
+        "minimum": -1,
+        "title": "Checkpoints To Keep",
+        "type": "integer"
+      },
+      "learning_rate": {
+        "anyOf": [
+          {
+            "exclusiveMinimum": 0,
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Learning rate (OpenFold3 default: 1.8e-3).",
+        "title": "Learning Rate"
+      },
+      "learning_rate_warmup_steps": {
+        "anyOf": [
+          {
+            "minimum": 0,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Number of optimizer steps used for learning rate warmup (OpenFold3 default: 1000).",
+        "title": "Learning Rate Warmup Steps"
+      },
+      "max_steps": {
+        "description": "Number of optimizer steps to run.",
+        "exclusiveMinimum": 0,
+        "title": "Max Optimizer Steps",
+        "type": "integer"
+      },
+      "precision": {
+        "$ref": "#/$defs/FinetuningPrecision",
+        "default": "bf16",
+        "description": "Floating point precision used for training.",
+        "title": "Precision"
+      },
+      "steps_per_epoch": {
+        "default": 1000,
+        "description": "Number of optimizer steps per epoch - how often validation and checkpointing run.",
+        "exclusiveMinimum": 0,
+        "title": "Steps Per Epoch",
+        "type": "integer"
+      },
+      "weights": {
+        "anyOf": [
+          {
+            "format": "path",
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "A valid OpenFold3 model checkpoint to finetune from. Its OpenFold3 variant is inferred from the shape of its weights, not from the filename. Omit to train a randomly-initialized model from scratch.",
+        "title": "Model Weights Path"
+      }
+    },
+    "required": [
+      "max_steps"
+    ],
+    "title": "FinetuneOpenFold3Config",
+    "type": "object",
+    "x-foundry-flags": {
+      "batches_per_step": "--batches-per-step",
+      "checkpoint_metric": "--checkpoint-metric",
+      "crop_size": "--crop-size",
+      "ema_decay": "--ema-decay",
+      "keep_top_n_checkpoints": "--keep-top-n-checkpoints",
+      "learning_rate": "--learning-rate",
+      "learning_rate_warmup_steps": "--learning-rate-warmup-steps",
+      "max_steps": "--max-steps",
+      "precision": "--precision",
+      "steps_per_epoch": "--steps-per-epoch",
+      "weights": "--weights"
+    }
+  },
+  "schema_version": "foundry.cli.v1"
+}

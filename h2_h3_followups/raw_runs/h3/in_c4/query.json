@@ -1,0 +1,18 @@
+{
+  "queries": [
+    {
+      "query_id": "H3_C4_invago_6EW_BIO399",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCN1c2ccc(cc2OCC(C1=O)(C)C)N(CC(F)(F)F)S(=O)(=O)c3ccc(c(c3)C)C"
+        }
+      ]
+    }
+  ]
+}

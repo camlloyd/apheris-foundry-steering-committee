@@ -1,0 +1,7 @@
+pattern,expected_call
+/c1/,agonist-like
+/c3/,agonist-like
+/c2/,inverse-agonist-like
+/c4/,inverse-agonist-like
+/c5/,inverse-agonist-like
+/c6/,inverse-agonist-like
