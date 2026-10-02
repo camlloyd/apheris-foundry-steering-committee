@@ -67,9 +67,9 @@ HANDOFF.md                The Day-1 plan this project worked from: target,
 
 apheris_kit_rorgamma/     H1 — the pocket/template/MSA-free steering grid
                           (15 arms, both ligand directions) and the scoring
-                          library it's built on. RUNBOOK_rorgamma.md has
-                          every command; raw predicted structures aren't
-                          tracked (regenerable, see below) but every
+                          library it's built on. Its RUNBOOK_rorgamma.md
+                          has every command; raw predicted structures
+                          aren't tracked (regenerable, see below) but every
                           reference crystal and per-structure confidence
                           score is.
 
@@ -96,12 +96,12 @@ Every script, config, pre-registration, result, report, reference crystal
 structure, and per-structure confidence score (`*_scores.json`) in this
 repo is real and re-derivable from what's here. The one thing deliberately
 *not* tracked is the raw predicted structures themselves
-(`apheris_kit_rorgamma/runs/**/*_model.cif`) — they regenerate byte-for-byte
-from the pinned Foundry image digests and commands already in
-`RUNBOOK_rorgamma.md`, so committing them a second time would just be
-carrying weight. `RAW_PREDICTIONS_MANIFEST.csv` in that folder records
-every one that existed at commit time — path, size, sha256 — so a bad
-regeneration is detectable without carrying the bytes.
+(`apheris_kit_rorgamma/runs/**/*_model.cif`) — they regenerate from the
+commands already in `apheris_kit_rorgamma/RUNBOOK_rorgamma.md`, so
+committing them a second time would just be carrying weight.
+`apheris_kit_rorgamma/RAW_PREDICTIONS_MANIFEST.csv` records every one that
+existed at commit time — path, size, sha256 — so a bad regeneration is
+detectable without carrying the bytes.
 
 ## Running any of it
 

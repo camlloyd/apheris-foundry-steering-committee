@@ -102,10 +102,13 @@ Predictions must land as `runs/<target>/<arm_id>/<model files>.cif`.
 ## Raw prediction outputs are not tracked
 
 `runs/**/*_model.cif` (the raw OpenFold3 structures themselves) are
-git-ignored — they regenerate from this runbook's own commands, run
-against the pinned image digests in `collect_compute_stats.sh`/
-`h2_compute_usage.md`, so tracking them a second time is pure
-duplication. `RAW_PREDICTIONS_MANIFEST.csv` lists every one that existed
+git-ignored — they regenerate from the Submission and Collect + score
+commands above (this round went through the Foundry Hub/Nextflow workflow,
+not the direct `docker run ... module-run ...` path H2–H4 used, so there's
+no single pinned image digest to cite here the way
+`h2_h3_followups/results/h2_compute_usage.md` can for that pipeline), so
+tracking them a second time is pure duplication.
+`RAW_PREDICTIONS_MANIFEST.csv` lists every one that existed
 at commit time (relative path, size, sha256), so a missing or
 corrupted re-run is detectable without having to carry the bytes.
 
