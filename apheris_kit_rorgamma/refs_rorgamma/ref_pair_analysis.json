@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "3KYT": {
+      "chain": "A",
+      "n_res": 243,
+      "seq_range": [
+        265,
+        507
+      ],
+      "ligands": [
+        [
+          "HC2",
+          "A",
+          1001
+        ]
+      ]
+    },
+    "5IXK": {
+      "chain": "B",
+      "n_res": 220,
+      "seq_range": [
+        268,
+        487
+      ],
+      "ligands": [
+        [
+          "6EW",
+          "A",
+          501
+        ],
+        [
+          "6EW",
+          "B",
+          501
+        ]
+      ]
+    },
+    "4ZJW": {
+      "chain": "B",
+      "n_res": 222,
+      "seq_range": [
+        266,
+        487
+      ],
+      "ligands": [
+        [
+          "4P1",
+          "A",
+          501
+        ]
+      ]
+    },
+    "4ZJR": {
+      "chain": "B",
+      "n_res": 220,
+      "seq_range": [
+        1,
+        484
+      ],
+      "ligands": [
+        [
+          "4P3",
+          "A",
+          501
+        ],
+        [
+          "4P3",
+          "B",
+          501
+        ],
+        [
+          "4P3",
+          "C",
+          501
+        ],
+        [
+          "4P3",
+          "D",
+          501
+        ]
+      ]
+    },
+    "5NTK": {
+      "chain": "A",
+      "n_res": 225,
+      "seq_range": [
+        265,
+        489
+      ],
+      "ligands": [
+        [
+          "99N",
+          "A",
+          501
+        ],
+        [
+          "99N",
+          "B",
+          501
+        ]
+      ]
+    }
+  },
+  "summary": {
+    "active": "3KYT",
+    "h12_window": [
+      470,
+      510
+    ],
+    "candidates": {
+      "5IXK": {
+        "n_aligned": 220,
+        "max_disp": 10.06,
+        "median_disp": 0.87,
+        "h12_max_disp": 10.06,
+        "h12_mean_disp": 4.02,
+        "region_size": 17,
+        "region_segments": [
+          [
+            310,
+            311,
+            313,
+            314
+          ],
+          [
+            392,
+            393,
+            394
+          ],
+          [
+            478,
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487
+          ]
+        ],
+        "region_residues_in_h12_window": 10,
+        "threshold": 2.0,
+        "warnings": []
+      },
+      "4ZJW": {
+        "n_aligned": 222,
+        "max_disp": 10.63,
+        "median_disp": 0.98,
+        "h12_max_disp": 10.63,
+        "h12_mean_disp": 3.87,
+        "region_size": 9,
+        "region_segments": [
+          [
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487
+          ]
+        ],
+        "region_residues_in_h12_window": 9,
+        "threshold": 2.0,
+        "warnings": []
+      },
+      "4ZJR": {
+        "n_aligned": 220,
+        "max_disp": 4.89,
+        "median_disp": 0.84,
+        "h12_max_disp": 4.89,
+        "h12_mean_disp": 1.34,
+        "region_size": 6,
+        "region_segments": [
+          [
+            265,
+            266
+          ],
+          [
+            432
+          ],
+          [
+            480,
+            481,
+            484
+          ]
+        ],
+        "region_residues_in_h12_window": 3,
+        "threshold": 2.0,
+        "warnings": [
+          "only 5 residues moved above 2.0 A; fell back to the top 6 most-displaced residues. The two references may be the same state -- check the profile before scoring."
+        ]
+      },
+      "5NTK": {
+        "n_aligned": 224,
+        "max_disp": 24.51,
+        "median_disp": 1.15,
+        "h12_max_disp": 24.51,
+        "h12_mean_disp": 7.68,
+        "region_size": 21,
+        "region_segments": [
+          [
+            310,
+            311,
+            312,
+            315
+          ],
+          [
+            392,
+            393,
+            395
+          ],
+          [
+            476,
+            477,
+            478,
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487,
+            488,
+            489
+          ]
+        ],
+        "region_residues_in_h12_window": 14,
+        "threshold": 2.0,
+        "warnings": []
+      }
+    }
+  }
+}

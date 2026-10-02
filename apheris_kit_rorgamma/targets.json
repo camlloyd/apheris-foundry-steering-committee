@@ -1,0 +1,128 @@
+{
+  "_README": [
+    "Practice targets for the Apheris multi-state hackathon.",
+    "",
+    "HONESTY NOTE ON THE PDB IDs BELOW. Entries marked verified:true were",
+    "confirmed against the literature. Entries marked verified:false are from",
+    "recall and you MUST check them before use -- run",
+    "  python score_run.py validate --config targets.json --target <name>",
+    "which downloads nothing but classifies whatever you have fetched and tells",
+    "you whether it is really in the state this file claims. That takes 30",
+    "seconds and is the difference between a real result and a wasted day.",
+    "",
+    "Set sequence to AUTO to read the construct straight off the target-state",
+    "reference. Set smiles from the RCSB ligand page for the ligand code given",
+    "(rcsb.org/ligand/STI etc.) rather than trusting the string here."
+  ],
+
+  "abl1_imatinib": {
+    "name": "ABL1 kinase domain + imatinib",
+    "why": [
+      "The canonical case. Type II inhibitor, binds only the DFG-out state.",
+      "Co-folding models are known to collapse onto DFG-in for ABL1, so the",
+      "baseline should fail visibly, which makes any steering effect obvious.",
+      "MSA subsampling is already known to recover both ABL1 states in AF2,",
+      "so there is a published expectation to compare co-folding levers against."
+    ],
+    "uniprot": "P00519",
+
+    "target_state": "DFG-out",
+    "other_state": "DFG-in",
+
+    "ref_target_state": "refs/1IEP.cif",
+    "ref_other_state": "refs/2GQG.cif",
+    "template_target_state": "refs/1IEP.cif",
+    "template_other_state": "refs/2GQG.cif",
+
+    "_refs": {
+      "1IEP": {"state": "DFG-out", "ligand_code": "STI", "ligand": "imatinib",
+               "verified": true,
+               "note": "c-Abl kinase domain with STI-571. Confirmed DFG-out in multiple sources."},
+      "2HYY": {"state": "DFG-out", "ligand_code": "STI", "ligand": "imatinib",
+               "verified": true, "note": "alternative DFG-out holo reference"},
+      "3OXZ": {"state": "DFG-out", "ligand": "ponatinib (AP24534)",
+               "verified": true, "note": "described as a DFG-out inhibitor complex"},
+      "2HIW": {"state": "DFG-out", "ligand": "type II inhibitor",
+               "verified": true, "note": "deposited as inactive-conformation Abl + type II"},
+      "6XRG": {"state": "DFG-out", "ligand": null, "verified": true,
+               "note": "NMR, classical DFG-out. APO -- good as a state reference, no use for pocket derivation"},
+      "6XR6": {"state": "DFG-in", "ligand": null, "verified": true,
+               "note": "NMR, active DFG-in. APO -- state reference only"},
+      "2GQG": {"state": "DFG-in", "ligand": "dasatinib", "verified": false,
+               "note": "CHECK THIS ONE. Believed to be the dasatinib type I complex but not confirmed. If it fails validation, substitute any ABL1 type I holo structure that KinCore labels DFGin-BLAminus."},
+      "1FPU": {"state": "unknown", "ligand_code": "PRC", "verified": true,
+               "note": "exists; state not confirmed. Candidate DFG-in holo if 2GQG fails."}
+    },
+
+    "sequence": "AUTO",
+    "smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "_smiles_note": "imatinib, PDB chem comp STI. VERIFY at rcsb.org/ligand/STI before running the grid.",
+
+    "motif_overrides": {
+      "chain": "A",
+      "b3_lys": 271, "ac_glu": 286, "ac_glu_p4": 290,
+      "dfg_asp": 381, "dfg_phe": 382, "dfg_gly": 383,
+      "_why": "Autodetect fails on 1IEP: the K271-E286 salt bridge is broken (alphaC-out, expected for a type II complex), so the distance search picked decoy anchors Lys274/Glu279. Values confirmed against the validated 2GQG (same ABL1 numbering)."
+    },
+
+    "msa_path": null,
+    "state_region_seqids": null,
+    "_state_region_note": "leave null and the scorer uses DFG-2..DFG+11 automatically, which is the right default. Widen it to the whole activation loop only if the margin comes out under 1 A.",
+    "back_pocket_seqids": null,
+    "_back_pocket_note": "leave null; make_inputs.py derives the state-specific pocket from the two references and prints it. Paste that list here afterwards so the scorer reports back-pocket recall too."
+  },
+
+  "p38a_birb796": {
+    "name": "p38 alpha (MAPK14) + BIRB-796",
+    "why": [
+      "Second target, different kinase family, same logic -- so a result that",
+      "holds on both is a method, not a quirk of ABL1.",
+      "BIRB-796 is a textbook allosteric type II binder with a deep back-pocket",
+      "occupancy, so the state-specific contact set should be large and clean."
+    ],
+    "uniprot": "Q16539",
+
+    "target_state": "DFG-out",
+    "other_state": "DFG-in",
+
+    "ref_target_state": "refs/1KV2.cif",
+    "ref_other_state": "refs/1A9U.cif",
+    "template_target_state": "refs/1KV2.cif",
+    "template_other_state": "refs/1A9U.cif",
+
+    "_refs": {
+      "1KV2": {"state": "DFG-out", "ligand": "BIRB-796", "verified": true,
+               "note": "the classic p38a DFG-out complex, confirmed in several sources"},
+      "3HEC": {"state": "DFG-out", "ligand": "imatinib", "verified": true,
+               "note": "p38a + imatinib. Unusual complex, so LESS likely to be memorised -- a good extra test case"},
+      "3HEG": {"state": "DFG-out", "ligand": "sorafenib", "verified": true,
+               "note": "p38a + sorafenib, same argument as 3HEC"},
+      "2EWA": {"state": "ambiguous", "ligand": "SB203580", "verified": true,
+               "note": "DO NOT use as the DFG-in reference: reported to form both DFG-in and DFG-out conformers"},
+      "1A9U": {"state": "DFG-in", "ligand": "SB203580", "verified": false,
+               "note": "CHECK THIS ONE. Believed to be the DFG-in SB203580 complex. Validate before use."}
+    },
+
+    "sequence": "AUTO",
+    "smiles": null,
+    "_smiles_note": "BIRB-796. Get the SMILES from the RCSB ligand page for whatever chem comp 1KV2 contains -- do not guess it.",
+
+    "motif_overrides": {
+      "chain": "A",
+      "b3_lys": 53, "ac_glu": 71, "ac_glu_p4": 75,
+      "dfg_asp": 168, "dfg_phe": 169, "dfg_gly": 170,
+      "_why": "1KV2 has Gly170 unmodeled, so the parsed sequence contains no contiguous DFG triplet and autodetect fails. Values confirmed against the validated 1A9U (same p38a numbering)."
+    },
+
+    "msa_path": null,
+    "state_region_seqids": null,
+    "back_pocket_seqids": null
+  },
+
+  "_stretch_targets": {
+    "_note": "Only if the first two are done and scored. Do not start these before 3pm on Day 1.",
+    "ddr1": "DDR1 is reported to have an unusually accessible DFG-out state, which makes it the interesting failure case: if steering is needed even where DFG-out is easy, that says something. 3ZOS is a candidate ponatinib complex -- UNVERIFIED.",
+    "kras_g12c": "Different mechanism entirely: the switch-II pocket is cryptic and absent in the apo state. Tests whether the pocket-conditioning idea generalises past kinases. 6OIM (sotorasib) is the candidate -- UNVERIFIED, and the covalent bond adds complications you do not want under time pressure.",
+    "provided_pharma_data": "If Apheris give you proprietary structures, PREFER THEM over everything above. Anything post-training-cutoff removes the memorisation confound entirely, which is the single strongest thing you can say to a judge."
+  }
+}

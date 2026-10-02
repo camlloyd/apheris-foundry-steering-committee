@@ -1,0 +1,36 @@
+arm,sample,verdict,target_state_recovered,margin_A,decisive,dfg_label,dfg_agrees_with_target,D1,D2,ligand_centroid_dist_A,contact_recall,back_pocket_recall,description,region_rmsd_H12_in,region_rmsd_H12_out,tm_H12_in,tm_H12_out
+A0_baseline,A0_baseline_seed_42_sample_1_model.cif,H12-in,0,4.827,1,,,,,9.55,0.2,0.167,"default inference, full MSA, no steering",1.085,5.912,0.9269,0.9673
+A0_baseline,A0_baseline_seed_43_sample_1_model.cif,H12-in,0,3.7,1,,,,,1.62,0.8,0.5,"default inference, full MSA, no steering",1.905,5.604,0.921,0.969
+A0_baseline,A0_baseline_seed_44_sample_1_model.cif,H12-in,0,7.285,1,,,,,0.93,0.6,0.333,"default inference, full MSA, no steering",0.345,7.631,0.99,0.9675
+A0_baseline,A0_baseline_seed_45_sample_1_model.cif,H12-in,0,4.347,1,,,,,12.91,0.1,0.167,"default inference, full MSA, no steering",1.479,5.826,0.9245,0.9659
+A0_baseline,A0_baseline_seed_46_sample_1_model.cif,H12-in,0,3.942,1,,,,,8.07,0.35,0.333,"default inference, full MSA, no steering",1.758,5.7,0.9308,0.9656
+A10_msa_depth32,A10_msa_depth32_seed_42_sample_1_model.cif,H12-in,0,7.122,1,,,,,1.25,0.8,0.5,,0.582,7.704,0.9878,0.9681
+A10_msa_depth32,A10_msa_depth32_seed_43_sample_1_model.cif,H12-in,0,7.108,1,,,,,1.14,0.8,0.5,,0.588,7.696,0.9893,0.9673
+A10_msa_depth32,A10_msa_depth32_seed_44_sample_1_model.cif,H12-in,0,7.304,1,,,,,1.32,0.75,0.333,,0.457,7.761,0.9891,0.9677
+A10_msa_depth32,A10_msa_depth32_seed_45_sample_1_model.cif,H12-in,0,7.148,1,,,,,1.38,0.75,0.333,,0.571,7.719,0.9856,0.9684
+A10_msa_depth32,A10_msa_depth32_seed_46_sample_1_model.cif,H12-in,0,7.031,1,,,,,1.41,0.8,0.5,,0.622,7.652,0.985,0.9678
+A11_msa_depth32_pocket,A11_msa_depth32_pocket_seed_42_sample_1_model.cif,H12-in,0,7.154,1,,,,,0.83,0.85,0.5,,0.447,7.602,0.9904,0.9666
+A11_msa_depth32_pocket,A11_msa_depth32_pocket_seed_43_sample_1_model.cif,H12-in,0,7.23,1,,,,,1.85,0.75,0.333,,0.47,7.701,0.9892,0.9671
+A11_msa_depth32_pocket,A11_msa_depth32_pocket_seed_44_sample_1_model.cif,H12-in,0,7.12,1,,,,,0.49,0.85,0.667,,0.575,7.695,0.9881,0.9669
+A11_msa_depth32_pocket,A11_msa_depth32_pocket_seed_45_sample_1_model.cif,H12-in,0,7.085,1,,,,,3.62,0.6,0.5,,0.807,7.892,0.9841,0.9676
+A11_msa_depth32_pocket,A11_msa_depth32_pocket_seed_46_sample_1_model.cif,H12-in,0,7.196,1,,,,,1.31,0.7,0.333,,0.59,7.785,0.9859,0.9696
+A1_pocket_specific,A1_pocket_specific_seed_42_sample_1_model.cif,H12-in,0,4.94,1,,,,,3.17,0.65,0.5,pocket conditioned on state-SPECIFIC contacts (the hypothesis),1.085,6.025,0.9333,0.9628
+A1_pocket_specific,A1_pocket_specific_seed_43_sample_1_model.cif,H12-in,0,3.644,1,,,,,2.35,0.55,0.333,pocket conditioned on state-SPECIFIC contacts (the hypothesis),1.915,5.559,0.9229,0.9629
+A1_pocket_specific,A1_pocket_specific_seed_44_sample_1_model.cif,H12-in,0,7.277,1,,,,,1.17,0.75,0.333,pocket conditioned on state-SPECIFIC contacts (the hypothesis),0.636,7.913,0.9857,0.9701
+A1_pocket_specific,A1_pocket_specific_seed_45_sample_1_model.cif,H12-in,0,4.125,1,,,,,2.97,0.75,0.5,pocket conditioned on state-SPECIFIC contacts (the hypothesis),1.622,5.747,0.9158,0.9593
+A1_pocket_specific,A1_pocket_specific_seed_46_sample_1_model.cif,H12-in,0,4.477,1,,,,,3.57,0.55,0.5,pocket conditioned on state-SPECIFIC contacts (the hypothesis),1.433,5.91,0.9307,0.9695
+A2_pocket_shared,A2_pocket_shared_seed_42_sample_1_model.cif,H12-in,0,3.956,1,,,,,1.08,0.85,0.667,NEGATIVE CONTROL: pocket conditioned on contacts shared by both states -- should not flip the state,1.723,5.68,0.9317,0.9646
+A3_template_target,A3_template_target_seed_42_sample_1_model.cif,H12-in,0,3.871,1,,,,,12.8,0.1,0.167,template of the target state,1.754,5.625,0.9163,0.9703
+A4_template_wrong,A4_template_wrong_seed_42_sample_1_model.cif,H12-in,0,3.786,1,,,,,1.31,0.6,0.333,"NEGATIVE CONTROL: template of the WRONG state -- if this also lands on the target state, the model is ignoring the template and you are measuring memorisation",1.889,5.676,0.9289,0.9649
+A4_template_wrong,A4_template_wrong_seed_43_sample_1_model.cif,H12-in,0,3.661,1,,,,,1.48,0.75,0.5,"NEGATIVE CONTROL: template of the WRONG state -- if this also lands on the target state, the model is ignoring the template and you are measuring memorisation",2.005,5.667,0.9227,0.9664
+A4_template_wrong,A4_template_wrong_seed_44_sample_1_model.cif,H12-in,0,3.892,1,,,,,0.99,0.6,0.333,"NEGATIVE CONTROL: template of the WRONG state -- if this also lands on the target state, the model is ignoring the template and you are measuring memorisation",1.931,5.823,0.935,0.9649
+A4_template_wrong,A4_template_wrong_seed_45_sample_1_model.cif,H12-in,0,3.952,1,,,,,1.51,0.75,0.5,"NEGATIVE CONTROL: template of the WRONG state -- if this also lands on the target state, the model is ignoring the template and you are measuring memorisation",1.832,5.784,0.9338,0.9634
+A4_template_wrong,A4_template_wrong_seed_46_sample_1_model.cif,H12-in,0,3.594,1,,,,,1.22,0.7,0.167,"NEGATIVE CONTROL: template of the WRONG state -- if this also lands on the target state, the model is ignoring the template and you are measuring memorisation",2.071,5.665,0.9285,0.9636
+A5_msa_free,A5_msa_free_seed_42_sample_1_model.cif,H12-in,0,8.324,1,,,,,3.78,0.25,0.167,MSA-free: removes the evolutionary prior that pulls the model to the dominant state,27.501,35.825,0.2238,0.2404
+A6_pocket_plus_template,A6_pocket_plus_template_seed_42_sample_1_model.cif,H12-in,0,3.803,1,,,,,3.47,0.6,0.5,state-specific pocket + target template,1.731,5.534,0.9248,0.967
+A7_pocket_msa_free,A7_pocket_msa_free_seed_42_sample_1_model.cif,H12-in,0,7.756,1,,,,,8.6,0.15,0.167,"state-specific pocket, MSA-free",28.443,36.198,0.2292,0.2454
+A8_conflict,A8_conflict_seed_42_sample_1_model.cif,H12-in,0,4.084,1,,,,,3.56,0.65,0.667,DIAGNOSTIC: target-state pocket vs WRONG-state template. Which lever wins tells you their relative strength,1.65,5.735,0.9315,0.9626
+B0_of3_baseline,B0_of3_baseline_seed_42_sample_1_model.cif,H12-in,0,4.834,1,,,,,9.56,0.2,0.167,OpenFold3 default,1.082,5.915,0.9269,0.9673
+B1_of3_template,B1_of3_template_seed_42_sample_1_model.cif,H12-in,0,3.855,1,,,,,12.8,0.1,0.167,OpenFold3 with target-state template (CIF direct mode),1.76,5.614,0.9162,0.9703
+B2_of3_msa_free,B2_of3_msa_free_seed_42_sample_1_model.cif,H12-in,0,8.325,1,,,,,3.79,0.25,0.167,OpenFold3 MSA-free,27.521,35.846,0.2237,0.2403
+B3_of3_template_msa_free,B3_of3_template_msa_free_seed_42_sample_1_model.cif,H12-in,0,4.1,1,,,,,1.52,0.75,0.333,"OpenFold3 target template, MSA-free",1.432,5.533,0.9132,0.9712

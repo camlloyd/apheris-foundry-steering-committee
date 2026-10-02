@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw OpenFold3 prediction structures (apheris_kit_rorgamma H1 grid) -
+# regenerable from the pipeline, not tracked. See
+# apheris_kit_rorgamma/RAW_PREDICTIONS_MANIFEST.csv for the sha256 manifest
+# and apheris_kit_rorgamma/RUNBOOK_rorgamma.md for how to regenerate them.
+apheris_kit_rorgamma/runs/**/*_model.cif

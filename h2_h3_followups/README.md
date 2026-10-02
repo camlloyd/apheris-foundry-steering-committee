@@ -1,5 +1,16 @@
 # RORγ H12 steering — reproducibility package
 
+> **⚠ Read `results/OFFICIAL_RESCORE_FINDINGS.md` first.** Everything below
+> was scored against this project's own chosen reference structures
+> (3KYT/4ZJW, window 479–486), not the organizers' official pair
+> (5VB7/6T4I, window 484–507). Re-scored against the official kit, the
+> headline "0/941 ever reached H12-out" does not hold — 209/1,191
+> structures (17.2% of well-folded ones) call decisive antagonist. H2's
+> negative is the one result that replicates unchanged. Numbers below are
+> kept as-is (scored against our own reference, honestly labeled); the
+> corrected numbers are reported side by side in that file, not substituted
+> in place of these.
+
 Single folder: what ran, in what order, with what settings, on what compute,
 and how to re-run any of it. Everything here was produced on this VM with
 pre-pulled Apheris Foundry module images (`apheris-openfold3-v0.15.1`,
@@ -30,12 +41,23 @@ residues. `results/H3_RESULTS_REPORT.md` has the full writeup; `h12_state_classi
 turns that signal into a usable (if imperfect — 88% self-test accuracy,
 64% specifically on the inverse-agonist class) per-compound classifier.
 
+H4 then asked whether coactivator-peptide *placement* (not state, not
+confidence) tracks ligand identity. It does, with the same statistical
+confidence as H3 (p = 0.0079, complete 5-vs-5 seed separation) — but
+backwards from the pharmacologically expected direction: the inverse
+agonist (D2, 4P1) query reproduces the peptide's real crystallographic
+pose almost exactly (4.3 Å), while the agonist (D1, HC2) query folds it
+into a different location entirely (37.1 Å), with more peptide-receptor
+contacts in D2 than D1. `results/H4_RESULTS_REPORT.md` has the full
+writeup, including why this isn't template leakage and what's registered
+vs. interpreted.
+
 ## Folder contents
 
 ```
-preregistrations/   H2 and H3 pre-registrations, each timestamped before any
-                     job in that round ran. Neither was edited afterward;
-                     H3's amendment log is empty.
+preregistrations/   H2, H3, and H4 pre-registrations, each timestamped
+                     before any job in that round ran. None were edited
+                     afterward; H3's amendment log is empty.
 scripts/             the runnable pipeline:
   run_msa_titration.sh       MSA fetch + depth-ladder + predict-openfold3,
                              real fixed docker invocations (see inline

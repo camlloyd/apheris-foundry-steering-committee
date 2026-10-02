@@ -1,0 +1,26 @@
+sequences:
+  - protein:
+      id: A
+      sequence: ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS
+  - ligand:
+      id: B
+      smiles: 'CNC(=O)c1ccc(c(c1)c2ccc3c(c2)CCCN3C(=O)c4c(cccc4Cl)F)Cl'
+
+constraints:
+  - pocket:
+      binder: B
+      contacts:
+        - [A, 22]
+        - [A, 56]
+        - [A, 59]
+        - [A, 60]
+        - [A, 63]
+        - [A, 97]
+        - [A, 101]
+        - [A, 112]
+        - [A, 113]
+        - [A, 114]
+        - [A, 124]
+        - [A, 127]
+        - [A, 133]
+        - [A, 136]

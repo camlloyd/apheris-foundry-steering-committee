@@ -1,0 +1,32 @@
+{
+  "template_cif": "refs_rorgamma/3KYT_clean.cif",
+  "pocket": {
+    "binder": "B",
+    "contacts": [
+      [
+        "A",
+        53
+      ],
+      [
+        "A",
+        57
+      ],
+      [
+        "A",
+        100
+      ],
+      [
+        "A",
+        104
+      ],
+      [
+        "A",
+        215
+      ],
+      [
+        "A",
+        238
+      ]
+    ]
+  }
+}

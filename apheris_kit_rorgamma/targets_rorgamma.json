@@ -1,0 +1,154 @@
+{
+  "_README": [
+    "RORgamma LBD two-state config for the Apheris Foundry hackathon (2026-10-01).",
+    "",
+    "State switch = helix 12 (H12 / AF-2). Agonist state: H12 packed against the",
+    "core (agonist lock H479-Y502-F506), LXXLL coactivator groove open.",
+    "Inverse-agonist state: H12 displaced/destabilised.",
+    "",
+    "PRE-REGISTERED SUCCESS CRITERION (agreed before any prediction ran):",
+    "  PRIMARY (rorgamma_invago direction): a steering arm (A1 pocket-",
+    "  conditioned or A3 target-template) recovers H12-out in >= 60% of seeds",
+    "  with decisive margins (>= 1 A), AND the negative control (A4 wrong-",
+    "  template) does not exceed the A0 baseline recovery rate by more than",
+    "  10 percentage points, AND A2 (shared-pocket) is within 10 pp of A0.",
+    "  Steering = arms beat BOTH the baseline and the controls. If A0 already",
+    "  recovers H12-out at >= 60%, the honest headline is 'the model defaults",
+    "  to the therapeutic state' -- report that, not a steering claim.",
+    "  SECONDARY: pose (ligand centroid distance) and pocket-contact recall",
+    "  are reported NEXT TO state recovery, never merged with it (pose !=",
+    "  state, the KinConfBench lesson).",
+    "",
+    "THREATS TO VALIDITY (named up front, with mitigations):",
+    "  1. Contact-set leakage -- pocket sets are derived from the same crystals",
+    "     used as references/templates. Mitigation: A2/A4 controls; contact",
+    "     metrics reported separately; residual circularity acknowledged.",
+    "  2. Template memory -- 3KYT (2011) and 4ZJW are certainly in the",
+    "     training set. Mitigation: A4 wrong-template control, A5 MSA-free,",
+    "     and (best) any post-cutoff pharma-drop structures from the",
+    "     organisers -- prefer those if provided.",
+    "  3. Unvalidated H12 region -- the region is derived from ONE pair of",
+    "     crystals. Mitigation: scorer self-consistency gate on crystals",
+    "     (3KYT->H12-in, 4ZJW->H12-out, 5IXK/5NTK->H12-out, 4ZJR->H12-in",
+    "     decoy) BEFORE any prediction is scored; pre-registered sensitivity",
+    "     alternatives for the region (auto region incl. loop 286-290; full",
+    "     H12 window 470-507).",
+    "",
+    "Reference pair chosen EMPIRICALLY, not by ligand label (state-function",
+    "decoupling is real for this target): CA displacement profiles vs 3KYT gave",
+    "  4ZJW: single clean H12 segment 479-486, max 10.6 A  -> INACTIVE reference",
+    "  5IXK: H12 478-487 plus loops 310-314/392-394, max 10.1 A -> alternative",
+    "  5NTK: H12 476-489 plus loops, max 24.5 A -> alternative (swung-out H12)",
+    "  4ZJR: max 4.9 A, 'may be same state' warning -> DO NOT USE (decoupling:",
+    "        inverse agonist 4P3 with H12 still in the agonist position)",
+    "See refs_rorgamma/ref_pair_analysis.json and displacement_profiles.png.",
+    "",
+    "Both entries fold the FULL LBD construct (243 res, 265-507, from 3KYT) so",
+    "the model has the option to pack H12-in; steering has to actively displace",
+    "it. state_region_seqids is the H12 segment in canonical RORgamma numbering",
+    "(= 3KYT numbering).",
+    "",
+    "order_parameter is 'none': the kinase DFG check is disabled and validate",
+    "runs the generic two-reference displacement check instead.",
+    "",
+    "UniProt: P51449 (RORC, NR1F3). The LBD is identical between the RORgamma",
+    "and RORgammat isoforms, so the single accession covers both."
+  ],
+
+  "rorgamma_invago": {
+    "name": "RORgamma LBD + inverse agonist 4P1 (steer to H12-out)",
+    "why": [
+      "The money direction: inverse agonism is the therapeutic state (Th17",
+      "suppression), and it is the under-represented state -- apo RORgamma and",
+      "most agonist structures sit H12-in, so co-folding models should default",
+      "there. 4ZJW's derived region is a single pure-H12 segment (479-486),",
+      "which makes the state call unusually clean for a non-kinase."
+    ],
+    "uniprot": "P51449",
+
+    "target_state": "H12-out",
+    "other_state": "H12-in",
+
+    "ref_target_state": "refs_rorgamma/4ZJW_clean.cif",
+    "ref_other_state": "refs_rorgamma/3KYT_clean.cif",
+    "template_target_state": "refs_rorgamma/4ZJW_clean.cif",
+    "template_other_state": "refs_rorgamma/3KYT_clean.cif",
+
+    "_refs": {
+      "3KYT": {"state": "H12-in", "ligand_code": "HC2", "ligand": "25-hydroxycholesterol + SRC2-2 peptide",
+               "verified": true,
+               "note": "ACTIVE reference. Canonical agonist conformation, agonist lock H479-Y502-F506 packed. Empirically confirmed as the displaced-against state."},
+      "4ZJW": {"state": "H12-out", "ligand_code": "4P1", "ligand": "biaryl carboxylamide inverse agonist",
+               "verified": true,
+               "note": "INACTIVE reference. Displacement profile vs 3KYT is a single H12-localised segment 479-486 (max 10.6 A), nothing else moves. Chain A kept (carries the ligand)."},
+      "5IXK": {"state": "H12-out", "ligand_code": "6EW", "ligand": "BIO399",
+               "verified": true,
+               "note": "alternative inactive ref: H12 478-487 plus loops 310-314/392-394, max 10.1 A. Use for sensitivity, not primary (loops dilute the region)."},
+      "5NTK": {"state": "H12-out", "ligand_code": "99N", "ligand": "steric-clash-class inverse agonist",
+               "verified": true,
+               "note": "alternative inactive ref: H12 476-489, max 24.5 A (swung-out helix). Extreme case; use as sensitivity check."},
+      "4ZJR": {"state": "H12-in", "ligand_code": "4P3", "ligand": "inverse agonist with H12 still packed",
+               "verified": true,
+               "note": "STATE-FUNCTION DECOUPLING DECOY: inverse agonist 4P3 but H12 stays in the agonist position (max 4.9 A, 'same state' warning). Do NOT use as the inactive reference. The scorer must call it H12-in -- if it does, that is a pitch slide."}
+    },
+
+    "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS",
+    "_sequence_note": "Full LBD construct read from 3KYT chain A (243 res, 265-507). Set explicitly so the inverse-agonist entry folds the complete H12 even though the 4ZJW crystal construct truncates at 486.",
+
+    "smiles": "CNC(=O)c1ccc(c(c1)c2ccc3c(c2)CCCN3C(=O)c4c(cccc4Cl)F)Cl",
+    "_smiles_note": "4P1 from RCSB chemcomp REST (rcsb_chem_comp_descriptor). Achiral (InChIKey NWECRSKQCPBSPW-UHFFFAOYSA-N).",
+
+    "order_parameter": "none",
+    "msa_path": null,
+
+    "state_region_seqids": [479, 480, 481, 482, 483, 484, 485, 486],
+    "_state_region_note": "H12 segment from the 3KYT-vs-4ZJW displacement profile (threshold 2.0 A). Starts at the agonist-lock His479. Sensitivity alternatives: [286,287,288,290] + this set (full auto region), or range(470, 508) (full H12 window).",
+
+    "back_pocket_seqids": [362, 379, 380, 396, 401, 480],
+    "_back_pocket_note": "State-specific 4P1 contacts (4ZJW numbering = canonical): 480 sits IN H12, 396/401 on the back-pocket side, 362 adjacent to the R364/R367 sulfate pocket. Derived by make_inputs --show-pocket, pasted 2026-10-01."
+  },
+
+  "rorgamma_25hc": {
+    "name": "RORgamma LBD + agonist 25-hydroxycholesterol (steer to H12-in)",
+    "why": [
+      "The agonist direction with the challenge's own ligand (25-OHC on the",
+      "intro slide). Expected to be the EASY direction: apo RORgamma",
+      "crystallises active, so the unconditioned baseline should already sit",
+      "H12-in. This entry is the positive control that shows the pipeline",
+      "works when the model agrees with biology."
+    ],
+    "uniprot": "P51449",
+
+    "target_state": "H12-in",
+    "other_state": "H12-out",
+
+    "ref_target_state": "refs_rorgamma/3KYT_clean.cif",
+    "ref_other_state": "refs_rorgamma/4ZJW_clean.cif",
+    "template_target_state": "refs_rorgamma/3KYT_clean.cif",
+    "template_other_state": "refs_rorgamma/4ZJW_clean.cif",
+
+    "_refs": {
+      "3KYT": {"state": "H12-in", "ligand_code": "HC2", "ligand": "25-hydroxycholesterol + SRC2-2 peptide",
+               "verified": true,
+               "note": "ACTIVE reference and the target-state ref here. Cleaned to chain A + HC2 (peptide on chain C removed so pocket derivation cannot touch it)."},
+      "4ZJW": {"state": "H12-out", "ligand_code": "4P1", "ligand": "biaryl carboxylamide inverse agonist",
+               "verified": true,
+               "note": "INACTIVE reference (other-state ref here). See the rorgamma_invago entry for the full empirical evidence."}
+    },
+
+    "sequence": "AUTO",
+    "_sequence_note": "AUTO reads the 3KYT construct (243 res, 265-507) off ref_target_state -- the full-length LBD, same construct as the inverse-agonist entry.",
+
+    "smiles": "CC(C)CCC[C@](C)([C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C)O",
+    "_smiles_note": "25-hydroxycholesterol (HC2), stereo SMILES from RCSB chemcomp REST. InChIKey MCKLJFJEQRYRQT-MGNSQDQZSA-N.",
+
+    "order_parameter": "none",
+    "msa_path": null,
+
+    "state_region_seqids": [479, 480, 481, 482, 483, 484, 485, 486],
+    "_state_region_note": "Same H12 segment, now in 3KYT (= target-ref) numbering.",
+
+    "back_pocket_seqids": [317, 321, 364, 368, 479, 502],
+    "_back_pocket_note": "State-specific HC2 contacts (3KYT numbering = canonical): includes H479 and Y502 -- the agonist lock itself -- plus 364/368 at the sulfate-pocket arginines. Derived by make_inputs --show-pocket, pasted 2026-10-01."
+  }
+}

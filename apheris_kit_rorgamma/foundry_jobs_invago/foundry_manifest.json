@@ -1,0 +1,98 @@
+{
+  "source_manifest": "runs/rorgamma_invago/manifest.json",
+  "workflow": "predict",
+  "schema_keys_matched": {},
+  "arms": [
+    {
+      "id": "A0_baseline",
+      "desc": "default inference, full MSA, no steering",
+      "request": "foundry_jobs_invago/A0_baseline.request.json",
+      "params": "foundry_jobs_invago/A0_baseline.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "A1_pocket_specific",
+      "desc": "pocket conditioned on state-SPECIFIC contacts (the hypothesis)",
+      "request": "foundry_jobs_invago/A1_pocket_specific.request.json",
+      "params": "foundry_jobs_invago/A1_pocket_specific.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "A2_pocket_shared",
+      "desc": "NEGATIVE CONTROL: pocket conditioned on contacts shared by both states -- should not flip the state",
+      "request": "foundry_jobs_invago/A2_pocket_shared.request.json",
+      "params": "foundry_jobs_invago/A2_pocket_shared.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "A3_template_target",
+      "desc": "template of the target state",
+      "request": "foundry_jobs_invago/A3_template_target.request.json",
+      "params": "foundry_jobs_invago/A3_template_target.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "A4_template_wrong",
+      "desc": "NEGATIVE CONTROL: template of the WRONG state -- if this also lands on the target state, the model is ignoring the template and you are measuring memorisation",
+      "request": "foundry_jobs_invago/A4_template_wrong.request.json",
+      "params": "foundry_jobs_invago/A4_template_wrong.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "A5_msa_free",
+      "desc": "MSA-free: removes the evolutionary prior that pulls the model to the dominant state",
+      "request": "foundry_jobs_invago/A5_msa_free.request.json",
+      "params": "foundry_jobs_invago/A5_msa_free.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "A6_pocket_plus_template",
+      "desc": "state-specific pocket + target template",
+      "request": "foundry_jobs_invago/A6_pocket_plus_template.request.json",
+      "params": "foundry_jobs_invago/A6_pocket_plus_template.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "A7_pocket_msa_free",
+      "desc": "state-specific pocket, MSA-free",
+      "request": "foundry_jobs_invago/A7_pocket_msa_free.request.json",
+      "params": "foundry_jobs_invago/A7_pocket_msa_free.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "A8_conflict",
+      "desc": "DIAGNOSTIC: target-state pocket vs WRONG-state template. Which lever wins tells you their relative strength",
+      "request": "foundry_jobs_invago/A8_conflict.request.json",
+      "params": "foundry_jobs_invago/A8_conflict.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "B0_of3_baseline",
+      "desc": "OpenFold3 default",
+      "request": "foundry_jobs_invago/B0_of3_baseline.request.json",
+      "params": "foundry_jobs_invago/B0_of3_baseline.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "B1_of3_template",
+      "desc": "OpenFold3 with target-state template (CIF direct mode)",
+      "request": "foundry_jobs_invago/B1_of3_template.request.json",
+      "params": "foundry_jobs_invago/B1_of3_template.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "B2_of3_msa_free",
+      "desc": "OpenFold3 MSA-free",
+      "request": "foundry_jobs_invago/B2_of3_msa_free.request.json",
+      "params": "foundry_jobs_invago/B2_of3_msa_free.params.json",
+      "unsupported": []
+    },
+    {
+      "id": "B3_of3_template_msa_free",
+      "desc": "OpenFold3 target template, MSA-free",
+      "request": "foundry_jobs_invago/B3_of3_template_msa_free.request.json",
+      "params": "foundry_jobs_invago/B3_of3_template_msa_free.params.json",
+      "unsupported": []
+    }
+  ]
+}

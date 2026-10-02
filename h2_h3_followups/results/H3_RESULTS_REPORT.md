@@ -1,5 +1,12 @@
 # H3 — Results Report
 
+> **⚠ See `OFFICIAL_RESCORE_FINDINGS.md` in this same folder.** This report's
+> pLDDT window (479–486) is this project's own auto-derived choice, not the
+> organizers' official H12 window (484–507). The pLDDT separation reported
+> below replicates (and is in fact cleaner) on the official window — see
+> that file §5 — but report numbers from here with that context, not as
+> the organizers' own definition.
+
 **Hypothesis registered:** `H3_PREREGISTRATION.md`, timestamped 2026-10-01 14:56 UTC, before any H3 job ran.
 **This report written:** 2026-10-01, after all 4 arms completed and scored.
 
@@ -117,3 +124,70 @@ Across three independent approaches — geometric state-calling (H1), a fine-gra
 - Whole-structure pLDDT / RMSD-to-reference scoring: `~/h3/titration_results.csv`, via the project's `score_titration.py` against the kit's `rgkit` scorer (`state_recovery2`, `structio`) and `apheris_kit_rorgamma/refs_rorgamma/{3KYT,4ZJW}_clean.cif`.
 - Pocket residue set (362, 379, 380, 396, 401, 480) and H12 region (479–486): `apheris_kit_rorgamma/targets_rorgamma.json`.
 - BIO592/6F1 SMILES: RCSB Chemical Component Dictionary (`https://files.rcsb.org/ligands/view/6F1.cif`), cross-checked against PDB 5IZ0.
+
+## 7. Post-report follow-up (same day, before final submission): contact control, window check, extended pool
+
+Three checks run against the existing n=3-ligand dataset (apo/C1/C2/C3) plus a
+newly launched 3-ligand extension, to see whether the §3/§4 finding survives
+scrutiny and generalizes.
+
+### 7.1 Contact control (`per_residue_discriminator.py`), re-run and confirmed
+
+Re-ran the pre-registered arbitration test on the deposited C1/C2/C3 pool.
+Result reproduces exactly what §4/§5 already concluded, now shown with the
+actual contact footprints and numbers:
+
+```
+c1 vs c2:  H12 diff=-5.67 p=0.0079 d=-3.70   non-H12 diff=-3.37 p=0.0079 d=-5.75  -> CONTACT-PERTURBATION
+c2 vs c3:  H12 diff=+6.20 p=0.0079 d=+3.78   non-H12 diff=+2.42 p=0.0079 d=+3.03  -> CONTACT-PERTURBATION
+Overall: CONTACT-PERTURBATION model supported across all comparisons.
+```
+
+The non-H12 ligand-contact-residue effect size is equal to or larger than the
+H12 effect size in both comparisons. **This control does not invalidate the
+statistical finding (ligand identity still predicts H12-local pLDDT at
+p=0.0079) — it confirms the §4 interpretation that the effect is a general
+ligand-contact-region confidence suppression, not something unique to the
+state-defining residues.** Report it that way; do not claim H12-specificity.
+
+### 7.2 Window check: 479–486 vs. the deck's 501–507
+
+The deck references an H12 window through residue 507; this project's
+primary region (479–486) was auto-derived and is the only part of H12 both
+reference crystals resolve (`INTEGRITY_NOTES.md`). 4ZJW does not resolve
+502–507 at all, so an RMSD-to-4ZJW state call cannot be computed on that
+window — but the **pLDDT** signal can be, since it only needs the predicted
+structure, not a reference. Re-extracted per-residue pLDDT at 501–507 from
+the same structures, same seed-level permutation test:
+
+| window | apo | C1 (agonist) | C2 (inv. agonist) | C3 (agonist) | c1 vs c3 |
+|---|---|---|---|---|---|
+| 479–486 (primary) | 87.50 | 77.52 | 83.19 | 77.00 | p=0.60 (ns) |
+| 501–507 (deck's window) | 79.59 | 56.31 | 67.17 | 58.40 | p=0.33 (ns) |
+
+Same ordering (apo > C2 > C1 ≈ C3), same pairwise significances (C1 vs C2 and
+C2 vs C3 both p=0.0079; C1 vs C3 not significant both times — the
+rigidity-confound rejection replicates), substantially larger absolute
+pLDDT gap at 501–507. **The separation holds on the challenge's own window —
+the numbering objection does not change the finding.** The RMSD-based
+geometric state call (H1/H2) still cannot be computed on 501–507 because
+4ZJW lacks coordinates there; that limitation is unchanged and is about the
+reference crystal, not this project's choice of window.
+
+### 7.3 Extended ligand pool (n=3 → n=6): three more inverse agonists
+
+The original H3 set had 2 agonists (HC2, BIO592) vs. 1 inverse agonist (4P1)
+— a real design gap (n=3, 2-vs-1). Three more pharmacologically-annotated
+inverse agonists already referenced in `refs_rorgamma/` were run overnight,
+no conditioning, 5 seeds × 10 samples each (same protocol as C1–C3):
+
+| arm | ligand | source PDB | pharmacology | note |
+|---|---|---|---|---|
+| C4 | 6EW / BIO399 | 5IXK | inverse agonist | co-crystallized H12-out |
+| C5 | 99N | 5NTK | inverse agonist | co-crystallized H12-out (swung-out H12, extreme case) |
+| C6 | 4P3 | 4ZJR | inverse agonist | **co-crystallized H12-in** — the kit's own "state-function decoupling decoy": pharmacologically inverse-agonist but the reference crystal keeps H12 packed. This is the compound that discriminates a pharmacology-tracking signal from a conformation-tracking one. |
+
+SMILES pulled from RCSB CCD (`files.rcsb.org/ligands/view/{6EW,99N,4P3}.cif`).
+Results for C4–C6, and classifier accuracy pooled across all 6 ligands
+against known pharmacology labels, are in `h3_extended_pool_results.md`
+(written once the jobs finished).

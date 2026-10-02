@@ -1,0 +1,253 @@
+{
+  "target": "rorgamma_25hc",
+  "config": {
+    "name": "RORgamma LBD + agonist 25-hydroxycholesterol (steer to H12-in)",
+    "why": [
+      "The agonist direction with the challenge's own ligand (25-OHC on the",
+      "intro slide). Expected to be the EASY direction: apo RORgamma",
+      "crystallises active, so the unconditioned baseline should already sit",
+      "H12-in. This entry is the positive control that shows the pipeline",
+      "works when the model agrees with biology."
+    ],
+    "uniprot": "P51449",
+    "target_state": "H12-in",
+    "other_state": "H12-out",
+    "ref_target_state": "refs_rorgamma/3KYT_clean.cif",
+    "ref_other_state": "refs_rorgamma/4ZJW_clean.cif",
+    "template_target_state": "refs_rorgamma/3KYT_clean.cif",
+    "template_other_state": "refs_rorgamma/4ZJW_clean.cif",
+    "_refs": {
+      "3KYT": {
+        "state": "H12-in",
+        "ligand_code": "HC2",
+        "ligand": "25-hydroxycholesterol + SRC2-2 peptide",
+        "verified": true,
+        "note": "ACTIVE reference and the target-state ref here. Cleaned to chain A + HC2 (peptide on chain C removed so pocket derivation cannot touch it)."
+      },
+      "4ZJW": {
+        "state": "H12-out",
+        "ligand_code": "4P1",
+        "ligand": "biaryl carboxylamide inverse agonist",
+        "verified": true,
+        "note": "INACTIVE reference (other-state ref here). See the rorgamma_invago entry for the full empirical evidence."
+      }
+    },
+    "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS",
+    "_sequence_note": "AUTO reads the 3KYT construct (243 res, 265-507) off ref_target_state -- the full-length LBD, same construct as the inverse-agonist entry.",
+    "smiles": "CC(C)CCC[C@](C)([C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C)O",
+    "_smiles_note": "25-hydroxycholesterol (HC2), stereo SMILES from RCSB chemcomp REST. InChIKey MCKLJFJEQRYRQT-MGNSQDQZSA-N.",
+    "order_parameter": "none",
+    "msa_path": null,
+    "state_region_seqids": [
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486
+    ],
+    "_state_region_note": "Same H12 segment, now in 3KYT (= target-ref) numbering.",
+    "back_pocket_seqids": [
+      317,
+      321,
+      364,
+      368,
+      479,
+      502
+    ],
+    "_back_pocket_note": "State-specific HC2 contacts (3KYT numbering = canonical): includes H479 and Y502 -- the agonist lock itself -- plus 364/368 at the sulfate-pocket arginines. Derived by make_inputs --show-pocket, pasted 2026-10-01."
+  },
+  "arms": [
+    {
+      "id": "A0_baseline",
+      "engine": "boltz",
+      "desc": "default inference, full MSA, no steering",
+      "input": "runs/rorgamma_25hc/A0_baseline.yaml",
+      "kwargs": {
+        "msa_path": null
+      }
+    },
+    {
+      "id": "A1_pocket_specific",
+      "engine": "boltz",
+      "desc": "pocket conditioned on state-SPECIFIC contacts (the hypothesis)",
+      "input": "runs/rorgamma_25hc/A1_pocket_specific.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "pocket_residues": [
+          53,
+          57,
+          100,
+          104,
+          215,
+          238
+        ]
+      }
+    },
+    {
+      "id": "A2_pocket_shared",
+      "engine": "boltz",
+      "desc": "NEGATIVE CONTROL: pocket conditioned on contacts shared by both states -- should not flip the state",
+      "input": "runs/rorgamma_25hc/A2_pocket_shared.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "pocket_residues": [
+          22,
+          56,
+          59,
+          60,
+          63,
+          97,
+          101,
+          112,
+          113,
+          114,
+          124,
+          127,
+          133,
+          136
+        ]
+      }
+    },
+    {
+      "id": "A3_template_target",
+      "engine": "boltz",
+      "desc": "template of the target state",
+      "input": "runs/rorgamma_25hc/A3_template_target.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "template_path": "refs_rorgamma/3KYT_clean.cif"
+      }
+    },
+    {
+      "id": "A4_template_wrong",
+      "engine": "boltz",
+      "desc": "NEGATIVE CONTROL: template of the WRONG state -- if this also lands on the target state, the model is ignoring the template and you are measuring memorisation",
+      "input": "runs/rorgamma_25hc/A4_template_wrong.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "template_path": "refs_rorgamma/4ZJW_clean.cif"
+      }
+    },
+    {
+      "id": "A5_msa_free",
+      "engine": "boltz",
+      "desc": "MSA-free: removes the evolutionary prior that pulls the model to the dominant state",
+      "input": "runs/rorgamma_25hc/A5_msa_free.yaml",
+      "kwargs": {
+        "msa_path": "empty"
+      }
+    },
+    {
+      "id": "A6_pocket_plus_template",
+      "engine": "boltz",
+      "desc": "state-specific pocket + target template",
+      "input": "runs/rorgamma_25hc/A6_pocket_plus_template.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "pocket_residues": [
+          53,
+          57,
+          100,
+          104,
+          215,
+          238
+        ],
+        "template_path": "refs_rorgamma/3KYT_clean.cif"
+      }
+    },
+    {
+      "id": "A7_pocket_msa_free",
+      "engine": "boltz",
+      "desc": "state-specific pocket, MSA-free",
+      "input": "runs/rorgamma_25hc/A7_pocket_msa_free.yaml",
+      "kwargs": {
+        "msa_path": "empty",
+        "pocket_residues": [
+          53,
+          57,
+          100,
+          104,
+          215,
+          238
+        ]
+      }
+    },
+    {
+      "id": "A8_conflict",
+      "engine": "boltz",
+      "desc": "DIAGNOSTIC: target-state pocket vs WRONG-state template. Which lever wins tells you their relative strength",
+      "input": "runs/rorgamma_25hc/A8_conflict.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "pocket_residues": [
+          53,
+          57,
+          100,
+          104,
+          215,
+          238
+        ],
+        "template_path": "refs_rorgamma/4ZJW_clean.cif"
+      }
+    },
+    {
+      "id": "B0_of3_baseline",
+      "engine": "openfold3",
+      "desc": "OpenFold3 default",
+      "input": "runs/rorgamma_25hc/B0_of3_baseline.json",
+      "kwargs": {}
+    },
+    {
+      "id": "B1_of3_template",
+      "engine": "openfold3",
+      "desc": "OpenFold3 with target-state template (CIF direct mode)",
+      "input": "runs/rorgamma_25hc/B1_of3_template.json",
+      "kwargs": {
+        "template_cifs": [
+          "refs_rorgamma/3KYT_clean.cif"
+        ]
+      }
+    },
+    {
+      "id": "B2_of3_msa_free",
+      "engine": "openfold3",
+      "desc": "OpenFold3 MSA-free",
+      "input": "runs/rorgamma_25hc/B2_of3_msa_free.json",
+      "kwargs": {
+        "msa_free": true
+      }
+    },
+    {
+      "id": "B3_of3_template_msa_free",
+      "engine": "openfold3",
+      "desc": "OpenFold3 target template, MSA-free",
+      "input": "runs/rorgamma_25hc/B3_of3_template_msa_free.json",
+      "kwargs": {
+        "template_cifs": [
+          "refs_rorgamma/3KYT_clean.cif"
+        ],
+        "msa_free": true
+      }
+    },
+    {
+      "id": "A9_peptide_cofold",
+      "engine": "boltz",
+      "desc": "OPTIONAL: LXXLL peptide (SRC2-2) co-fold, active pocket conditioned",
+      "input": "runs/rorgamma_25hc/A9_peptide_cofold.yaml",
+      "kwargs": {
+        "pocket_residues": [
+          53,
+          57,
+          100,
+          104,
+          215,
+          238
+        ],
+        "peptide": "C"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+sequences:
+  - protein:
+      id: A
+      sequence: ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS
+      msa: empty        # MSA-free inference
+  - ligand:
+      id: B
+      smiles: 'CNC(=O)c1ccc(c(c1)c2ccc3c(c2)CCCN3C(=O)c4c(cccc4Cl)F)Cl'
+
+constraints:
+  - pocket:
+      binder: B
+      contacts:
+        - [A, 98]
+        - [A, 115]
+        - [A, 116]
+        - [A, 132]
+        - [A, 137]
+        - [A, 216]
