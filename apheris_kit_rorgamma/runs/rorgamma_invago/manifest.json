@@ -1,0 +1,257 @@
+{
+  "target": "rorgamma_invago",
+  "config": {
+    "name": "RORgamma LBD + inverse agonist 4P1 (steer to H12-out)",
+    "why": [
+      "The money direction: inverse agonism is the therapeutic state (Th17",
+      "suppression), and it is the under-represented state -- apo RORgamma and",
+      "most agonist structures sit H12-in, so co-folding models should default",
+      "there. 4ZJW's derived region is a single pure-H12 segment (479-486),",
+      "which makes the state call unusually clean for a non-kinase."
+    ],
+    "uniprot": "P51449",
+    "target_state": "H12-out",
+    "other_state": "H12-in",
+    "ref_target_state": "refs_rorgamma/4ZJW_clean.cif",
+    "ref_other_state": "refs_rorgamma/3KYT_clean.cif",
+    "template_target_state": "refs_rorgamma/4ZJW_clean.cif",
+    "template_other_state": "refs_rorgamma/3KYT_clean.cif",
+    "_refs": {
+      "3KYT": {
+        "state": "H12-in",
+        "ligand_code": "HC2",
+        "ligand": "25-hydroxycholesterol + SRC2-2 peptide",
+        "verified": true,
+        "note": "ACTIVE reference. Canonical agonist conformation, agonist lock H479-Y502-F506 packed. Empirically confirmed as the displaced-against state."
+      },
+      "4ZJW": {
+        "state": "H12-out",
+        "ligand_code": "4P1",
+        "ligand": "biaryl carboxylamide inverse agonist",
+        "verified": true,
+        "note": "INACTIVE reference. Displacement profile vs 3KYT is a single H12-localised segment 479-486 (max 10.6 A), nothing else moves. Chain A kept (carries the ligand)."
+      },
+      "5IXK": {
+        "state": "H12-out",
+        "ligand_code": "6EW",
+        "ligand": "BIO399",
+        "verified": true,
+        "note": "alternative inactive ref: H12 478-487 plus loops 310-314/392-394, max 10.1 A. Use for sensitivity, not primary (loops dilute the region)."
+      },
+      "5NTK": {
+        "state": "H12-out",
+        "ligand_code": "99N",
+        "ligand": "steric-clash-class inverse agonist",
+        "verified": true,
+        "note": "alternative inactive ref: H12 476-489, max 24.5 A (swung-out helix). Extreme case; use as sensitivity check."
+      },
+      "4ZJR": {
+        "state": "H12-in",
+        "ligand_code": "4P3",
+        "ligand": "inverse agonist with H12 still packed",
+        "verified": true,
+        "note": "STATE-FUNCTION DECOUPLING DECOY: inverse agonist 4P3 but H12 stays in the agonist position (max 4.9 A, 'same state' warning). Do NOT use as the inactive reference. The scorer must call it H12-in -- if it does, that is a pitch slide."
+      }
+    },
+    "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS",
+    "_sequence_note": "Full LBD construct read from 3KYT chain A (243 res, 265-507). Set explicitly so the inverse-agonist entry folds the complete H12 even though the 4ZJW crystal construct truncates at 486.",
+    "smiles": "CNC(=O)c1ccc(c(c1)c2ccc3c(c2)CCCN3C(=O)c4c(cccc4Cl)F)Cl",
+    "_smiles_note": "4P1 from RCSB chemcomp REST (rcsb_chem_comp_descriptor). Achiral (InChIKey NWECRSKQCPBSPW-UHFFFAOYSA-N).",
+    "order_parameter": "none",
+    "msa_path": null,
+    "state_region_seqids": [
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486
+    ],
+    "_state_region_note": "H12 segment from the 3KYT-vs-4ZJW displacement profile (threshold 2.0 A). Starts at the agonist-lock His479. Sensitivity alternatives: [286,287,288,290] + this set (full auto region), or range(470, 508) (full H12 window).",
+    "back_pocket_seqids": [
+      362,
+      379,
+      380,
+      396,
+      401,
+      480
+    ],
+    "_back_pocket_note": "State-specific 4P1 contacts (4ZJW numbering = canonical): 480 sits IN H12, 396/401 on the back-pocket side, 362 adjacent to the R364/R367 sulfate pocket. Derived by make_inputs --show-pocket, pasted 2026-10-01."
+  },
+  "arms": [
+    {
+      "id": "A0_baseline",
+      "engine": "boltz",
+      "desc": "default inference, full MSA, no steering",
+      "input": "runs/rorgamma_invago/A0_baseline.yaml",
+      "kwargs": {
+        "msa_path": null
+      }
+    },
+    {
+      "id": "A1_pocket_specific",
+      "engine": "boltz",
+      "desc": "pocket conditioned on state-SPECIFIC contacts (the hypothesis)",
+      "input": "runs/rorgamma_invago/A1_pocket_specific.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "pocket_residues": [
+          98,
+          115,
+          116,
+          132,
+          137,
+          216
+        ]
+      }
+    },
+    {
+      "id": "A2_pocket_shared",
+      "engine": "boltz",
+      "desc": "NEGATIVE CONTROL: pocket conditioned on contacts shared by both states -- should not flip the state",
+      "input": "runs/rorgamma_invago/A2_pocket_shared.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "pocket_residues": [
+          22,
+          56,
+          59,
+          60,
+          63,
+          97,
+          101,
+          112,
+          113,
+          114,
+          124,
+          127,
+          133,
+          136
+        ]
+      }
+    },
+    {
+      "id": "A3_template_target",
+      "engine": "boltz",
+      "desc": "template of the target state",
+      "input": "runs/rorgamma_invago/A3_template_target.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "template_path": "refs_rorgamma/4ZJW_clean.cif"
+      }
+    },
+    {
+      "id": "A4_template_wrong",
+      "engine": "boltz",
+      "desc": "NEGATIVE CONTROL: template of the WRONG state -- if this also lands on the target state, the model is ignoring the template and you are measuring memorisation",
+      "input": "runs/rorgamma_invago/A4_template_wrong.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "template_path": "refs_rorgamma/3KYT_clean.cif"
+      }
+    },
+    {
+      "id": "A5_msa_free",
+      "engine": "boltz",
+      "desc": "MSA-free: removes the evolutionary prior that pulls the model to the dominant state",
+      "input": "runs/rorgamma_invago/A5_msa_free.yaml",
+      "kwargs": {
+        "msa_path": "empty"
+      }
+    },
+    {
+      "id": "A6_pocket_plus_template",
+      "engine": "boltz",
+      "desc": "state-specific pocket + target template",
+      "input": "runs/rorgamma_invago/A6_pocket_plus_template.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "pocket_residues": [
+          98,
+          115,
+          116,
+          132,
+          137,
+          216
+        ],
+        "template_path": "refs_rorgamma/4ZJW_clean.cif"
+      }
+    },
+    {
+      "id": "A7_pocket_msa_free",
+      "engine": "boltz",
+      "desc": "state-specific pocket, MSA-free",
+      "input": "runs/rorgamma_invago/A7_pocket_msa_free.yaml",
+      "kwargs": {
+        "msa_path": "empty",
+        "pocket_residues": [
+          98,
+          115,
+          116,
+          132,
+          137,
+          216
+        ]
+      }
+    },
+    {
+      "id": "A8_conflict",
+      "engine": "boltz",
+      "desc": "DIAGNOSTIC: target-state pocket vs WRONG-state template. Which lever wins tells you their relative strength",
+      "input": "runs/rorgamma_invago/A8_conflict.yaml",
+      "kwargs": {
+        "msa_path": null,
+        "pocket_residues": [
+          98,
+          115,
+          116,
+          132,
+          137,
+          216
+        ],
+        "template_path": "refs_rorgamma/3KYT_clean.cif"
+      }
+    },
+    {
+      "id": "B0_of3_baseline",
+      "engine": "openfold3",
+      "desc": "OpenFold3 default",
+      "input": "runs/rorgamma_invago/B0_of3_baseline.json",
+      "kwargs": {}
+    },
+    {
+      "id": "B1_of3_template",
+      "engine": "openfold3",
+      "desc": "OpenFold3 with target-state template (CIF direct mode)",
+      "input": "runs/rorgamma_invago/B1_of3_template.json",
+      "kwargs": {
+        "template_cifs": [
+          "refs_rorgamma/4ZJW_clean.cif"
+        ]
+      }
+    },
+    {
+      "id": "B2_of3_msa_free",
+      "engine": "openfold3",
+      "desc": "OpenFold3 MSA-free",
+      "input": "runs/rorgamma_invago/B2_of3_msa_free.json",
+      "kwargs": {
+        "msa_free": true
+      }
+    },
+    {
+      "id": "B3_of3_template_msa_free",
+      "engine": "openfold3",
+      "desc": "OpenFold3 target template, MSA-free",
+      "input": "runs/rorgamma_invago/B3_of3_template_msa_free.json",
+      "kwargs": {
+        "template_cifs": [
+          "refs_rorgamma/4ZJW_clean.cif"
+        ],
+        "msa_free": true
+      }
+    }
+  ]
+}

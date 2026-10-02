@@ -1,0 +1,20 @@
+{
+  "name": "B3_of3_template_msa_free",
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS",
+        "msa": {
+          "mode": "none"
+        }
+      }
+    },
+    {
+      "ligand": {
+        "id": "B",
+        "smiles": "CNC(=O)c1ccc(c(c1)c2ccc3c(c2)CCCN3C(=O)c4c(cccc4Cl)F)Cl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "HC2": {
+    "name": "20-HYDROXYCHOLESTEROL",
+    "smiles": "CC(C)CCC[C@](C)([C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C)O",
+    "InChIKey": "MCKLJFJEQRYRQT-MGNSQDQZSA-N"
+  },
+  "4P1": {
+    "name": "4-chloro-3-[1-(2-chloro-6-fluorobenzoyl)-1,2,3,4-tetrahydroquinolin-6-yl]-N-methylbenzamide",
+    "smiles": "CNC(=O)c1ccc(c(c1)c2ccc3c(c2)CCCN3C(=O)c4c(cccc4Cl)F)Cl",
+    "InChIKey": "NWECRSKQCPBSPW-UHFFFAOYSA-N"
+  }
+}
