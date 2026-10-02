@@ -1,5 +1,14 @@
 # per_structure_predictions.csv — schema notes and a bug this surfaced
 
+> **⚠ Correction (2026-10-02, no re-run):** the H12-local pLDDT values
+> reported throughout `H3_RESULTS_REPORT.md` (87.50 / 77.52 / 83.19 / 77.00,
+> and the C4–C6 extension) are computed over construct residues
+> **480–487**, not the 479–486 stated there — an off-by-one bug, detailed
+> below. The values are correct as measured; the documented window was off
+> by one. **The arm ordering and the p = 0.0079 separation have not been
+> re-verified under the corrected window — this is stated as an open
+> question, not predicted to hold.**
+
 **No submission schema exists to match.** Checked `rorgt_candidate_kit/README.md`,
 `HACKATHON.md`, and everything under `dataset/` — the README says outright
 that "the set submissions are scored on is not in [this kit]," and nothing
@@ -59,12 +68,10 @@ verified against `gemmi`'s atom/residue order directly (see
 **Not fixed in `h12_state_classifier.py` itself in this pass** — that
 would silently change every number in `H3_RESULTS_REPORT.md` and the
 classifier's own calibration table without a decision to re-report them.
-Flagging it here rather than quietly patching it: the shift is one
-residue out of an eight-residue window, within the same H12 helix, so the
-qualitative H3 finding (p = 0.0079, apo > C2 > C1 ≈ C3) is very unlikely
-to flip — but that's an expectation, not something this pass verified,
-and it's your call whether it's worth a one-line correction note on the
-existing report or a re-run of the classifier before it's relied on again.
+Per instruction: a correction note, not a re-run. The arm ordering
+(apo > C2 > C1 ≈ C3) and the p = 0.0079 separation have **not** been
+re-verified under the corrected (480–487) window — this is an open
+question, not something predicted to hold either way.
 
 ## Provenance
 

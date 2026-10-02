@@ -7,6 +7,16 @@
 > that file §5 — but report numbers from here with that context, not as
 > the organizers' own definition.
 
+> **⚠ Correction (2026-10-02, no re-run):** the H12-local pLDDT values below
+> (87.50 / 77.52 / 83.19 / 77.00) are computed over construct residues
+> **480–487**, not the 479–486 stated throughout this report and
+> elsewhere — an off-by-one in `h12_state_classifier.py`'s token indexing
+> (see `PER_STRUCTURE_PREDICTIONS_NOTES.md` for the mechanism). The values
+> themselves are correct as measured; the documented window was wrong.
+> **The arm ordering (apo > C2 > C1 ≈ C3) and the p = 0.0079 separation
+> have not been re-verified under the corrected window — this note does
+> not claim they hold, only that they haven't been checked.**
+
 **Hypothesis registered:** `H3_PREREGISTRATION.md`, timestamped 2026-10-01 14:56 UTC, before any H3 job ran.
 **This report written:** 2026-10-01, after all 4 arms completed and scored.
 
