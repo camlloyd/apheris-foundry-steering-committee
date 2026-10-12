@@ -1,0 +1,1647 @@
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                         APHERIS OpenFold3 Prediction                         │
+│                      Run OpenFold3 prediction pipeline                       │
+└──────────────────────────────────────────────────────────────────────────────┘
+Set OpenFold3 flavor to of3ob based on weights file                             
+/app/weights/of3-ob-2025-06-30-174k.pt                                          
+df: /tmp/.triton: No such file or directory
+/app/.pixi/envs/openfold3-image/lib/python3.11/site-packages/torch/jit/_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Reading input queries                                                           
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5741244_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5827660_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5083464_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4446140_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4851214_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3609409_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3609404_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5864984_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4870796_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5425541_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4874284_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4634701_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4868437_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3609403_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4875850_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5864404_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5410038_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4642011_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3581543_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4856642_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4849340_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4783854_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5083860_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4868594_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4648410_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4870621_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5092600_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5075133_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4644213_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5401542_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4863518_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5090127_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4543504_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4865740_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5420330_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5091222_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5092956_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4863222_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5431510_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4879322_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4871865_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5434833_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3313999_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5087837_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4645125_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5413139_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4459436_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5408607_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4777230_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4875075_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3314000_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5867155_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5801363_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3217768_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5436004_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4851155_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5083229_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4777967_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5401254_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4434744_agonist'          
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5433435_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4127127_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5418139_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5908482_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL6032768_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5900812_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5973554_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5868879_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5740366_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5834744_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5977227_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4125757_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5424936_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL6034196_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL6057772_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5984243_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5863097_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4128575_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5795554_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5824934_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5830559_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5817629_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4578385_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5860429_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL6021812_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5786443_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5852043_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3314023_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4848024_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3314025_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5934872_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3314026_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5939878_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4126317_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5755790_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL6065414_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5978464_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5757163_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5949130_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL6004596_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3314028_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL3314027_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5880629_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL6062185_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5996220_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5997076_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5740855_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5847061_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5409745_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5964745_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4127932_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4128363_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5943552_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5859342_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5742173_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL6046710_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5937804_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4126366_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL5438268_antagonist'       
+Paired 1/2 entities with an MSA for query 'POOL_CHEMBL4129494_antagonist'       
+Read 120 queries from /in/query.json                                            
+Reading config                                                                  
+Seed set to 42
+Creating data module                                                            
+Seed set to 42
+Creating inference module                                                       
+Creating trainer                                                                
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+Seed set to 42
+Loading weights                                                                 
+Seed set to 42
+Run prediction                                                                  
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Seeding DataModule DatasetMode.prediction generator with 42                     
+/app/.pixi/envs/openfold3-image/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/app/.pixi/envs/openfold3-image/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:434: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+Predicting query 'POOL_CHEMBL5741244_agonist' with 2016 atom(s), 273 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5741244_agonist/seed_42/POOL_CHEMBL5741244_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5741244_agonist/seed_42/POOL_CHEMBL5741244_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5827660_agonist' with 2016 atom(s), 273 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5827660_agonist/seed_42/POOL_CHEMBL5827660_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5827660_agonist/seed_42/POOL_CHEMBL5827660_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5083464_agonist' with 2025 atom(s), 282 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5083464_agonist/seed_42/POOL_CHEMBL5083464_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5083464_agonist/seed_42/POOL_CHEMBL5083464_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4446140_agonist' with 2028 atom(s), 285 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4446140_agonist/seed_42/POOL_CHEMBL4446140_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4446140_agonist/seed_42/POOL_CHEMBL4446140_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4851214_agonist' with 2021 atom(s), 278 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4851214_agonist/seed_42/POOL_CHEMBL4851214_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4851214_agonist/seed_42/POOL_CHEMBL4851214_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL3609409_agonist' with 2019 atom(s), 276 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3609409_agonist/seed_42/POOL_CHEMBL3609409_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3609409_agonist/seed_42/POOL_CHEMBL3609409_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL3609404_agonist' with 2024 atom(s), 281 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3609404_agonist/seed_42/POOL_CHEMBL3609404_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3609404_agonist/seed_42/POOL_CHEMBL3609404_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5864984_agonist' with 2024 atom(s), 281 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5864984_agonist/seed_42/POOL_CHEMBL5864984_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5864984_agonist/seed_42/POOL_CHEMBL5864984_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4870796_agonist' with 2022 atom(s), 279 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4870796_agonist/seed_42/POOL_CHEMBL4870796_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4870796_agonist/seed_42/POOL_CHEMBL4870796_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5425541_agonist' with 2020 atom(s), 277 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5425541_agonist/seed_42/POOL_CHEMBL5425541_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5425541_agonist/seed_42/POOL_CHEMBL5425541_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4874284_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4874284_agonist/seed_42/POOL_CHEMBL4874284_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4874284_agonist/seed_42/POOL_CHEMBL4874284_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4634701_agonist' with 2035 atom(s), 292 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4634701_agonist/seed_42/POOL_CHEMBL4634701_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4634701_agonist/seed_42/POOL_CHEMBL4634701_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4868437_agonist' with 2027 atom(s), 284 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4868437_agonist/seed_42/POOL_CHEMBL4868437_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4868437_agonist/seed_42/POOL_CHEMBL4868437_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL3609403_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3609403_agonist/seed_42/POOL_CHEMBL3609403_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3609403_agonist/seed_42/POOL_CHEMBL3609403_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4875850_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4875850_agonist/seed_42/POOL_CHEMBL4875850_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4875850_agonist/seed_42/POOL_CHEMBL4875850_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5864404_agonist' with 2019 atom(s), 276 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5864404_agonist/seed_42/POOL_CHEMBL5864404_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5864404_agonist/seed_42/POOL_CHEMBL5864404_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5410038_agonist' with 2020 atom(s), 277 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5410038_agonist/seed_42/POOL_CHEMBL5410038_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5410038_agonist/seed_42/POOL_CHEMBL5410038_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4642011_agonist' with 2033 atom(s), 290 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4642011_agonist/seed_42/POOL_CHEMBL4642011_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4642011_agonist/seed_42/POOL_CHEMBL4642011_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL3581543_agonist' with 2019 atom(s), 276 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3581543_agonist/seed_42/POOL_CHEMBL3581543_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3581543_agonist/seed_42/POOL_CHEMBL3581543_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4856642_agonist' with 2028 atom(s), 285 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4856642_agonist/seed_42/POOL_CHEMBL4856642_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4856642_agonist/seed_42/POOL_CHEMBL4856642_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4849340_agonist' with 2024 atom(s), 281 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4849340_agonist/seed_42/POOL_CHEMBL4849340_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4849340_agonist/seed_42/POOL_CHEMBL4849340_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4783854_agonist' with 2020 atom(s), 277 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4783854_agonist/seed_42/POOL_CHEMBL4783854_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4783854_agonist/seed_42/POOL_CHEMBL4783854_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5083860_agonist' with 2021 atom(s), 278 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5083860_agonist/seed_42/POOL_CHEMBL5083860_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5083860_agonist/seed_42/POOL_CHEMBL5083860_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4868594_agonist' with 2024 atom(s), 281 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4868594_agonist/seed_42/POOL_CHEMBL4868594_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4868594_agonist/seed_42/POOL_CHEMBL4868594_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4648410_agonist' with 2032 atom(s), 289 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4648410_agonist/seed_42/POOL_CHEMBL4648410_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4648410_agonist/seed_42/POOL_CHEMBL4648410_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4870621_agonist' with 2022 atom(s), 279 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4870621_agonist/seed_42/POOL_CHEMBL4870621_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4870621_agonist/seed_42/POOL_CHEMBL4870621_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5092600_agonist' with 2021 atom(s), 278 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5092600_agonist/seed_42/POOL_CHEMBL5092600_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5092600_agonist/seed_42/POOL_CHEMBL5092600_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5075133_agonist' with 2021 atom(s), 278 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5075133_agonist/seed_42/POOL_CHEMBL5075133_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5075133_agonist/seed_42/POOL_CHEMBL5075133_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4644213_agonist' with 2035 atom(s), 292 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4644213_agonist/seed_42/POOL_CHEMBL4644213_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4644213_agonist/seed_42/POOL_CHEMBL4644213_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5401542_agonist' with 2020 atom(s), 277 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5401542_agonist/seed_42/POOL_CHEMBL5401542_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5401542_agonist/seed_42/POOL_CHEMBL5401542_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4863518_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4863518_agonist/seed_42/POOL_CHEMBL4863518_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4863518_agonist/seed_42/POOL_CHEMBL4863518_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5090127_agonist' with 2019 atom(s), 276 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5090127_agonist/seed_42/POOL_CHEMBL5090127_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5090127_agonist/seed_42/POOL_CHEMBL5090127_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4543504_agonist' with 2022 atom(s), 279 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4543504_agonist/seed_42/POOL_CHEMBL4543504_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4543504_agonist/seed_42/POOL_CHEMBL4543504_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4865740_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4865740_agonist/seed_42/POOL_CHEMBL4865740_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4865740_agonist/seed_42/POOL_CHEMBL4865740_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5420330_agonist' with 2020 atom(s), 277 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5420330_agonist/seed_42/POOL_CHEMBL5420330_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5420330_agonist/seed_42/POOL_CHEMBL5420330_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5091222_agonist' with 2019 atom(s), 276 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5091222_agonist/seed_42/POOL_CHEMBL5091222_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5091222_agonist/seed_42/POOL_CHEMBL5091222_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5092956_agonist' with 2019 atom(s), 276 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5092956_agonist/seed_42/POOL_CHEMBL5092956_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5092956_agonist/seed_42/POOL_CHEMBL5092956_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4863222_agonist' with 2024 atom(s), 281 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4863222_agonist/seed_42/POOL_CHEMBL4863222_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4863222_agonist/seed_42/POOL_CHEMBL4863222_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5431510_agonist' with 2021 atom(s), 278 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5431510_agonist/seed_42/POOL_CHEMBL5431510_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5431510_agonist/seed_42/POOL_CHEMBL5431510_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4879322_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4879322_agonist/seed_42/POOL_CHEMBL4879322_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4879322_agonist/seed_42/POOL_CHEMBL4879322_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4871865_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4871865_agonist/seed_42/POOL_CHEMBL4871865_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4871865_agonist/seed_42/POOL_CHEMBL4871865_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5434833_agonist' with 2022 atom(s), 279 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5434833_agonist/seed_42/POOL_CHEMBL5434833_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5434833_agonist/seed_42/POOL_CHEMBL5434833_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL3313999_agonist' with 2027 atom(s), 284 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3313999_agonist/seed_42/POOL_CHEMBL3313999_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3313999_agonist/seed_42/POOL_CHEMBL3313999_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5087837_agonist' with 2025 atom(s), 282 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5087837_agonist/seed_42/POOL_CHEMBL5087837_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5087837_agonist/seed_42/POOL_CHEMBL5087837_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4645125_agonist' with 2033 atom(s), 290 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4645125_agonist/seed_42/POOL_CHEMBL4645125_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4645125_agonist/seed_42/POOL_CHEMBL4645125_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5413139_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5413139_agonist/seed_42/POOL_CHEMBL5413139_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5413139_agonist/seed_42/POOL_CHEMBL5413139_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4459436_agonist' with 2024 atom(s), 281 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4459436_agonist/seed_42/POOL_CHEMBL4459436_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4459436_agonist/seed_42/POOL_CHEMBL4459436_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5408607_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5408607_agonist/seed_42/POOL_CHEMBL5408607_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5408607_agonist/seed_42/POOL_CHEMBL5408607_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4777230_agonist' with 2020 atom(s), 277 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4777230_agonist/seed_42/POOL_CHEMBL4777230_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4777230_agonist/seed_42/POOL_CHEMBL4777230_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4875075_agonist' with 2024 atom(s), 281 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4875075_agonist/seed_42/POOL_CHEMBL4875075_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4875075_agonist/seed_42/POOL_CHEMBL4875075_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL3314000_agonist' with 2030 atom(s), 287 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314000_agonist/seed_42/POOL_CHEMBL3314000_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314000_agonist/seed_42/POOL_CHEMBL3314000_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5867155_agonist' with 2023 atom(s), 280 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5867155_agonist/seed_42/POOL_CHEMBL5867155_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5867155_agonist/seed_42/POOL_CHEMBL5867155_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5801363_agonist' with 2021 atom(s), 278 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5801363_agonist/seed_42/POOL_CHEMBL5801363_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5801363_agonist/seed_42/POOL_CHEMBL5801363_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL3217768_agonist' with 2015 atom(s), 272 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3217768_agonist/seed_42/POOL_CHEMBL3217768_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3217768_agonist/seed_42/POOL_CHEMBL3217768_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5436004_agonist' with 2022 atom(s), 279 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5436004_agonist/seed_42/POOL_CHEMBL5436004_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5436004_agonist/seed_42/POOL_CHEMBL5436004_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4851155_agonist' with 2019 atom(s), 276 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4851155_agonist/seed_42/POOL_CHEMBL4851155_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4851155_agonist/seed_42/POOL_CHEMBL4851155_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5083229_agonist' with 2019 atom(s), 276 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5083229_agonist/seed_42/POOL_CHEMBL5083229_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5083229_agonist/seed_42/POOL_CHEMBL5083229_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4777967_agonist' with 2018 atom(s), 275 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4777967_agonist/seed_42/POOL_CHEMBL4777967_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4777967_agonist/seed_42/POOL_CHEMBL4777967_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5401254_agonist' with 2021 atom(s), 278 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5401254_agonist/seed_42/POOL_CHEMBL5401254_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5401254_agonist/seed_42/POOL_CHEMBL5401254_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL4434744_agonist' with 2024 atom(s), 281 token(s), 2
+chain(s), 2009 MSA(s) (0 paired), 0 template(s)                                 
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4434744_agonist/seed_42/POOL_CHEMBL4434744_agonist_seed_42_sampl
+e_1_model.cif                                                                   
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4434744_agonist/seed_42/POOL_CHEMBL4434744_agonist_seed_42_sampl
+e_2_model.cif                                                                   
+Predicting query 'POOL_CHEMBL5433435_antagonist' with 2014 atom(s), 271         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5433435_antagonist/seed_42/POOL_CHEMBL5433435_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5433435_antagonist/seed_42/POOL_CHEMBL5433435_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4127127_antagonist' with 2026 atom(s), 283         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4127127_antagonist/seed_42/POOL_CHEMBL4127127_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4127127_antagonist/seed_42/POOL_CHEMBL4127127_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5418139_antagonist' with 2017 atom(s), 274         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5418139_antagonist/seed_42/POOL_CHEMBL5418139_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5418139_antagonist/seed_42/POOL_CHEMBL5418139_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5908482_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5908482_antagonist/seed_42/POOL_CHEMBL5908482_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5908482_antagonist/seed_42/POOL_CHEMBL5908482_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL6032768_antagonist' with 2033 atom(s), 290         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6032768_antagonist/seed_42/POOL_CHEMBL6032768_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6032768_antagonist/seed_42/POOL_CHEMBL6032768_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5900812_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5900812_antagonist/seed_42/POOL_CHEMBL5900812_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5900812_antagonist/seed_42/POOL_CHEMBL5900812_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5973554_antagonist' with 2028 atom(s), 285         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5973554_antagonist/seed_42/POOL_CHEMBL5973554_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5973554_antagonist/seed_42/POOL_CHEMBL5973554_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5868879_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5868879_antagonist/seed_42/POOL_CHEMBL5868879_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5868879_antagonist/seed_42/POOL_CHEMBL5868879_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5740366_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5740366_antagonist/seed_42/POOL_CHEMBL5740366_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5740366_antagonist/seed_42/POOL_CHEMBL5740366_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5834744_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5834744_antagonist/seed_42/POOL_CHEMBL5834744_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5834744_antagonist/seed_42/POOL_CHEMBL5834744_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5977227_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5977227_antagonist/seed_42/POOL_CHEMBL5977227_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5977227_antagonist/seed_42/POOL_CHEMBL5977227_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4125757_antagonist' with 2025 atom(s), 282         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4125757_antagonist/seed_42/POOL_CHEMBL4125757_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4125757_antagonist/seed_42/POOL_CHEMBL4125757_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5424936_antagonist' with 2017 atom(s), 274         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5424936_antagonist/seed_42/POOL_CHEMBL5424936_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5424936_antagonist/seed_42/POOL_CHEMBL5424936_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL6034196_antagonist' with 2030 atom(s), 287         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6034196_antagonist/seed_42/POOL_CHEMBL6034196_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6034196_antagonist/seed_42/POOL_CHEMBL6034196_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL6057772_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6057772_antagonist/seed_42/POOL_CHEMBL6057772_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6057772_antagonist/seed_42/POOL_CHEMBL6057772_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5984243_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5984243_antagonist/seed_42/POOL_CHEMBL5984243_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5984243_antagonist/seed_42/POOL_CHEMBL5984243_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5863097_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5863097_antagonist/seed_42/POOL_CHEMBL5863097_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5863097_antagonist/seed_42/POOL_CHEMBL5863097_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4128575_antagonist' with 2027 atom(s), 284         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4128575_antagonist/seed_42/POOL_CHEMBL4128575_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4128575_antagonist/seed_42/POOL_CHEMBL4128575_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5795554_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5795554_antagonist/seed_42/POOL_CHEMBL5795554_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5795554_antagonist/seed_42/POOL_CHEMBL5795554_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5824934_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5824934_antagonist/seed_42/POOL_CHEMBL5824934_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5824934_antagonist/seed_42/POOL_CHEMBL5824934_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5830559_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5830559_antagonist/seed_42/POOL_CHEMBL5830559_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5830559_antagonist/seed_42/POOL_CHEMBL5830559_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5817629_antagonist' with 2033 atom(s), 290         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5817629_antagonist/seed_42/POOL_CHEMBL5817629_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5817629_antagonist/seed_42/POOL_CHEMBL5817629_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4578385_antagonist' with 2015 atom(s), 272         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4578385_antagonist/seed_42/POOL_CHEMBL4578385_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4578385_antagonist/seed_42/POOL_CHEMBL4578385_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5860429_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5860429_antagonist/seed_42/POOL_CHEMBL5860429_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5860429_antagonist/seed_42/POOL_CHEMBL5860429_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL6021812_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6021812_antagonist/seed_42/POOL_CHEMBL6021812_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6021812_antagonist/seed_42/POOL_CHEMBL6021812_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5786443_antagonist' with 2030 atom(s), 287         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5786443_antagonist/seed_42/POOL_CHEMBL5786443_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5786443_antagonist/seed_42/POOL_CHEMBL5786443_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5852043_antagonist' with 2029 atom(s), 286         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5852043_antagonist/seed_42/POOL_CHEMBL5852043_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5852043_antagonist/seed_42/POOL_CHEMBL5852043_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL3314023_antagonist' with 2022 atom(s), 279         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314023_antagonist/seed_42/POOL_CHEMBL3314023_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314023_antagonist/seed_42/POOL_CHEMBL3314023_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4848024_antagonist' with 2029 atom(s), 286         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4848024_antagonist/seed_42/POOL_CHEMBL4848024_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4848024_antagonist/seed_42/POOL_CHEMBL4848024_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL3314025_antagonist' with 2021 atom(s), 278         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314025_antagonist/seed_42/POOL_CHEMBL3314025_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314025_antagonist/seed_42/POOL_CHEMBL3314025_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5934872_antagonist' with 2027 atom(s), 284         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5934872_antagonist/seed_42/POOL_CHEMBL5934872_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5934872_antagonist/seed_42/POOL_CHEMBL5934872_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL3314026_antagonist' with 2022 atom(s), 279         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314026_antagonist/seed_42/POOL_CHEMBL3314026_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314026_antagonist/seed_42/POOL_CHEMBL3314026_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5939878_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5939878_antagonist/seed_42/POOL_CHEMBL5939878_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5939878_antagonist/seed_42/POOL_CHEMBL5939878_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4126317_antagonist' with 2025 atom(s), 282         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4126317_antagonist/seed_42/POOL_CHEMBL4126317_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4126317_antagonist/seed_42/POOL_CHEMBL4126317_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5755790_antagonist' with 2029 atom(s), 286         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5755790_antagonist/seed_42/POOL_CHEMBL5755790_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5755790_antagonist/seed_42/POOL_CHEMBL5755790_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL6065414_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6065414_antagonist/seed_42/POOL_CHEMBL6065414_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6065414_antagonist/seed_42/POOL_CHEMBL6065414_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5978464_antagonist' with 2030 atom(s), 287         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5978464_antagonist/seed_42/POOL_CHEMBL5978464_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5978464_antagonist/seed_42/POOL_CHEMBL5978464_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5757163_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5757163_antagonist/seed_42/POOL_CHEMBL5757163_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5757163_antagonist/seed_42/POOL_CHEMBL5757163_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5949130_antagonist' with 2025 atom(s), 282         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5949130_antagonist/seed_42/POOL_CHEMBL5949130_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5949130_antagonist/seed_42/POOL_CHEMBL5949130_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL6004596_antagonist' with 2026 atom(s), 283         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6004596_antagonist/seed_42/POOL_CHEMBL6004596_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6004596_antagonist/seed_42/POOL_CHEMBL6004596_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL3314028_antagonist' with 2023 atom(s), 280         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314028_antagonist/seed_42/POOL_CHEMBL3314028_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314028_antagonist/seed_42/POOL_CHEMBL3314028_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL3314027_antagonist' with 2026 atom(s), 283         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314027_antagonist/seed_42/POOL_CHEMBL3314027_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL3314027_antagonist/seed_42/POOL_CHEMBL3314027_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5880629_antagonist' with 2026 atom(s), 283         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5880629_antagonist/seed_42/POOL_CHEMBL5880629_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5880629_antagonist/seed_42/POOL_CHEMBL5880629_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL6062185_antagonist' with 2030 atom(s), 287         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6062185_antagonist/seed_42/POOL_CHEMBL6062185_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6062185_antagonist/seed_42/POOL_CHEMBL6062185_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5996220_antagonist' with 2030 atom(s), 287         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5996220_antagonist/seed_42/POOL_CHEMBL5996220_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5996220_antagonist/seed_42/POOL_CHEMBL5996220_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5997076_antagonist' with 2021 atom(s), 278         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5997076_antagonist/seed_42/POOL_CHEMBL5997076_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5997076_antagonist/seed_42/POOL_CHEMBL5997076_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5740855_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5740855_antagonist/seed_42/POOL_CHEMBL5740855_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5740855_antagonist/seed_42/POOL_CHEMBL5740855_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5847061_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5847061_antagonist/seed_42/POOL_CHEMBL5847061_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5847061_antagonist/seed_42/POOL_CHEMBL5847061_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5409745_antagonist' with 2016 atom(s), 273         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5409745_antagonist/seed_42/POOL_CHEMBL5409745_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5409745_antagonist/seed_42/POOL_CHEMBL5409745_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5964745_antagonist' with 2031 atom(s), 288         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5964745_antagonist/seed_42/POOL_CHEMBL5964745_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5964745_antagonist/seed_42/POOL_CHEMBL5964745_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4127932_antagonist' with 2025 atom(s), 282         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4127932_antagonist/seed_42/POOL_CHEMBL4127932_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4127932_antagonist/seed_42/POOL_CHEMBL4127932_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4128363_antagonist' with 2025 atom(s), 282         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4128363_antagonist/seed_42/POOL_CHEMBL4128363_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4128363_antagonist/seed_42/POOL_CHEMBL4128363_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5943552_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5943552_antagonist/seed_42/POOL_CHEMBL5943552_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5943552_antagonist/seed_42/POOL_CHEMBL5943552_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5859342_antagonist' with 2020 atom(s), 277         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5859342_antagonist/seed_42/POOL_CHEMBL5859342_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5859342_antagonist/seed_42/POOL_CHEMBL5859342_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5742173_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5742173_antagonist/seed_42/POOL_CHEMBL5742173_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5742173_antagonist/seed_42/POOL_CHEMBL5742173_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL6046710_antagonist' with 2032 atom(s), 289         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6046710_antagonist/seed_42/POOL_CHEMBL6046710_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL6046710_antagonist/seed_42/POOL_CHEMBL6046710_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5937804_antagonist' with 2029 atom(s), 286         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5937804_antagonist/seed_42/POOL_CHEMBL5937804_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5937804_antagonist/seed_42/POOL_CHEMBL5937804_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4126366_antagonist' with 2026 atom(s), 283         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4126366_antagonist/seed_42/POOL_CHEMBL4126366_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4126366_antagonist/seed_42/POOL_CHEMBL4126366_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL5438268_antagonist' with 2016 atom(s), 273         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5438268_antagonist/seed_42/POOL_CHEMBL5438268_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL5438268_antagonist/seed_42/POOL_CHEMBL5438268_antagonist_seed_42
+_sample_2_model.cif                                                             
+Predicting query 'POOL_CHEMBL4129494_antagonist' with 2025 atom(s), 282         
+token(s), 2 chain(s), 2009 MSA(s) (0 paired), 0 template(s)                     
+Seed set to 42
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Tuning chunk size...                                                            
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4129494_antagonist/seed_42/POOL_CHEMBL4129494_antagonist_seed_42
+_sample_1_model.cif                                                             
+Writing predicted structure to                                                  
+/out/POOL_CHEMBL4129494_antagonist/seed_42/POOL_CHEMBL4129494_antagonist_seed_42
+_sample_2_model.cif                                                             
+Prediction summary: 120/120 queries succeeded (0 failed)                        
+Predicting ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 120/120 0:12:32 • 0:00:00 0.16it/s 
+/app/.pixi/envs/openfold3-image/lib/python3.11/tempfile.py:934: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/apheris-openfold3-msas-adj1a4x9'>
+  _warnings.warn(warn_message, ResourceWarning)

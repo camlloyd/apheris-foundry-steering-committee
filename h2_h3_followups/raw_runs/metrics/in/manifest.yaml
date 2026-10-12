@@ -1,0 +1,601 @@
+samples:
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_10_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_1_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_2_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_3_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_4_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_5_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_6_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_7_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_8_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_9_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_10_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_1_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_2_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_3_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_4_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_5_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_6_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_7_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_8_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_9_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_10_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_1_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_2_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_3_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_4_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_5_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_6_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_7_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_8_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_9_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_10_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_1_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_2_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_3_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_4_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_5_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_6_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_7_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_8_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_9_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_10_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_1_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_2_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_3_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_4_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_5_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_6_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_7_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_8_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_128_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_9_model
+    prediction: /preds/depth_128/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_10_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_1_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_2_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_3_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_4_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_5_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_6_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_7_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_8_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_9_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_10_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_1_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_2_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_3_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_4_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_5_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_6_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_7_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_8_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_9_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_10_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_1_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_2_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_3_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_4_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_5_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_6_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_7_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_8_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_9_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_10_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_1_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_2_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_3_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_4_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_5_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_6_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_7_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_8_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_9_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_10_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_1_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_2_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_3_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_4_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_5_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_6_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_7_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_8_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_32_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_9_model
+    prediction: /preds/depth_32/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_10_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_1_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_2_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_3_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_4_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_5_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_6_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_7_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_8_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_9_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_10_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_1_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_2_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_3_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_4_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_5_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_6_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_7_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_8_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_9_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_10_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_1_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_2_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_3_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_4_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_5_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_6_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_7_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_8_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_9_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_10_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_1_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_2_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_3_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_4_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_5_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_6_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_7_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_8_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_9_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_10_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_1_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_2_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_3_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_4_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_5_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_6_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_7_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_8_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_512_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_9_model
+    prediction: /preds/depth_512/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_10_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_1_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_2_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_3_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_4_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_5_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_6_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_7_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_8_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_42_H2_msa_titration_seed_42_sample_9_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_42/H2_msa_titration_seed_42_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_10_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_1_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_2_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_3_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_4_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_5_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_6_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_7_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_8_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_43_H2_msa_titration_seed_43_sample_9_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_43/H2_msa_titration_seed_43_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_10_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_1_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_2_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_3_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_4_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_5_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_6_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_7_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_8_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_44_H2_msa_titration_seed_44_sample_9_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_44/H2_msa_titration_seed_44_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_10_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_1_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_2_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_3_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_4_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_5_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_6_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_7_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_8_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_45_H2_msa_titration_seed_45_sample_9_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_45/H2_msa_titration_seed_45_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_10_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_10_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_1_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_1_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_2_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_2_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_3_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_3_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_4_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_4_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_5_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_5_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_6_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_6_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_7_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_7_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_8_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_8_model.cif
+    reference: /kit/4ZJW_clean.cif
+  - id: depth_8_H2_msa_titration_seed_46_H2_msa_titration_seed_46_sample_9_model
+    prediction: /preds/depth_8/H2_msa_titration/seed_46/H2_msa_titration_seed_46_sample_9_model.cif
+    reference: /kit/4ZJW_clean.cif

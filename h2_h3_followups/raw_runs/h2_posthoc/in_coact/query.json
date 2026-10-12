@@ -1,0 +1,23 @@
+{
+  "queries": [
+    {
+      "query_id": "H2_coactivator_cofold",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "polymer_type": "protein",
+          "sequence": "KHKILHRLLQDS"
+        },
+        {
+          "chain_id": "C",
+          "smiles": "CNC(=O)c1ccc(c(c1)c2ccc3c(c2)CCCN3C(=O)c4c(cccc4Cl)F)Cl"
+        }
+      ]
+    }
+  ]
+}

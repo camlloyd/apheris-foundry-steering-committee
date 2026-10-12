@@ -1,0 +1,201 @@
+file,status,whole_plddt,h12_local_plddt,rmsd_H12in,rmsd_H12out,signed_margin,state_call,confidence_score
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_10_model.cif,ok,90.3,86.99,0.472,7.882,-7.41,inverse-agonist-like (low H12 local confidence override),1.17
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_1_model.cif,ok,90.3,86.95,0.49,7.551,-7.06,inverse-agonist-like (low H12 local confidence override),1.16
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_2_model.cif,ok,90.2,86.81,0.589,7.695,-7.106,inverse-agonist-like (low H12 local confidence override),1.13
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_3_model.cif,ok,90.3,87.05,0.539,7.682,-7.143,inverse-agonist-like (low H12 local confidence override),1.18
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_4_model.cif,ok,90.2,86.84,0.557,7.771,-7.214,inverse-agonist-like (low H12 local confidence override),1.14
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_5_model.cif,ok,90.1,86.73,0.557,7.741,-7.184,inverse-agonist-like (low H12 local confidence override),1.12
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_6_model.cif,ok,90.2,86.78,0.544,7.836,-7.292,inverse-agonist-like (low H12 local confidence override),1.13
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_7_model.cif,ok,90.3,87.07,0.478,7.644,-7.166,inverse-agonist-like (low H12 local confidence override),1.18
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_8_model.cif,ok,90.2,86.85,0.618,7.619,-7.001,inverse-agonist-like (low H12 local confidence override),1.14
+out/apo/H3_apo/seed_42/H3_apo_seed_42_sample_9_model.cif,ok,90.3,86.98,0.543,7.726,-7.184,inverse-agonist-like (low H12 local confidence override),1.16
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_10_model.cif,ok,90.3,87.16,0.587,7.64,-7.053,inverse-agonist-like (low H12 local confidence override),1.19
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_1_model.cif,ok,90.4,87.44,0.569,7.81,-7.241,inverse-agonist-like (low H12 local confidence override),1.24
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_2_model.cif,ok,90.4,87.28,0.481,7.619,-7.139,inverse-agonist-like (low H12 local confidence override),1.21
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_3_model.cif,ok,90.4,87.3,0.478,7.807,-7.328,inverse-agonist-like (low H12 local confidence override),1.22
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_4_model.cif,ok,90.3,87.2,0.553,7.712,-7.159,inverse-agonist-like (low H12 local confidence override),1.2
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_5_model.cif,ok,90.3,86.99,0.565,7.64,-7.075,inverse-agonist-like (low H12 local confidence override),1.16
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_6_model.cif,ok,90.3,87.17,0.557,7.662,-7.105,inverse-agonist-like (low H12 local confidence override),1.2
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_7_model.cif,ok,90.5,87.5,0.558,7.635,-7.078,inverse-agonist-like (low H12 local confidence override),1.25
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_8_model.cif,ok,90.4,87.46,0.507,7.652,-7.145,inverse-agonist-like (low H12 local confidence override),1.24
+out/apo/H3_apo/seed_43/H3_apo_seed_43_sample_9_model.cif,ok,90.4,87.33,0.564,7.78,-7.216,inverse-agonist-like (low H12 local confidence override),1.22
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_10_model.cif,ok,90.7,88.45,0.53,7.55,-7.02,inverse-agonist-like (low H12 local confidence override),1.41
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_1_model.cif,ok,90.7,88.29,0.422,7.583,-7.161,inverse-agonist-like (low H12 local confidence override),1.38
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_2_model.cif,ok,90.5,87.98,0.685,7.684,-7.0,inverse-agonist-like (low H12 local confidence override),1.33
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_3_model.cif,ok,90.6,88.19,0.56,7.669,-7.11,inverse-agonist-like (low H12 local confidence override),1.37
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_4_model.cif,ok,90.7,88.32,0.488,7.621,-7.133,inverse-agonist-like (low H12 local confidence override),1.39
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_5_model.cif,ok,90.6,88.21,0.533,7.848,-7.315,inverse-agonist-like (low H12 local confidence override),1.37
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_6_model.cif,ok,90.6,88.29,0.54,7.77,-7.229,inverse-agonist-like (low H12 local confidence override),1.38
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_7_model.cif,ok,90.6,88.27,0.51,7.715,-7.204,inverse-agonist-like (low H12 local confidence override),1.38
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_8_model.cif,ok,90.7,88.45,0.505,7.826,-7.321,inverse-agonist-like (low H12 local confidence override),1.41
+out/apo/H3_apo/seed_44/H3_apo_seed_44_sample_9_model.cif,ok,90.6,88.3,0.518,7.705,-7.188,inverse-agonist-like (low H12 local confidence override),1.38
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_10_model.cif,ok,90.5,87.89,0.564,7.711,-7.147,inverse-agonist-like (low H12 local confidence override),1.32
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_1_model.cif,ok,90.6,87.97,0.628,7.676,-7.049,inverse-agonist-like (low H12 local confidence override),1.33
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_2_model.cif,ok,90.6,88.06,0.454,7.712,-7.258,inverse-agonist-like (low H12 local confidence override),1.34
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_3_model.cif,ok,90.5,87.98,0.519,7.752,-7.233,inverse-agonist-like (low H12 local confidence override),1.33
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_4_model.cif,ok,90.5,88.02,0.447,7.771,-7.324,inverse-agonist-like (low H12 local confidence override),1.34
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_5_model.cif,ok,90.4,87.56,0.47,7.813,-7.343,inverse-agonist-like (low H12 local confidence override),1.26
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_6_model.cif,ok,90.5,87.78,0.548,7.664,-7.116,inverse-agonist-like (low H12 local confidence override),1.3
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_7_model.cif,ok,90.6,88.21,0.612,7.74,-7.128,inverse-agonist-like (low H12 local confidence override),1.37
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_8_model.cif,ok,90.5,87.82,0.582,7.566,-6.984,inverse-agonist-like (low H12 local confidence override),1.3
+out/apo/H3_apo/seed_45/H3_apo_seed_45_sample_9_model.cif,ok,90.6,88.12,0.523,7.531,-7.008,inverse-agonist-like (low H12 local confidence override),1.35
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_10_model.cif,ok,90.3,87.04,0.564,7.755,-7.191,inverse-agonist-like (low H12 local confidence override),1.17
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_1_model.cif,ok,90.3,87.1,0.576,7.659,-7.083,inverse-agonist-like (low H12 local confidence override),1.18
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_2_model.cif,ok,90.4,87.27,0.517,7.78,-7.264,inverse-agonist-like (low H12 local confidence override),1.21
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_3_model.cif,ok,90.2,86.92,0.569,7.803,-7.234,inverse-agonist-like (low H12 local confidence override),1.15
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_4_model.cif,ok,90.4,87.27,0.587,7.803,-7.216,inverse-agonist-like (low H12 local confidence override),1.21
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_5_model.cif,ok,90.4,87.33,0.562,7.79,-7.228,inverse-agonist-like (low H12 local confidence override),1.22
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_6_model.cif,ok,90.3,87.15,0.597,7.814,-7.217,inverse-agonist-like (low H12 local confidence override),1.19
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_7_model.cif,ok,90.3,87.05,0.594,7.586,-6.992,inverse-agonist-like (low H12 local confidence override),1.18
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_8_model.cif,ok,90.2,86.87,0.463,7.631,-7.167,inverse-agonist-like (low H12 local confidence override),1.14
+out/apo/H3_apo/seed_46/H3_apo_seed_46_sample_9_model.cif,ok,90.3,87.16,0.52,7.767,-7.247,inverse-agonist-like (low H12 local confidence override),1.19
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_10_model.cif,ok,87.7,76.22,0.715,7.991,-7.277,agonist-like,0.63
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_1_model.cif,ok,87.7,76.8,0.58,7.63,-7.05,agonist-like,0.53
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_2_model.cif,ok,87.5,75.37,0.578,7.65,-7.072,agonist-like,0.77
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_3_model.cif,ok,87.4,76.03,0.64,7.821,-7.181,agonist-like,0.66
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_4_model.cif,ok,87.6,76.25,0.648,7.857,-7.209,agonist-like,0.63
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_5_model.cif,ok,87.5,76.42,0.536,7.658,-7.121,agonist-like,0.6
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_6_model.cif,ok,87.4,75.89,0.459,7.839,-7.379,agonist-like,0.69
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_7_model.cif,ok,87.3,75.46,0.589,7.542,-6.953,agonist-like,0.76
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_8_model.cif,ok,87.4,75.6,0.524,7.787,-7.263,agonist-like,0.73
+out/c1/H3_C1_agonist_HC2/seed_42/H3_C1_agonist_HC2_seed_42_sample_9_model.cif,ok,88.6,74.77,2.104,5.346,-3.242,agonist-like,0.87
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_10_model.cif,ok,88.0,78.6,0.63,7.788,-7.157,agonist-like,0.23
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_1_model.cif,ok,87.9,78.36,0.624,7.927,-7.302,agonist-like,0.27
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_2_model.cif,ok,88.5,78.92,0.522,7.511,-6.989,agonist-like,0.18
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_3_model.cif,ok,88.3,79.26,0.535,7.796,-7.261,agonist-like,0.12
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_4_model.cif,ok,88.3,79.27,0.739,7.896,-7.157,agonist-like,0.12
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_5_model.cif,ok,88.2,78.95,0.639,7.781,-7.142,agonist-like,0.18
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_6_model.cif,ok,88.4,79.64,0.459,7.825,-7.365,agonist-like,0.06
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_7_model.cif,ok,88.2,79.02,0.622,7.825,-7.203,agonist-like,0.16
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_8_model.cif,ok,88.3,78.94,0.523,7.667,-7.145,agonist-like,0.18
+out/c1/H3_C1_agonist_HC2/seed_43/H3_C1_agonist_HC2_seed_43_sample_9_model.cif,ok,88.3,79.14,0.658,7.851,-7.193,agonist-like,0.14
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_10_model.cif,ok,87.7,77.34,0.522,7.596,-7.074,agonist-like,0.44
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_1_model.cif,ok,87.8,78.65,0.41,7.678,-7.268,agonist-like,0.23
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_2_model.cif,ok,87.9,77.94,0.569,7.537,-6.969,agonist-like,0.34
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_3_model.cif,ok,87.7,77.64,0.526,7.645,-7.119,agonist-like,0.39
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_4_model.cif,ok,87.6,76.72,0.585,7.696,-7.11,agonist-like,0.55
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_5_model.cif,ok,87.8,77.63,0.585,7.932,-7.347,agonist-like,0.4
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_6_model.cif,ok,87.9,78.05,0.598,7.657,-7.059,agonist-like,0.32
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_7_model.cif,ok,87.7,76.74,0.63,7.902,-7.272,agonist-like,0.54
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_8_model.cif,ok,87.7,77.55,0.583,7.74,-7.158,agonist-like,0.41
+out/c1/H3_C1_agonist_HC2/seed_44/H3_C1_agonist_HC2_seed_44_sample_9_model.cif,ok,87.4,77.06,0.628,7.666,-7.038,agonist-like,0.49
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_10_model.cif,ok,88.1,77.5,0.623,7.848,-7.224,agonist-like,0.42
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_1_model.cif,ok,88.2,78.77,0.597,7.747,-7.15,agonist-like,0.21
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_2_model.cif,ok,88.4,78.71,0.617,7.737,-7.121,agonist-like,0.22
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_3_model.cif,ok,88.3,79.1,0.601,7.703,-7.102,agonist-like,0.15
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_4_model.cif,ok,88.0,77.92,0.48,7.642,-7.162,agonist-like,0.35
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_5_model.cif,ok,88.5,79.24,0.652,7.647,-6.995,agonist-like,0.13
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_6_model.cif,ok,88.3,78.66,0.555,7.714,-7.159,agonist-like,0.22
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_7_model.cif,ok,88.6,79.27,0.545,7.684,-7.139,agonist-like,0.12
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_8_model.cif,ok,88.2,79.18,0.519,7.678,-7.159,agonist-like,0.14
+out/c1/H3_C1_agonist_HC2/seed_45/H3_C1_agonist_HC2_seed_45_sample_9_model.cif,ok,88.8,80.05,0.545,7.859,-7.314,inverse-agonist-like (low H12 local confidence override),0.01
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_10_model.cif,ok,87.4,76.27,0.462,7.583,-7.121,agonist-like,0.62
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_1_model.cif,ok,87.8,76.53,0.548,7.663,-7.115,agonist-like,0.58
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_2_model.cif,ok,87.3,75.61,0.635,7.804,-7.169,agonist-like,0.73
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_3_model.cif,ok,87.7,76.59,0.445,7.755,-7.31,agonist-like,0.57
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_4_model.cif,ok,87.6,76.23,0.599,7.811,-7.212,agonist-like,0.63
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_5_model.cif,ok,88.1,77.83,0.621,8.052,-7.431,agonist-like,0.36
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_6_model.cif,ok,87.8,76.69,0.426,7.717,-7.291,agonist-like,0.55
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_7_model.cif,ok,87.3,75.22,0.474,7.742,-7.268,agonist-like,0.8
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_8_model.cif,ok,87.7,76.92,0.488,7.838,-7.349,agonist-like,0.51
+out/c1/H3_C1_agonist_HC2/seed_46/H3_C1_agonist_HC2_seed_46_sample_9_model.cif,ok,87.4,75.46,0.587,7.717,-7.13,agonist-like,0.76
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_10_model.cif,ok,90.1,79.03,1.672,5.823,-4.152,agonist-like,0.16
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_1_model.cif,ok,93.3,89.86,1.08,5.914,-4.833,inverse-agonist-like (low H12 local confidence override),1.64
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_2_model.cif,ok,90.2,78.95,1.9,5.586,-3.686,agonist-like,0.18
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_3_model.cif,ok,90.3,79.5,1.684,5.724,-4.04,agonist-like,0.08
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_4_model.cif,ok,90.2,79.59,1.827,5.569,-3.742,agonist-like,0.07
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_5_model.cif,ok,93.3,89.71,1.605,5.782,-4.177,inverse-agonist-like (low H12 local confidence override),1.62
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_6_model.cif,ok,92.8,88.19,1.63,5.931,-4.302,inverse-agonist-like (low H12 local confidence override),1.36
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_7_model.cif,ok,93.5,89.54,1.353,5.861,-4.508,inverse-agonist-like (low H12 local confidence override),1.59
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_8_model.cif,ok,93.2,89.44,1.356,6.182,-4.826,inverse-agonist-like (low H12 local confidence override),1.57
+out/c2/H3_C2_invago_4P1/seed_42/H3_C2_invago_4P1_seed_42_sample_9_model.cif,ok,92.5,88.31,0.738,6.41,-5.672,inverse-agonist-like (low H12 local confidence override),1.39
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_10_model.cif,ok,89.0,79.99,0.549,7.717,-7.168,agonist-like,0.0
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_1_model.cif,ok,90.4,80.34,1.899,5.611,-3.712,inverse-agonist-like (low H12 local confidence override),0.06
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_2_model.cif,ok,90.2,78.98,1.89,5.478,-3.588,agonist-like,0.17
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_3_model.cif,ok,90.6,81.24,1.317,5.993,-4.676,inverse-agonist-like (low H12 local confidence override),0.21
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_4_model.cif,ok,90.5,80.27,1.49,6.044,-4.554,inverse-agonist-like (low H12 local confidence override),0.04
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_5_model.cif,ok,93.3,89.94,0.716,6.363,-5.647,inverse-agonist-like (low H12 local confidence override),1.66
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_6_model.cif,ok,89.9,78.58,1.704,6.048,-4.344,agonist-like,0.24
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_7_model.cif,ok,91.4,82.53,1.768,5.607,-3.839,inverse-agonist-like (low H12 local confidence override),0.42
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_8_model.cif,ok,89.1,80.06,0.695,7.913,-7.218,inverse-agonist-like (low H12 local confidence override),0.01
+out/c2/H3_C2_invago_4P1/seed_43/H3_C2_invago_4P1_seed_43_sample_9_model.cif,ok,90.2,80.31,1.885,5.802,-3.917,inverse-agonist-like (low H12 local confidence override),0.05
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_10_model.cif,ok,90.3,79.91,1.656,5.894,-4.238,agonist-like,0.01
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_1_model.cif,ok,88.6,79.93,0.345,7.629,-7.284,agonist-like,0.01
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_2_model.cif,ok,90.3,79.63,1.911,5.397,-3.486,agonist-like,0.06
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_3_model.cif,ok,93.7,90.71,1.685,5.906,-4.221,inverse-agonist-like (low H12 local confidence override),1.79
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_4_model.cif,ok,90.0,77.83,2.476,5.001,-2.525,agonist-like,0.36
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_5_model.cif,ok,90.4,80.58,1.738,5.507,-3.769,inverse-agonist-like (low H12 local confidence override),0.1
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_6_model.cif,ok,93.4,89.83,1.463,5.774,-4.311,inverse-agonist-like (low H12 local confidence override),1.64
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_7_model.cif,ok,89.1,80.74,0.579,7.918,-7.339,inverse-agonist-like (low H12 local confidence override),0.12
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_8_model.cif,ok,90.2,80.25,1.722,5.553,-3.831,inverse-agonist-like (low H12 local confidence override),0.04
+out/c2/H3_C2_invago_4P1/seed_44/H3_C2_invago_4P1_seed_44_sample_9_model.cif,ok,90.0,79.54,1.677,5.867,-4.189,agonist-like,0.08
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_10_model.cif,ok,93.5,90.03,1.501,6.012,-4.511,inverse-agonist-like (low H12 local confidence override),1.67
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_1_model.cif,ok,93.5,89.37,1.477,5.828,-4.351,inverse-agonist-like (low H12 local confidence override),1.56
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_2_model.cif,ok,90.3,79.61,2.351,5.128,-2.777,agonist-like,0.06
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_3_model.cif,ok,89.1,81.16,0.618,7.73,-7.111,inverse-agonist-like (low H12 local confidence override),0.19
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_4_model.cif,ok,93.1,89.11,1.668,5.449,-3.781,inverse-agonist-like (low H12 local confidence override),1.52
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_5_model.cif,ok,89.8,77.95,1.686,5.791,-4.104,agonist-like,0.34
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_6_model.cif,ok,91.3,82.4,1.751,5.631,-3.88,inverse-agonist-like (low H12 local confidence override),0.4
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_7_model.cif,ok,92.7,86.28,1.582,5.81,-4.228,inverse-agonist-like (low H12 local confidence override),1.05
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_8_model.cif,ok,90.3,79.22,1.998,5.539,-3.541,agonist-like,0.13
+out/c2/H3_C2_invago_4P1/seed_45/H3_C2_invago_4P1_seed_45_sample_9_model.cif,ok,92.7,87.04,1.79,5.721,-3.931,inverse-agonist-like (low H12 local confidence override),1.17
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_10_model.cif,ok,89.6,77.93,1.812,5.628,-3.817,agonist-like,0.34
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_1_model.cif,ok,93.0,87.48,1.758,5.686,-3.927,inverse-agonist-like (low H12 local confidence override),1.25
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_2_model.cif,ok,90.5,80.32,1.843,5.58,-3.737,inverse-agonist-like (low H12 local confidence override),0.05
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_3_model.cif,ok,93.1,88.69,1.664,5.885,-4.221,inverse-agonist-like (low H12 local confidence override),1.45
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_4_model.cif,ok,90.7,80.61,1.628,5.755,-4.128,inverse-agonist-like (low H12 local confidence override),0.1
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_5_model.cif,ok,90.1,79.22,1.798,5.563,-3.765,agonist-like,0.13
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_6_model.cif,ok,92.8,88.24,1.279,5.825,-4.547,inverse-agonist-like (low H12 local confidence override),1.37
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_7_model.cif,ok,92.8,87.28,1.264,5.952,-4.689,inverse-agonist-like (low H12 local confidence override),1.21
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_8_model.cif,ok,90.1,78.8,1.781,5.848,-4.067,agonist-like,0.2
+out/c2/H3_C2_invago_4P1/seed_46/H3_C2_invago_4P1_seed_46_sample_9_model.cif,ok,91.8,85.63,0.846,6.108,-5.262,inverse-agonist-like (low H12 local confidence override),0.94
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_10_model.cif,ok,88.0,75.14,0.686,7.735,-7.049,agonist-like,0.81
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_1_model.cif,ok,89.5,75.65,1.604,5.598,-3.994,agonist-like,0.73
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_2_model.cif,ok,88.4,76.62,0.578,7.63,-7.052,agonist-like,0.56
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_3_model.cif,ok,90.2,79.72,1.415,5.926,-4.511,agonist-like,0.05
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_4_model.cif,ok,88.2,76.16,0.663,7.911,-7.248,agonist-like,0.64
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_5_model.cif,ok,90.1,77.16,1.57,5.585,-4.015,agonist-like,0.47
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_6_model.cif,ok,87.9,75.19,0.638,7.89,-7.252,agonist-like,0.8
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_7_model.cif,ok,88.3,76.16,0.665,7.528,-6.864,agonist-like,0.64
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_8_model.cif,ok,87.8,75.3,0.554,7.74,-7.185,agonist-like,0.78
+out/c3/H3_C3_agonist_BIO592/seed_42/H3_C3_agonist_BIO592_seed_42_sample_9_model.cif,ok,90.6,80.47,1.717,5.56,-3.844,inverse-agonist-like (low H12 local confidence override),0.08
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_10_model.cif,ok,90.1,78.81,1.729,5.46,-3.73,agonist-like,0.2
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_1_model.cif,ok,88.2,76.42,0.649,7.947,-7.298,agonist-like,0.6
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_2_model.cif,ok,88.3,76.49,0.542,7.541,-6.999,agonist-like,0.59
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_3_model.cif,ok,91.3,82.95,1.183,5.985,-4.801,inverse-agonist-like (low H12 local confidence override),0.49
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_4_model.cif,ok,88.6,77.51,0.697,7.982,-7.285,agonist-like,0.41
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_5_model.cif,ok,91.0,82.53,1.055,5.969,-4.913,inverse-agonist-like (low H12 local confidence override),0.42
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_6_model.cif,ok,90.7,80.52,1.734,5.766,-4.032,inverse-agonist-like (low H12 local confidence override),0.09
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_7_model.cif,ok,88.3,76.18,0.657,7.842,-7.185,agonist-like,0.64
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_8_model.cif,ok,88.2,77.1,0.528,7.635,-7.107,agonist-like,0.48
+out/c3/H3_C3_agonist_BIO592/seed_43/H3_C3_agonist_BIO592_seed_43_sample_9_model.cif,ok,88.2,76.26,0.65,7.794,-7.145,agonist-like,0.62
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_10_model.cif,ok,88.0,75.84,0.545,7.624,-7.079,agonist-like,0.69
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_1_model.cif,ok,88.2,76.85,0.489,7.731,-7.242,agonist-like,0.53
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_2_model.cif,ok,88.3,77.39,0.765,7.711,-6.946,agonist-like,0.43
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_3_model.cif,ok,88.2,76.73,0.572,7.704,-7.132,agonist-like,0.55
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_4_model.cif,ok,88.1,75.64,0.568,7.722,-7.154,agonist-like,0.73
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_5_model.cif,ok,88.1,76.29,0.587,7.826,-7.239,agonist-like,0.62
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_6_model.cif,ok,88.1,76.78,0.671,7.891,-7.22,agonist-like,0.54
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_7_model.cif,ok,88.7,77.34,0.645,7.886,-7.24,agonist-like,0.44
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_8_model.cif,ok,88.2,76.42,0.609,7.759,-7.149,agonist-like,0.6
+out/c3/H3_C3_agonist_BIO592/seed_44/H3_C3_agonist_BIO592_seed_44_sample_9_model.cif,ok,88.0,76.09,0.726,7.824,-7.098,agonist-like,0.65
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_10_model.cif,ok,89.4,76.55,1.667,5.763,-4.095,agonist-like,0.57
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_1_model.cif,ok,90.3,79.83,1.651,5.728,-4.076,agonist-like,0.03
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_2_model.cif,ok,90.8,80.58,2.289,5.303,-3.014,inverse-agonist-like (low H12 local confidence override),0.1
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_3_model.cif,ok,90.1,79.72,2.107,4.848,-2.741,agonist-like,0.05
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_4_model.cif,ok,90.2,79.11,1.879,5.556,-3.677,agonist-like,0.15
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_5_model.cif,ok,90.6,80.86,1.381,5.749,-4.368,inverse-agonist-like (low H12 local confidence override),0.14
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_6_model.cif,ok,89.7,77.82,1.609,5.613,-4.005,agonist-like,0.36
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_7_model.cif,ok,90.4,78.17,1.874,5.512,-3.639,agonist-like,0.31
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_8_model.cif,ok,89.6,76.05,1.659,5.545,-3.885,agonist-like,0.66
+out/c3/H3_C3_agonist_BIO592/seed_45/H3_C3_agonist_BIO592_seed_45_sample_9_model.cif,ok,89.6,77.4,2.4,4.76,-2.36,agonist-like,0.43
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_10_model.cif,ok,90.0,78.58,1.612,5.639,-4.026,agonist-like,0.24
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_1_model.cif,ok,88.3,74.39,0.568,7.691,-7.123,agonist-like,0.94
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_2_model.cif,ok,87.9,73.81,0.704,7.784,-7.08,agonist-like,1.03
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_3_model.cif,ok,87.7,72.93,0.507,7.726,-7.219,agonist-like,1.18
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_4_model.cif,ok,88.2,75.4,0.676,7.893,-7.217,agonist-like,0.77
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_5_model.cif,ok,88.2,74.33,0.576,7.801,-7.224,agonist-like,0.94
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_6_model.cif,ok,89.0,73.26,1.827,5.844,-4.018,agonist-like,1.12
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_7_model.cif,ok,87.9,74.15,0.63,7.817,-7.188,agonist-like,0.98
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_8_model.cif,ok,88.0,74.78,0.52,7.793,-7.272,agonist-like,0.87
+out/c3/H3_C3_agonist_BIO592/seed_46/H3_C3_agonist_BIO592_seed_46_sample_9_model.cif,ok,88.2,74.37,0.743,7.913,-7.17,agonist-like,0.94

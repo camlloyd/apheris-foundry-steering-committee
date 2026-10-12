@@ -1,0 +1,2104 @@
+{
+  "queries": [
+    {
+      "query_id": "RAND_CHEMBL5850461_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(c3ccccc3)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4745606_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1ncc(Oc2c(Cl)cc(NC(=O)Cc3cccnc3)cc2Cl)cc1C(C)C"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3317837_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)N1CCN(c2ccc(CN(C(C)(C)C)S(=O)(=O)Cc3ccccc3)cc2)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4206368_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(O)CNC(=O)CC1CSc2cc(C(O)(C(F)(F)F)C(F)(F)F)ccc2N1S(=O)(=O)c1ccc(F)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3581546_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1cccc(S(=O)(=O)N(Cc2ccc(N3CCN(C(C)=O)CC3)cc2F)C2CCC2)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3361027_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)CN(CCc1ccccc1)S(=O)(=O)c1ccc(-c2ccc(S(C)(=O)=O)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5867825_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc(CS(C)(=O)=O)c4)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5779116_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CCNC(=O)C1COC1)O2"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4283051_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cn1cc(C2CCN(C(=O)C3CCCC3)CC2)c2cc(NC(=O)c3cc(C#N)ccn3)cnc21"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3234252_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCN1C(=O)c2cccc3c(S(=O)(=O)NC4CCN(C(C)=O)CC4)ccc1c23"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4749158_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)c1cc(Oc2c(Cl)cc(NC(=O)Cc3cccnc3)cc2Cl)ccc1F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5910914_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)cc1)C[C@H](CNC(=O)C(O)C(F)(F)F)O2)C(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4863122_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(C(C)(C)C)cc43)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4552142_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1nc2ccc(C(O)(c3ccnc(C(F)(F)F)c3)c3cncn3C)cc2c(Cl)c1CN1CCC(C(F)(F)F)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6052651_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "NC(=O)c1c(F)cc(C(=O)N[C@@H]2CC[C@@]3(S(=O)(=O)c4ccc(F)cc4)c4ccc(C(F)(C(F)(F)F)C(F)(F)F)cc4CC[C@@H]23)cc1F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5902173_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(OCC4CCC4)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4547336_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=S(=O)(c1cccc(C(F)(F)F)c1)n1cnc2ccc(-c3cc(F)cc(OC(F)F)c3)cc21"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5834289_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1nnc(-c2ccc3c(-c4ccc(C(=O)O)cc4F)nn(C(=O)c4c(Cl)cccc4C(F)(F)F)c3c2)o1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3581540_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)N1CCN(c2ccc(CN(C3CCC3)S(=O)(=O)c3cccc(Cl)c3)c(F)c2)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5813818_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cn1nc(C[C@H]2CN(S(=O)(=O)c3cccc(C(F)(F)F)c3)c3cc(NC(=O)OC(C)(C)C)ccc3O2)oc1=O"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5867540_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)C1CC=C(c2nn(C(=O)c3c(Cl)cccc3C3(C(F)(F)F)CC3)c3c2CCC(C(=O)N[C@@H]2COC[C@@H]2F)C3)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6016819_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC1=C2CCc3c(-c4ccccc4F)nc(-c4ccnc5c(F)cccc45)nc3[C@]2(C)C=C(C#N)C1=O"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5875081_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)N1C[C@@H](O)[C@@H](O)C1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5920888_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC1(C)C(=O)[C@@]2(C#N)O[C@H]2[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6028453_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C([C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)N1CCS(=O)(=O)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5943390_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccncc4C4CC4)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5972735_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CCN1CCCC1=O)O2)C(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6055423_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4cccc5ncccc45)nc(-c4ccccc4F)c3C[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4292862_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1c(NC(=O)c2cccc(C#N)c2)cnc2c1c(C1CCN(C(=O)C3CC3)CC1)cn2C"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3609388_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3cc(Cl)ccc3Cl)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6001168_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1ccc2nccc(-c3nc(-c4ccccc4F)c4c(n3)[C@]3(C)C=C(C#N)C(=O)[C@H](C)[C@H]3CC4)c2c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5780772_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C(F)(F)F)c3cc(NC4COC4)ccc23)c(F)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5918239_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4cccc5ncccc45)nc(-c4ccccc4)c3CCC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5091940_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCCN(Cc1ccccc1)Cc1ccc(NCCc2ccc(S(=O)(=O)CC)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5993128_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(N4CCCC4)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4435215_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(C(NC(=O)Cc2ccnnc2)C(=O)Nc2ccc(C(O)(C(F)(F)F)C(F)(F)F)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5944112_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1nc(S(=O)(=O)C[C@H]2CN(S(=O)(=O)c3cccc(C(F)(F)F)c3)c3cc(NC(=O)OC(C)(C)C)ccc3O2)[nH]c1C"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5085004_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCCN(Cc1c(Cl)cc(NC(=O)Cc2ccc(S(C)(=O)=O)cc2)cc1Cl)CC1CCCCC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4868485_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(OC(C)(C)C)cc43)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4777002_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1cc(Oc2c(Cl)cc(NC(=O)Cc3cccnc3)cc2Cl)cc(C(C)C)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6063921_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1nc(-c2ccnc(C)c2)nc2c1CC[C@@H]1[C@@H](C)C(=O)C(C#N)=C[C@@]21C"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4848879_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCOc4ccc(CC(C)C)cc43)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4438967_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1nc2ccc(C(O)(c3ccc(C)nc3C)c3cnnn3C)cc2c(Cl)c1CN1CC(C(F)(F)F)C1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4878238_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(CC(C)C)cc43)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5898496_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CSc1ccccn1)O2"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4878616_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C/C(=C\\c1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CCC(=O)O)O2)c1ccccc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5429680_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CNC(=O)c2ccc3c(c2)c2cc(OC(C)C)ccc2n3CCF)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4861529_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(C(=O)N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)N1CCNCC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5825349_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1cc(-c2nc(-c3ccccc3)c3c(n2)[C@]2(C)C=C(C#N)C(=O)[C@H](C)[C@H]2CC3)ccn1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5410061_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCn1c2ccc(C(=O)NCc3ccc(S(=O)(=O)CC)cc3)cc2c2c(OC(C)C)cccc21"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6034054_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)N[C@H]1C[C@@H](NC(=O)[C@@H]2CC[C@@]3(S(=O)(=O)c4ccc(F)cc4)c4ccc(C(F)(C(F)(F)F)C(F)(F)F)cc4CC[C@@H]23)C1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3596270_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)c1ccc(-c2nc(C(=O)c3c(Cl)cccc3C(F)(F)F)n3c2CCCC3)c(F)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5877834_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CC(=O)NCc1nn[nH]n1)O2"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4205062_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1ccc2c(c1)CCN(C(=O)CC1SC(=O)NC1=O)[C@H]2C(=O)Nc1cc(F)c([Si](C)(C)C)c(F)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5090647_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCCN(Cc1ccccc1)Cc1ccc(NC(=O)Cc2ccc(C#N)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3218918_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1cccc(C(=O)Nc2cc(-c3ccccc3)no2)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5890977_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCn1cc(S(=O)(=O)N2C[C@H](CNC(C)=O)Oc3ccc(NC(=O)OC(C)(C)C(F)(F)F)cc32)c(C2CC2)n1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4876485_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)N1CCN(c2ccc3c(c2)CCN(S(=O)(=O)N(C)Cc2ccccc2F)C3)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3609400_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3ccccc3OC(F)(F)F)c(C(F)(F)F)c2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3609414_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3ccc(Cl)cc3OC(F)(F)F)c(Cl)c2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4287715_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cn1cc(C2CCN(C(=O)C3CCCC3)CC2)c2cc(NC(=O)c3cc(C#N)ccn3)ccc21"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5839073_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)c1ccncc1F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4209944_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1nc(C)c(C(O)(c2ccc3nc(Cl)c(-c4ccccc4)c(Cl)c3c2)c2cncn2C)s1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4849995_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)C1(C[C@H]2CN(S(=O)(=O)c3cccc(C(F)(F)F)c3)c3cc(-c4cccc(Cl)c4F)ccc3O2)CCOCC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4457391_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1nc2ccc(C(O)(c3ccc(C)nc3C)c3cnnn3C)cc2c(Cl)c1OCC1CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5805510_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCn1cc(S(=O)(=O)N2C[C@H](CCc3n[nH]c(=O)[nH]3)Oc3ccc(NC(=O)OC(C)(C)C(F)(F)F)cc32)c(Cl)n1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5082726_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc([C@H](CO)NC(=O)c2ccc3c(c2)cc(Cc2ccc(Cl)cc2C(F)(F)F)n3CCF)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4648441_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC[C@H](NS(=O)(=O)c1ccc(-c2sc(C(=O)NC3CCS(=O)(=O)CC3)nc2C(=O)N2CCC(F)CC2)c(Cl)c1Cl)C(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5962887_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)NC[C@H]1CN(S(=O)(=O)c2ccc(F)cc2)c2cc(NC(=O)OC(C)(C)C(F)(F)C(F)(F)F)ccc2O1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4576948_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)CC1Cc2ccc(-c3cc(F)cc(F)c3)cc2N1S(=O)(=O)c1cccc(C(F)(F)F)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5897451_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)C1CC=C(c2nn(C(=O)c3c(Cl)cccc3C3(C(F)(F)F)CC3)c3c2CCC(C(=O)N[C@H]2CNC[C@@H]2F)C3)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3317824_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)CN(Cc1ccc(N2CCN(CS(C)(=O)=O)CC2)cc1)S(=O)(=O)Cc1ccccc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6053001_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC1OCCC1C(=O)NC[C@H]1CN(S(=O)(=O)c2ccc(F)c(Cl)c2)c2cc(NC(=O)OC(C)(C)C(F)(F)F)ccc2O1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6023459_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ncnc5ccccc45)nc(OC4CCC4)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4754713_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1ccc(Oc2c(Cl)cc(NC(=O)Cc3cnn(S(C)(=O)=O)c3)cc2Cl)cc1C(C)C"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4857658_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)N1CCN(c2ccc3c(c2)CCN(S(=O)(=O)N(C)Cc2cccc(Cl)c2)C3)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5832803_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "NCc1ccnc(-c2ccc3c(-c4ccc(C(=O)O)cc4)nn(C(=O)c4c(Cl)cccc4C(F)(F)F)c3c2)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5836020_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)C1CC=C(c2nn(C(=O)c3c(Cl)cccc3C3(C(F)(F)F)CC3)c3c2CCC(C(=O)NCC2(F)CNC2)C3)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3598076_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)Nc1cc(-c2cnc(N(C)C(=O)c3c(F)cccc3Cl)c(N3CCCCC3)c2)n(C(C)C)n1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4470666_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(C(NC(=O)Cc2cccnn2)C(=O)Nc2ccc(C(O)(C(F)(F)F)C(F)(F)F)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6023400_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc(N5CCOCC5)c4)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5943144_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1nc2c(C)cc(C(O)(c3c(C)nn(C)c3C)c3cnc(C)n3C)cc2c(Cl)c1OCC(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6003966_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "COc1nc2ccc([C@](O)(c3ccccc3)C3CCN(C(C)=O)CC3)cc2c(Cl)c1CN1CCC(C(F)(F)F)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5808033_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(NC(=O)c1c[nH]cn1)[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3962504_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(C1CCOCC1)N1CC[C@](c2ccc(C(OCc3c(F)cccc3F)(C(F)(F)F)C(F)(F)F)cc2)(S(=O)(=O)c2ccc(F)cc2)C1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5974193_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC[C@@]1(C)C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5880263_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C(F)(F)F)c3cc(-c4nnc[nH]4)ccc23)c(F)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5984085_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(N)C[C@H]1CN(S(=O)(=O)c2ccc(F)c(Cl)c2)c2cc(NC(=O)OC(C)(C)C(F)(F)F)ccc2O1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5075147_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCCN(Cc1ccc(NC(=O)Cc2ccc(S(C)(=O)=O)cc2)cc1)CC1CCCCC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5953210_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1cncc(-c2nc(-c3ccccc3F)c3c(n2)[C@]2(C)C=C(C#N)C(=O)[C@H](C)[C@H]2CC3)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6011105_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccncc4-c4ccccc4)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5859429_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)OC1(CC(=O)N[C@@H]2CC[C@@]3(S(=O)(=O)c4ccc(F)cc4)c4ccc(C(F)(C(F)(F)F)C(F)(F)F)cc4CC[C@@H]23)CN(C(C)=O)C1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3218919_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1cc(C)c2nc(NC(=O)c3sccc3C)sc2c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6007121_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C3(C(F)(F)F)CC3)c3c2CCN(CC2CC2)C3)c(F)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4279941_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1c(NC(=O)c2cccc(C#N)c2)cnc2c1c(C1CCN(C(=O)C3CCOC3)CC1)cn2C"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4855243_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)Oc1ccc2c(c1)N(CCc1ccc(C(=O)NCc3ccc(S(C)(=O)=O)cn3)cc1)CCO2"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3609412_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3ccc(Cl)cc3OC(F)(F)F)c(F)c2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5892069_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C=C(C)C[C@@]1(C)C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4874647_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)CC[C@H]1CN(S(=O)(=O)c2cccc(C(F)(F)F)c2)c2cc(-c3cccc(F)c3Cl)ccc2O1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4866161_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C/C(=C\\c1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CCC(=O)O)O2)c1ccccc1C"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5940583_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1cc(-c2nc(OC3CCCC3)c3c(n2)[C@]2(C)C=C(C#N)C(=O)[C@H](C)[C@H]2CC3)c2ccccc2n1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5986130_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1ccc(-c2nc(-c3ccnc4ccccc34)nc3c2CC[C@@H]2[C@@H](C)C(=O)C(C#N)=C[C@@]32C)o1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5177120_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)c1ccc(/C=C\\c2c(-c3c(Cl)cccc3C(F)(F)F)noc2-c2cc[nH]c2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3609385_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3cc(Cl)ccc3Cl)s2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6031221_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)c(Cl)c1)C[C@H](CNC(=O)C13CC(C1)C3)O2)C(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5410860_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)c1ccc(Nc2nc(Oc3c(Cl)cccc3Cl)nc(-c3ccc(C4CC4)cc3)n2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5438539_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCn1c2ccc(OC(C)C)cc2c2cc(C(=O)NCc3ccc(S(C)(=O)=O)cn3)ccc21"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5880489_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)cc1)C[C@H](CNS(=O)(=O)CC(F)(F)F)O2)C(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5965241_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(NS(=O)(=O)c1nc[nH]n1)[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4649541_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(C1CCOCC1)N1CCC(c2ccc(OCc3ccccc3)cc2)(S(=O)(=O)c2ccc(F)cc2)C1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5867090_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C3CC3)c3cccc(F)c23)c(F)c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5794612_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@@H](CC(=O)N1CCOC1)O2"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6060615_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCNS(=O)(=O)NC[C@H]1CN(S(=O)(=O)c2ccc(F)cc2)c2cc(NC(=O)OC(C)(C)C(F)(F)F)ccc2O1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4452914_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)Cc1cn(S(=O)(=O)c2cccc(C(F)(F)F)c2)c2cc(-c3cc(F)cc(OC(F)F)c3)ccc12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5990020_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)C1(O)CCS(=O)(=O)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3313998_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1c(C(=O)NC2CCOCC2)cc(-c2cc(C(C)(C)C)c3c(c2)C2(CCO3)CC2)n1CC1CCCCC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5432279_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CNC(=O)Nc2cc(Cl)c(-c3ccc(CC(C)C)c(C#N)c3)c(Cl)c2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4877008_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(OC(C)C)cc43)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4776548_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1cnc(CNc2nc3cnc(-c4c(C)ncnc4C4CC4)nc3n([C@@H](C)C3CC3)c2=O)s1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6063063_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CS(=O)(=O)N1CCOCC1)O2"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5273235_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3nc4ccc(C)cc4n3CCc3ccccc3)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4851088_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CNC(=O)c2ccc(CCN3CCCc4ccc(CC(C)C)cc43)cc2)nc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4857191_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)N1CCN(c2ccc3c(c2)CCN(S(=O)(=O)N(C)Cc2c(F)cccc2Cl)C3)C[C@H]1C"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4126216_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(C)NS(=O)(=O)c1ncc(-c2sc(C(=O)N[C@H]3C[C@H](C(=O)O)C3)nc2CC2CCCCC2)c2ccccc12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4871691_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(CC(C)(C)C)cc43)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5785729_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1noc(-c2nc(-c3ccnc4ccccc34)nc3c2CC[C@@H]2[C@@H](C)C(=O)C(C#N)=C[C@@]32C)n1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6016295_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(-c4cccc(-c5ccccc5)c4)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5875331_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)cc1)C[C@H](CNC(=O)C1(C(F)(F)F)CC1)O2)C(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3933290_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)C1CCN(C(=O)N2CC[C@](c3ccc(C(OCc4c(F)cccc4F)(C(F)(F)F)C(F)(F)F)cc3)(S(=O)(=O)c3ccc(F)cc3)C2)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5998057_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)cc1)C[C@@H](CNC(=O)C1CC(F)(F)C1)O2)C(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5289748_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3nc4ccc(C)cc4n3[C@H](C)c3ccc(C)cc3)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4869567_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)C1(C[C@H]2CN(S(=O)(=O)c3cccc(C(F)(F)F)c3)c3cc(-c4cc(F)cc(OC(F)F)c4)ccc3O2)CCOCC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4227729_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCc1ccc(N(CC(C)C)S(=O)(=O)c2ccc(NCC3CCOCC3)c(S(C)(=N)=O)c2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6064848_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC1(C(=O)NC[C@H]2CN(S(=O)(=O)c3ccc(F)cc3)c3cc(NC(=O)OC(C)(C)C(F)(F)F)ccc3O2)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5998039_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)c1cccnc1O"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5086937_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(NCCc3ccccc3)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5803336_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(N)nc(-c4ccccc4)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5951176_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC1(C)C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5c(F)cccc45)nc(-c4ccccc4F)c3CC[C@H]12"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3598057_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "[2H]C([2H])([2H])N(C(=O)c1c(F)cccc1Cl)c1ccc(-c2cc(NC(=O)C3CC3)nn2C(C)C)cc1N1CC2CC2C1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4866533_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(Oc1ccc2c(c1)N(CCc1ccc(NC(=O)Cc3ccc(S(C)(=O)=O)cc3)cc1)CCO2)C(F)(F)F"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5771001_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(C)CS(=O)(=O)NC[C@H]1CN(S(=O)(=O)c2ccc(F)cc2)c2cc(NC(=O)OC(C)(C)C(F)(F)F)ccc2O1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4859771_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "C[C@@H](C[C@H]1CN(S(=O)(=O)c2cccc(C(F)(F)F)c2)c2cc(-c3cc(F)ccc3F)ccc2O1)C(=O)O"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5092278_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCCN(Cc1ccc(NC(=O)Cc2ccc(S(=O)(=O)CC)cc2)cc1)CC1CCCO1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5769179_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cc1noc(C)c1-c1nc(-c2ccccc2F)c2c(n1)[C@]1(C)C=C(C#N)C(=O)[C@H](C)[C@H]1CC2"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3581530_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)N1CCN(c2ccc(CN(C3CCC3)S(=O)(=O)Cc3ccccc3)c(F)c2)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL6058199_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "Cn1cncc1[C@](O)(c1ccnc(C(F)(F)F)c1)c1ccc2nc(C3CC3)c(CN3CCC(C(F)(F)F)CC3)c(Cl)c2c1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL3965066_antagonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC[C@]1(C(=O)N2CC[C@](c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3)(S(=O)(=O)c3ccc(F)cc3)C2)CC[C@H](C(=O)O)CC1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL5094172_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CCCN(Cc1ccccc1)Cc1ccc(NC(=O)Cc2ccc(S(C)(=O)=O)cc2)cc1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4847617_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "CC(=O)N1CCN(c2ccc3c(c2)CCN(S(=O)(=O)N(C)Cc2c(F)cccc2Cl)C3)[C@H](C)C1"
+        }
+      ]
+    },
+    {
+      "query_id": "RAND_CHEMBL4435106_agonist",
+      "chains": [
+        {
+          "chain_id": "A",
+          "polymer_type": "protein",
+          "sequence": "ASLTEIEHLVQSVCKSYRETCQLRLEDLLRQRSNIFSREEVTGYQRKSMWEMWERCAHHLTEAIQYVVEFAKRLSGFMELCQNDQIVLLKAGAMEVVLVRMCRAYNADNRTVFFEGKYGGMELFRALGCSELISSIFDFSHSLSALHFSEDEIALYTALVLINAHRPGLQEKRKVEQLQYNLELAFHHHLCKTHRQSILAKLPPKGKLRSLCSQHVERLQIFQHLHPIVVQAAFPPLYKELFS"
+        },
+        {
+          "chain_id": "B",
+          "smiles": "O=C(O)CC1Cc2ccc(-c3cccc(OC(F)(F)F)c3)cc2N1S(=O)(=O)c1cccc(C(F)(F)F)c1"
+        }
+      ]
+    }
+  ]
+}

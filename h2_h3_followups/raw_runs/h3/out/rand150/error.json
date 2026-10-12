@@ -1,0 +1,9 @@
+{
+  "category": "internal",
+  "code": 1,
+  "details": {},
+  "message": "'token_mask'",
+  "schema_version": "foundry.cli.v1",
+  "task": "predict-openfold3",
+  "timestamp": "2026-10-01T22:11:34.921141Z"
+}

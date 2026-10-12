@@ -1,0 +1,1052 @@
+[
+  {
+    "molecule_chembl_id": "CHEMBL5850461",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(c3ccccc3)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "259.0",
+    "scaffold": "O=C1C=C[C@@]2(c3ccccc3)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4745606",
+    "smiles": "COc1ncc(Oc2c(Cl)cc(NC(=O)Cc3cccnc3)cc2Cl)cc1C(C)C",
+    "activity_label": "agonist",
+    "potency_nm": "70.0",
+    "scaffold": "O=C(Cc1cccnc1)Nc1ccc(Oc2cccnc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3317837",
+    "smiles": "CC(=O)N1CCN(c2ccc(CN(C(C)(C)C)S(=O)(=O)Cc3ccccc3)cc2)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "29.0",
+    "scaffold": "O=S(=O)(Cc1ccccc1)NCc1ccc(N2CCNCC2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4206368",
+    "smiles": "CC(C)(O)CNC(=O)CC1CSc2cc(C(O)(C(F)(F)F)C(F)(F)F)ccc2N1S(=O)(=O)c1ccc(F)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "32.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCSc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3581546",
+    "smiles": "COc1cccc(S(=O)(=O)N(Cc2ccc(N3CCN(C(C)=O)CC3)cc2F)C2CCC2)c1",
+    "activity_label": "agonist",
+    "potency_nm": "26.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N(Cc1ccc(N2CCNCC2)cc1)C1CCC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3361027",
+    "smiles": "CC(C)CN(CCc1ccccc1)S(=O)(=O)c1ccc(-c2ccc(S(C)(=O)=O)cc2)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "1000.0",
+    "scaffold": "O=S(=O)(NCCc1ccccc1)c1ccc(-c2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5867825",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc(CS(C)(=O)=O)c4)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "210.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccncc4)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5779116",
+    "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CCNC(=O)C1COC1)O2",
+    "activity_label": "antagonist",
+    "potency_nm": "4.88",
+    "scaffold": "O=C(NCC[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)C1COC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4283051",
+    "smiles": "Cn1cc(C2CCN(C(=O)C3CCCC3)CC2)c2cc(NC(=O)c3cc(C#N)ccn3)cnc21",
+    "activity_label": "antagonist",
+    "potency_nm": "4.8",
+    "scaffold": "O=C(Nc1cnc2[nH]cc(C3CCN(C(=O)C4CCCC4)CC3)c2c1)c1ccccn1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3234252",
+    "smiles": "CCN1C(=O)c2cccc3c(S(=O)(=O)NC4CCN(C(C)=O)CC4)ccc1c23",
+    "activity_label": "antagonist",
+    "potency_nm": "90.0",
+    "scaffold": "O=C1Nc2ccc(S(=O)(=O)NC3CCNCC3)c3cccc1c23"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4749158",
+    "smiles": "CC(C)c1cc(Oc2c(Cl)cc(NC(=O)Cc3cccnc3)cc2Cl)ccc1F",
+    "activity_label": "agonist",
+    "potency_nm": "212.0",
+    "scaffold": "O=C(Cc1cccnc1)Nc1ccc(Oc2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5910914",
+    "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)cc1)C[C@H](CNC(=O)C(O)C(F)(F)F)O2)C(F)(F)F",
+    "activity_label": "antagonist",
+    "potency_nm": "14.1",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4863122",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(C(C)(C)C)cc43)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "18.9",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CCN2CCCc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4552142",
+    "smiles": "COc1nc2ccc(C(O)(c3ccnc(C(F)(F)F)c3)c3cncn3C)cc2c(Cl)c1CN1CCC(C(F)(F)F)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "12.0",
+    "scaffold": "c1cc(C(c2ccc3ncc(CN4CCCCC4)cc3c2)c2cnc[nH]2)ccn1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6052651",
+    "smiles": "NC(=O)c1c(F)cc(C(=O)N[C@@H]2CC[C@@]3(S(=O)(=O)c4ccc(F)cc4)c4ccc(C(F)(C(F)(F)F)C(F)(F)F)cc4CC[C@@H]23)cc1F",
+    "activity_label": "antagonist",
+    "potency_nm": "3.0",
+    "scaffold": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12)c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5902173",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(OCC4CCC4)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "61.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(OCC4CCC4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4547336",
+    "smiles": "O=S(=O)(c1cccc(C(F)(F)F)c1)n1cnc2ccc(-c3cc(F)cc(OC(F)F)c3)cc21",
+    "activity_label": "agonist",
+    "potency_nm": "122.0",
+    "scaffold": "O=S(=O)(c1ccccc1)n1cnc2ccc(-c3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5834289",
+    "smiles": "Cc1nnc(-c2ccc3c(-c4ccc(C(=O)O)cc4F)nn(C(=O)c4c(Cl)cccc4C(F)(F)F)c3c2)o1",
+    "activity_label": "antagonist",
+    "potency_nm": "17.0",
+    "scaffold": "O=C(c1ccccc1)n1nc(-c2ccccc2)c2ccc(-c3nnco3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3581540",
+    "smiles": "CC(=O)N1CCN(c2ccc(CN(C3CCC3)S(=O)(=O)c3cccc(Cl)c3)c(F)c2)CC1",
+    "activity_label": "agonist",
+    "potency_nm": "50.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N(Cc1ccc(N2CCNCC2)cc1)C1CCC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5813818",
+    "smiles": "Cn1nc(C[C@H]2CN(S(=O)(=O)c3cccc(C(F)(F)F)c3)c3cc(NC(=O)OC(C)(C)C)ccc3O2)oc1=O",
+    "activity_label": "antagonist",
+    "potency_nm": "5.97",
+    "scaffold": "O=c1[nH]nc(C[C@H]2CN(S(=O)(=O)c3ccccc3)c3ccccc3O2)o1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5867540",
+    "smiles": "O=C(O)C1CC=C(c2nn(C(=O)c3c(Cl)cccc3C3(C(F)(F)F)CC3)c3c2CCC(C(=O)N[C@@H]2COC[C@@H]2F)C3)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "9.0",
+    "scaffold": "O=C(N[C@H]1CCOC1)C1CCc2c(C3=CCCCC3)nn(C(=O)c3ccccc3C3CC3)c2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6016819",
+    "smiles": "CC1=C2CCc3c(-c4ccccc4F)nc(-c4ccnc5c(F)cccc45)nc3[C@]2(C)C=C(C#N)C1=O",
+    "activity_label": "agonist",
+    "potency_nm": "238.0",
+    "scaffold": "O=C1C=CC2C(=C1)CCc1c(-c3ccccc3)nc(-c3ccnc4ccccc34)nc12"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5875081",
+    "smiles": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)N1C[C@@H](O)[C@@H](O)C1",
+    "activity_label": "antagonist",
+    "potency_nm": "12.0",
+    "scaffold": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12)N1CCCC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5920888",
+    "smiles": "CC1(C)C(=O)[C@@]2(C#N)O[C@H]2[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "162.0",
+    "scaffold": "O=C1C[C@H]2CCc3c(-c4ccccc4)nc(-c4ccnc5ccccc45)nc3C2[C@@H]2OC12"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6028453",
+    "smiles": "O=C([C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)N1CCS(=O)(=O)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "14.0",
+    "scaffold": "O=C([C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12)N1CCS(=O)(=O)CC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5943390",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccncc4C4CC4)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "61.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccncc4C4CC4)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5972735",
+    "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CCN1CCCC1=O)O2)C(F)(F)F",
+    "activity_label": "antagonist",
+    "potency_nm": "10.2",
+    "scaffold": "O=C1CCCN1CC[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6055423",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4cccc5ncccc45)nc(-c4ccccc4F)c3C[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "717.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4cccc5ncccc45)nc(-c4ccccc4)c3C[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4292862",
+    "smiles": "Cc1c(NC(=O)c2cccc(C#N)c2)cnc2c1c(C1CCN(C(=O)C3CC3)CC1)cn2C",
+    "activity_label": "antagonist",
+    "potency_nm": "16.0",
+    "scaffold": "O=C(Nc1cnc2[nH]cc(C3CCN(C(=O)C4CC4)CC3)c2c1)c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3609388",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3cc(Cl)ccc3Cl)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "100.0",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(-c2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6001168",
+    "smiles": "Cc1ccc2nccc(-c3nc(-c4ccccc4F)c4c(n3)[C@]3(C)C=C(C#N)C(=O)[C@H](C)[C@H]3CC4)c2c1",
+    "activity_label": "agonist",
+    "potency_nm": "141.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5780772",
+    "smiles": "O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C(F)(F)F)c3cc(NC4COC4)ccc23)c(F)c1",
+    "activity_label": "antagonist",
+    "potency_nm": "23.0",
+    "scaffold": "O=C(c1ccccc1)n1nc(-c2ccccc2)c2ccc(NC3COC3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5918239",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4cccc5ncccc45)nc(-c4ccccc4)c3CCC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "94.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4cccc5ncccc45)nc(-c4ccccc4)c3CCC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5091940",
+    "smiles": "CCCN(Cc1ccccc1)Cc1ccc(NCCc2ccc(S(=O)(=O)CC)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "33.6",
+    "scaffold": "c1ccc(CCNc2ccc(CNCc3ccccc3)cc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5993128",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(N4CCCC4)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "108.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(N4CCCC4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4435215",
+    "smiles": "CCS(=O)(=O)c1ccc(C(NC(=O)Cc2ccnnc2)C(=O)Nc2ccc(C(O)(C(F)(F)F)C(F)(F)F)cc2)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "25.12",
+    "scaffold": "O=C(Cc1ccnnc1)NC(C(=O)Nc1ccccc1)c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5944112",
+    "smiles": "Cc1nc(S(=O)(=O)C[C@H]2CN(S(=O)(=O)c3cccc(C(F)(F)F)c3)c3cc(NC(=O)OC(C)(C)C)ccc3O2)[nH]c1C",
+    "activity_label": "antagonist",
+    "potency_nm": "11.2",
+    "scaffold": "O=S(=O)(C[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)c1ncc[nH]1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5085004",
+    "smiles": "CCCN(Cc1c(Cl)cc(NC(=O)Cc2ccc(S(C)(=O)=O)cc2)cc1Cl)CC1CCCCC1",
+    "activity_label": "agonist",
+    "potency_nm": "382.0",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CNCC2CCCCC2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4868485",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(OC(C)(C)C)cc43)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "16.4",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CCN2CCCc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4777002",
+    "smiles": "COc1cc(Oc2c(Cl)cc(NC(=O)Cc3cccnc3)cc2Cl)cc(C(C)C)c1",
+    "activity_label": "agonist",
+    "potency_nm": "98.0",
+    "scaffold": "O=C(Cc1cccnc1)Nc1ccc(Oc2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6063921",
+    "smiles": "COc1nc(-c2ccnc(C)c2)nc2c1CC[C@@H]1[C@@H](C)C(=O)C(C#N)=C[C@@]21C",
+    "activity_label": "agonist",
+    "potency_nm": "124.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccncc4)ncc3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4848879",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCOc4ccc(CC(C)C)cc43)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "9.6",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CCN2CCOc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4438967",
+    "smiles": "COc1nc2ccc(C(O)(c3ccc(C)nc3C)c3cnnn3C)cc2c(Cl)c1CN1CC(C(F)(F)F)C1",
+    "activity_label": "antagonist",
+    "potency_nm": "41.0",
+    "scaffold": "c1cncc(C(c2ccc3ncc(CN4CCC4)cc3c2)c2cnn[nH]2)c1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4878238",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(CC(C)C)cc43)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "46.4",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CCN2CCCc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5898496",
+    "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CSc1ccccn1)O2",
+    "activity_label": "antagonist",
+    "potency_nm": "4.13",
+    "scaffold": "O=S(=O)(c1ccccc1)N1C[C@H](CSc2ccccn2)Oc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4878616",
+    "smiles": "C/C(=C\\c1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CCC(=O)O)O2)c1ccccc1",
+    "activity_label": "agonist",
+    "potency_nm": "95.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccc(C=Cc3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5429680",
+    "smiles": "CCS(=O)(=O)c1ccc(CNC(=O)c2ccc3c(c2)c2cc(OC(C)C)ccc2n3CCF)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "7.8",
+    "scaffold": "O=C(NCc1ccccc1)c1ccc2[nH]c3ccccc3c2c1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4861529",
+    "smiles": "CC(C)(C(=O)N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)N1CCNCC1",
+    "activity_label": "antagonist",
+    "potency_nm": "63.0",
+    "scaffold": "O=C(CN1CCNCC1)N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5825349",
+    "smiles": "Cc1cc(-c2nc(-c3ccccc3)c3c(n2)[C@]2(C)C=C(C#N)C(=O)[C@H](C)[C@H]2CC3)ccn1",
+    "activity_label": "agonist",
+    "potency_nm": "40.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccncc4)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5410061",
+    "smiles": "CCn1c2ccc(C(=O)NCc3ccc(S(=O)(=O)CC)cc3)cc2c2c(OC(C)C)cccc21",
+    "activity_label": "agonist",
+    "potency_nm": "29.4",
+    "scaffold": "O=C(NCc1ccccc1)c1ccc2[nH]c3ccccc3c2c1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6034054",
+    "smiles": "CC(=O)N[C@H]1C[C@@H](NC(=O)[C@@H]2CC[C@@]3(S(=O)(=O)c4ccc(F)cc4)c4ccc(C(F)(C(F)(F)F)C(F)(F)F)cc4CC[C@@H]23)C1",
+    "activity_label": "antagonist",
+    "potency_nm": "7.0",
+    "scaffold": "O=C(NC1CCC1)[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3596270",
+    "smiles": "O=C(O)c1ccc(-c2nc(C(=O)c3c(Cl)cccc3C(F)(F)F)n3c2CCCC3)c(F)c1",
+    "activity_label": "antagonist",
+    "potency_nm": "32.0",
+    "scaffold": "O=C(c1ccccc1)c1nc(-c2ccccc2)c2n1CCCC2"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5877834",
+    "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CC(=O)NCc1nn[nH]n1)O2",
+    "activity_label": "antagonist",
+    "potency_nm": "13.4",
+    "scaffold": "O=C(C[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)NCc1nn[nH]n1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4205062",
+    "smiles": "COc1ccc2c(c1)CCN(C(=O)CC1SC(=O)NC1=O)[C@H]2C(=O)Nc1cc(F)c([Si](C)(C)C)c(F)c1",
+    "activity_label": "antagonist",
+    "potency_nm": "41.0",
+    "scaffold": "O=C1NC(=O)C(CC(=O)N2CCc3ccccc3[C@@H]2C(=O)Nc2ccccc2)S1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5090647",
+    "smiles": "CCCN(Cc1ccccc1)Cc1ccc(NC(=O)Cc2ccc(C#N)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "346.0",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CNCc2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3218918",
+    "smiles": "Cc1cccc(C(=O)Nc2cc(-c3ccccc3)no2)c1",
+    "activity_label": "agonist",
+    "potency_nm": "100.0",
+    "scaffold": "O=C(Nc1cc(-c2ccccc2)no1)c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5890977",
+    "smiles": "CCn1cc(S(=O)(=O)N2C[C@H](CNC(C)=O)Oc3ccc(NC(=O)OC(C)(C)C(F)(F)F)cc32)c(C2CC2)n1",
+    "activity_label": "antagonist",
+    "potency_nm": "26.7",
+    "scaffold": "O=S(=O)(c1c[nH]nc1C1CC1)N1CCOc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4876485",
+    "smiles": "CC(=O)N1CCN(c2ccc3c(c2)CCN(S(=O)(=O)N(C)Cc2ccccc2F)C3)CC1",
+    "activity_label": "agonist",
+    "potency_nm": "358.0",
+    "scaffold": "O=S(=O)(NCc1ccccc1)N1CCc2cc(N3CCNCC3)ccc2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3609400",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3ccccc3OC(F)(F)F)c(C(F)(F)F)c2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "6.31",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(-c2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3609414",
+    "smiles": "CS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3ccc(Cl)cc3OC(F)(F)F)c(Cl)c2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "7.943",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(-c2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4287715",
+    "smiles": "Cn1cc(C2CCN(C(=O)C3CCCC3)CC2)c2cc(NC(=O)c3cc(C#N)ccn3)ccc21",
+    "activity_label": "antagonist",
+    "potency_nm": "5.0",
+    "scaffold": "O=C(Nc1ccc2[nH]cc(C3CCN(C(=O)C4CCCC4)CC3)c2c1)c1ccccn1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5839073",
+    "smiles": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)c1ccncc1F",
+    "activity_label": "antagonist",
+    "potency_nm": "11.0",
+    "scaffold": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12)c1ccncc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4209944",
+    "smiles": "Cc1nc(C)c(C(O)(c2ccc3nc(Cl)c(-c4ccccc4)c(Cl)c3c2)c2cncn2C)s1",
+    "activity_label": "antagonist",
+    "potency_nm": "100.0",
+    "scaffold": "c1ccc(-c2cnc3ccc(C(c4cnc[nH]4)c4cncs4)cc3c2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4849995",
+    "smiles": "O=C(O)C1(C[C@H]2CN(S(=O)(=O)c3cccc(C(F)(F)F)c3)c3cc(-c4cccc(Cl)c4F)ccc3O2)CCOCC1",
+    "activity_label": "agonist",
+    "potency_nm": "24.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N1C[C@H](CC2CCOCC2)Oc2ccc(-c3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4457391",
+    "smiles": "COc1nc2ccc(C(O)(c3ccc(C)nc3C)c3cnnn3C)cc2c(Cl)c1OCC1CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "20.0",
+    "scaffold": "c1cncc(C(c2ccc3ncc(OCC4CC4)cc3c2)c2cnn[nH]2)c1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5805510",
+    "smiles": "CCn1cc(S(=O)(=O)N2C[C@H](CCc3n[nH]c(=O)[nH]3)Oc3ccc(NC(=O)OC(C)(C)C(F)(F)F)cc32)c(Cl)n1",
+    "activity_label": "antagonist",
+    "potency_nm": "10.4",
+    "scaffold": "O=c1[nH]nc(CC[C@H]2CN(S(=O)(=O)c3cn[nH]c3)c3ccccc3O2)[nH]1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5082726",
+    "smiles": "CCS(=O)(=O)c1ccc([C@H](CO)NC(=O)c2ccc3c(c2)cc(Cc2ccc(Cl)cc2C(F)(F)F)n3CCF)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "11.0",
+    "scaffold": "O=C(NCc1ccccc1)c1ccc2[nH]c(Cc3ccccc3)cc2c1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4648441",
+    "smiles": "CC[C@H](NS(=O)(=O)c1ccc(-c2sc(C(=O)NC3CCS(=O)(=O)CC3)nc2C(=O)N2CCC(F)CC2)c(Cl)c1Cl)C(F)(F)F",
+    "activity_label": "antagonist",
+    "potency_nm": "25.0",
+    "scaffold": "O=C(NC1CCS(=O)(=O)CC1)c1nc(C(=O)N2CCCCC2)c(-c2ccccc2)s1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5962887",
+    "smiles": "CC(=O)NC[C@H]1CN(S(=O)(=O)c2ccc(F)cc2)c2cc(NC(=O)OC(C)(C)C(F)(F)C(F)(F)F)ccc2O1",
+    "activity_label": "antagonist",
+    "potency_nm": "20.8",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4576948",
+    "smiles": "O=C(O)CC1Cc2ccc(-c3cc(F)cc(F)c3)cc2N1S(=O)(=O)c1cccc(C(F)(F)F)c1",
+    "activity_label": "agonist",
+    "potency_nm": "25.7",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCc2ccc(-c3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5897451",
+    "smiles": "O=C(O)C1CC=C(c2nn(C(=O)c3c(Cl)cccc3C3(C(F)(F)F)CC3)c3c2CCC(C(=O)N[C@H]2CNC[C@@H]2F)C3)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "4.0",
+    "scaffold": "O=C(N[C@@H]1CCNC1)C1CCc2c(C3=CCCCC3)nn(C(=O)c3ccccc3C3CC3)c2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3317824",
+    "smiles": "CC(C)CN(Cc1ccc(N2CCN(CS(C)(=O)=O)CC2)cc1)S(=O)(=O)Cc1ccccc1",
+    "activity_label": "antagonist",
+    "potency_nm": "42.0",
+    "scaffold": "O=S(=O)(Cc1ccccc1)NCc1ccc(N2CCNCC2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6053001",
+    "smiles": "CC1OCCC1C(=O)NC[C@H]1CN(S(=O)(=O)c2ccc(F)c(Cl)c2)c2cc(NC(=O)OC(C)(C)C(F)(F)F)ccc2O1",
+    "activity_label": "antagonist",
+    "potency_nm": "5.37",
+    "scaffold": "O=C(NC[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)C1CCOC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6023459",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ncnc5ccccc45)nc(OC4CCC4)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "87.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ncnc5ccccc45)nc(OC4CCC4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4754713",
+    "smiles": "COc1ccc(Oc2c(Cl)cc(NC(=O)Cc3cnn(S(C)(=O)=O)c3)cc2Cl)cc1C(C)C",
+    "activity_label": "agonist",
+    "potency_nm": "133.0",
+    "scaffold": "O=C(Cc1cn[nH]c1)Nc1ccc(Oc2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4857658",
+    "smiles": "CC(=O)N1CCN(c2ccc3c(c2)CCN(S(=O)(=O)N(C)Cc2cccc(Cl)c2)C3)CC1",
+    "activity_label": "agonist",
+    "potency_nm": "138.0",
+    "scaffold": "O=S(=O)(NCc1ccccc1)N1CCc2cc(N3CCNCC3)ccc2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5832803",
+    "smiles": "NCc1ccnc(-c2ccc3c(-c4ccc(C(=O)O)cc4)nn(C(=O)c4c(Cl)cccc4C(F)(F)F)c3c2)c1",
+    "activity_label": "antagonist",
+    "potency_nm": "37.0",
+    "scaffold": "O=C(c1ccccc1)n1nc(-c2ccccc2)c2ccc(-c3ccccn3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5836020",
+    "smiles": "O=C(O)C1CC=C(c2nn(C(=O)c3c(Cl)cccc3C3(C(F)(F)F)CC3)c3c2CCC(C(=O)NCC2(F)CNC2)C3)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "36.0",
+    "scaffold": "O=C(NCC1CNC1)C1CCc2c(C3=CCCCC3)nn(C(=O)c3ccccc3C3CC3)c2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3598076",
+    "smiles": "CC(=O)Nc1cc(-c2cnc(N(C)C(=O)c3c(F)cccc3Cl)c(N3CCCCC3)c2)n(C(C)C)n1",
+    "activity_label": "antagonist",
+    "potency_nm": "13.0",
+    "scaffold": "O=C(Nc1ncc(-c2ccn[nH]2)cc1N1CCCCC1)c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4470666",
+    "smiles": "CCS(=O)(=O)c1ccc(C(NC(=O)Cc2cccnn2)C(=O)Nc2ccc(C(O)(C(F)(F)F)C(F)(F)F)cc2)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "63.1",
+    "scaffold": "O=C(Cc1cccnn1)NC(C(=O)Nc1ccccc1)c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6023400",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc(N5CCOCC5)c4)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "114.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc(N5CCOCC5)c4)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5943144",
+    "smiles": "COc1nc2c(C)cc(C(O)(c3c(C)nn(C)c3C)c3cnc(C)n3C)cc2c(Cl)c1OCC(F)(F)F",
+    "activity_label": "antagonist",
+    "potency_nm": "14.0",
+    "scaffold": "c1cnc2ccc(C(c3cn[nH]c3)c3cnc[nH]3)cc2c1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6003966",
+    "smiles": "COc1nc2ccc([C@](O)(c3ccccc3)C3CCN(C(C)=O)CC3)cc2c(Cl)c1CN1CCC(C(F)(F)F)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "37.0",
+    "scaffold": "c1ccc(C(c2ccc3ncc(CN4CCCCC4)cc3c2)C2CCNCC2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5808033",
+    "smiles": "CC(NC(=O)c1c[nH]cn1)[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12",
+    "activity_label": "antagonist",
+    "potency_nm": "27.0",
+    "scaffold": "O=C(NC[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12)c1c[nH]cn1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3962504",
+    "smiles": "O=C(C1CCOCC1)N1CC[C@](c2ccc(C(OCc3c(F)cccc3F)(C(F)(F)F)C(F)(F)F)cc2)(S(=O)(=O)c2ccc(F)cc2)C1",
+    "activity_label": "antagonist",
+    "potency_nm": "36.0",
+    "scaffold": "O=C(C1CCOCC1)N1CC[C@](c2ccc(COCc3ccccc3)cc2)(S(=O)(=O)c2ccccc2)C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5974193",
+    "smiles": "CC[C@@]1(C)C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "56.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5880263",
+    "smiles": "O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C(F)(F)F)c3cc(-c4nnc[nH]4)ccc23)c(F)c1",
+    "activity_label": "antagonist",
+    "potency_nm": "5.0",
+    "scaffold": "O=C(c1ccccc1)n1nc(-c2ccccc2)c2ccc(-c3nnc[nH]3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5984085",
+    "smiles": "CC(C)(N)C[C@H]1CN(S(=O)(=O)c2ccc(F)c(Cl)c2)c2cc(NC(=O)OC(C)(C)C(F)(F)F)ccc2O1",
+    "activity_label": "antagonist",
+    "potency_nm": "68.4",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5075147",
+    "smiles": "CCCN(Cc1ccc(NC(=O)Cc2ccc(S(C)(=O)=O)cc2)cc1)CC1CCCCC1",
+    "activity_label": "agonist",
+    "potency_nm": "277.0",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CNCC2CCCCC2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5953210",
+    "smiles": "Cc1cncc(-c2nc(-c3ccccc3F)c3c(n2)[C@]2(C)C=C(C#N)C(=O)[C@H](C)[C@H]2CC3)c1",
+    "activity_label": "agonist",
+    "potency_nm": "91.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4cccnc4)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6011105",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccncc4-c4ccccc4)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "115.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccncc4-c4ccccc4)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5859429",
+    "smiles": "CC(=O)OC1(CC(=O)N[C@@H]2CC[C@@]3(S(=O)(=O)c4ccc(F)cc4)c4ccc(C(F)(C(F)(F)F)C(F)(F)F)cc4CC[C@@H]23)CN(C(C)=O)C1",
+    "activity_label": "antagonist",
+    "potency_nm": "35.0",
+    "scaffold": "O=C(CC1CNC1)N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3218919",
+    "smiles": "Cc1cc(C)c2nc(NC(=O)c3sccc3C)sc2c1",
+    "activity_label": "agonist",
+    "potency_nm": "100.0",
+    "scaffold": "O=C(Nc1nc2ccccc2s1)c1cccs1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6007121",
+    "smiles": "O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C3(C(F)(F)F)CC3)c3c2CCN(CC2CC2)C3)c(F)c1",
+    "activity_label": "antagonist",
+    "potency_nm": "95.0",
+    "scaffold": "O=C(c1ccccc1C1CC1)n1nc(-c2ccccc2)c2c1CN(CC1CC1)CC2"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4279941",
+    "smiles": "Cc1c(NC(=O)c2cccc(C#N)c2)cnc2c1c(C1CCN(C(=O)C3CCOC3)CC1)cn2C",
+    "activity_label": "antagonist",
+    "potency_nm": "74.0",
+    "scaffold": "O=C(Nc1cnc2[nH]cc(C3CCN(C(=O)C4CCOC4)CC3)c2c1)c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4855243",
+    "smiles": "CC(C)Oc1ccc2c(c1)N(CCc1ccc(C(=O)NCc3ccc(S(C)(=O)=O)cn3)cc1)CCO2",
+    "activity_label": "agonist",
+    "potency_nm": "7.5",
+    "scaffold": "O=C(NCc1ccccn1)c1ccc(CCN2CCOc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3609412",
+    "smiles": "CS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3ccc(Cl)cc3OC(F)(F)F)c(F)c2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "10.0",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(-c2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5892069",
+    "smiles": "C=C(C)C[C@@]1(C)C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "141.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4874647",
+    "smiles": "O=C(O)CC[C@H]1CN(S(=O)(=O)c2cccc(C(F)(F)F)c2)c2cc(-c3cccc(F)c3Cl)ccc2O1",
+    "activity_label": "agonist",
+    "potency_nm": "144.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccc(-c3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4866161",
+    "smiles": "C/C(=C\\c1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CCC(=O)O)O2)c1ccccc1C",
+    "activity_label": "agonist",
+    "potency_nm": "112.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccc(C=Cc3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5940583",
+    "smiles": "Cc1cc(-c2nc(OC3CCCC3)c3c(n2)[C@]2(C)C=C(C#N)C(=O)[C@H](C)[C@H]2CC3)c2ccccc2n1",
+    "activity_label": "agonist",
+    "potency_nm": "60.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(OC4CCCC4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5986130",
+    "smiles": "Cc1ccc(-c2nc(-c3ccnc4ccccc34)nc3c2CC[C@@H]2[C@@H](C)C(=O)C(C#N)=C[C@@]32C)o1",
+    "activity_label": "agonist",
+    "potency_nm": "92.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(-c4ccco4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5177120",
+    "smiles": "O=C(O)c1ccc(/C=C\\c2c(-c3c(Cl)cccc3C(F)(F)F)noc2-c2cc[nH]c2)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "490.0",
+    "scaffold": "C(=C/c1c(-c2ccccc2)noc1-c1cc[nH]c1)/c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3609385",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3cc(Cl)ccc3Cl)s2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "501.19",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(-c2ccccc2)s1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6031221",
+    "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)c(Cl)c1)C[C@H](CNC(=O)C13CC(C1)C3)O2)C(F)(F)F",
+    "activity_label": "antagonist",
+    "potency_nm": "6.44",
+    "scaffold": "O=C(NC[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)C12CC(C1)C2"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5410860",
+    "smiles": "O=C(O)c1ccc(Nc2nc(Oc3c(Cl)cccc3Cl)nc(-c3ccc(C4CC4)cc3)n2)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "99.0",
+    "scaffold": "c1ccc(Nc2nc(Oc3ccccc3)nc(-c3ccc(C4CC4)cc3)n2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5438539",
+    "smiles": "CCn1c2ccc(OC(C)C)cc2c2cc(C(=O)NCc3ccc(S(C)(=O)=O)cn3)ccc21",
+    "activity_label": "agonist",
+    "potency_nm": "10.7",
+    "scaffold": "O=C(NCc1ccccn1)c1ccc2[nH]c3ccccc3c2c1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5880489",
+    "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)cc1)C[C@H](CNS(=O)(=O)CC(F)(F)F)O2)C(F)(F)F",
+    "activity_label": "antagonist",
+    "potency_nm": "7.38",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5965241",
+    "smiles": "CC(NS(=O)(=O)c1nc[nH]n1)[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12",
+    "activity_label": "antagonist",
+    "potency_nm": "62.0",
+    "scaffold": "O=S(=O)(NC[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12)c1nc[nH]n1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4649541",
+    "smiles": "O=C(C1CCOCC1)N1CCC(c2ccc(OCc3ccccc3)cc2)(S(=O)(=O)c2ccc(F)cc2)C1",
+    "activity_label": "agonist",
+    "potency_nm": "532.0",
+    "scaffold": "O=C(C1CCOCC1)N1CCC(c2ccc(OCc3ccccc3)cc2)(S(=O)(=O)c2ccccc2)C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5867090",
+    "smiles": "O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C3CC3)c3cccc(F)c23)c(F)c1",
+    "activity_label": "antagonist",
+    "potency_nm": "2.0",
+    "scaffold": "O=C(c1ccccc1C1CC1)n1nc(-c2ccccc2)c2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5794612",
+    "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@@H](CC(=O)N1CCOC1)O2",
+    "activity_label": "antagonist",
+    "potency_nm": "1.96",
+    "scaffold": "O=C(C[C@@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)N1CCOC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6060615",
+    "smiles": "CCNS(=O)(=O)NC[C@H]1CN(S(=O)(=O)c2ccc(F)cc2)c2cc(NC(=O)OC(C)(C)C(F)(F)F)ccc2O1",
+    "activity_label": "antagonist",
+    "potency_nm": "5.3",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4452914",
+    "smiles": "O=C(O)Cc1cn(S(=O)(=O)c2cccc(C(F)(F)F)c2)c2cc(-c3cc(F)cc(OC(F)F)c3)ccc12",
+    "activity_label": "agonist",
+    "potency_nm": "133.0",
+    "scaffold": "O=S(=O)(c1ccccc1)n1ccc2ccc(-c3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5990020",
+    "smiles": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)C1(O)CCS(=O)(=O)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "2.0",
+    "scaffold": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12)C1CCS(=O)(=O)CC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3313998",
+    "smiles": "Cc1c(C(=O)NC2CCOCC2)cc(-c2cc(C(C)(C)C)c3c(c2)C2(CCO3)CC2)n1CC1CCCCC1",
+    "activity_label": "agonist",
+    "potency_nm": "40.0",
+    "scaffold": "O=C(NC1CCOCC1)c1cc(-c2ccc3c(c2)C2(CCO3)CC2)n(CC2CCCCC2)c1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5432279",
+    "smiles": "CCS(=O)(=O)c1ccc(CNC(=O)Nc2cc(Cl)c(-c3ccc(CC(C)C)c(C#N)c3)c(Cl)c2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "29.8",
+    "scaffold": "O=C(NCc1ccccc1)Nc1ccc(-c2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4877008",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(OC(C)C)cc43)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "10.8",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CCN2CCCc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4776548",
+    "smiles": "CCS(=O)(=O)c1cnc(CNc2nc3cnc(-c4c(C)ncnc4C4CC4)nc3n([C@@H](C)C3CC3)c2=O)s1",
+    "activity_label": "antagonist",
+    "potency_nm": "4.0",
+    "scaffold": "O=c1c(NCc2nccs2)nc2cnc(-c3cncnc3C3CC3)nc2n1CC1CC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6063063",
+    "smiles": "CC(C)(C)OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1cccc(C(F)(F)F)c1)C[C@H](CS(=O)(=O)N1CCOCC1)O2",
+    "activity_label": "antagonist",
+    "potency_nm": "6.11",
+    "scaffold": "O=S(=O)(C[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)N1CCOCC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5273235",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3nc4ccc(C)cc4n3CCc3ccccc3)cc2)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "14.0",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(-c2nc3ccccc3n2CCc2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4851088",
+    "smiles": "CCS(=O)(=O)c1ccc(CNC(=O)c2ccc(CCN3CCCc4ccc(CC(C)C)cc43)cc2)nc1",
+    "activity_label": "agonist",
+    "potency_nm": "8.9",
+    "scaffold": "O=C(NCc1ccccn1)c1ccc(CCN2CCCc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4857191",
+    "smiles": "CC(=O)N1CCN(c2ccc3c(c2)CCN(S(=O)(=O)N(C)Cc2c(F)cccc2Cl)C3)C[C@H]1C",
+    "activity_label": "agonist",
+    "potency_nm": "29.0",
+    "scaffold": "O=S(=O)(NCc1ccccc1)N1CCc2cc(N3CCNCC3)ccc2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4126216",
+    "smiles": "CC(C)(C)NS(=O)(=O)c1ncc(-c2sc(C(=O)N[C@H]3C[C@H](C(=O)O)C3)nc2CC2CCCCC2)c2ccccc12",
+    "activity_label": "antagonist",
+    "potency_nm": "12.0",
+    "scaffold": "O=C(NC1CCC1)c1nc(CC2CCCCC2)c(-c2cncc3ccccc23)s1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4871691",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(CCN3CCCc4ccc(CC(C)(C)C)cc43)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "30.3",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CCN2CCCc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5785729",
+    "smiles": "Cc1noc(-c2nc(-c3ccnc4ccccc34)nc3c2CC[C@@H]2[C@@H](C)C(=O)C(C#N)=C[C@@]32C)n1",
+    "activity_label": "agonist",
+    "potency_nm": "44.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(-c4ncno4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6016295",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5ccccc45)nc(-c4cccc(-c5ccccc5)c4)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "129.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(-c4cccc(-c5ccccc5)c4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5875331",
+    "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)cc1)C[C@H](CNC(=O)C1(C(F)(F)F)CC1)O2)C(F)(F)F",
+    "activity_label": "antagonist",
+    "potency_nm": "26.3",
+    "scaffold": "O=C(NC[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)C1CC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3933290",
+    "smiles": "O=C(O)C1CCN(C(=O)N2CC[C@](c3ccc(C(OCc4c(F)cccc4F)(C(F)(F)F)C(F)(F)F)cc3)(S(=O)(=O)c3ccc(F)cc3)C2)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "85.0",
+    "scaffold": "O=C(N1CCCCC1)N1CC[C@](c2ccc(COCc3ccccc3)cc2)(S(=O)(=O)c2ccccc2)C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5998057",
+    "smiles": "CC(C)(OC(=O)Nc1ccc2c(c1)N(S(=O)(=O)c1ccc(F)cc1)C[C@@H](CNC(=O)C1CC(F)(F)C1)O2)C(F)(F)F",
+    "activity_label": "antagonist",
+    "potency_nm": "9.34",
+    "scaffold": "O=C(NC[C@@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)C1CCC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5289748",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(-c3nc4ccc(C)cc4n3[C@H](C)c3ccc(C)cc3)cc2)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "9.0",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(-c2nc3ccccc3n2Cc2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4869567",
+    "smiles": "O=C(O)C1(C[C@H]2CN(S(=O)(=O)c3cccc(C(F)(F)F)c3)c3cc(-c4cc(F)cc(OC(F)F)c4)ccc3O2)CCOCC1",
+    "activity_label": "agonist",
+    "potency_nm": "8.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N1C[C@H](CC2CCOCC2)Oc2ccc(-c3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4227729",
+    "smiles": "CCc1ccc(N(CC(C)C)S(=O)(=O)c2ccc(NCC3CCOCC3)c(S(C)(=N)=O)c2)cc1",
+    "activity_label": "antagonist",
+    "potency_nm": "30.0",
+    "scaffold": "O=S(=O)(Nc1ccccc1)c1ccc(NCC2CCOCC2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6064848",
+    "smiles": "CC1(C(=O)NC[C@H]2CN(S(=O)(=O)c3ccc(F)cc3)c3cc(NC(=O)OC(C)(C)C(F)(F)F)ccc3O2)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "16.7",
+    "scaffold": "O=C(NC[C@H]1CN(S(=O)(=O)c2ccccc2)c2ccccc2O1)C1CC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5998039",
+    "smiles": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccc(F)cc3)c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3CC[C@@H]12)c1cccnc1O",
+    "activity_label": "antagonist",
+    "potency_nm": "16.0",
+    "scaffold": "O=C(N[C@@H]1CC[C@@]2(S(=O)(=O)c3ccccc3)c3ccccc3CC[C@@H]12)c1cccnc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5086937",
+    "smiles": "CCS(=O)(=O)c1ccc(CC(=O)Nc2ccc(NCCc3ccccc3)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "55.2",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(NCCc2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5803336",
+    "smiles": "C[C@H]1C(=O)C(C#N)=C[C@@]2(C)c3nc(N)nc(-c4ccccc4)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "482.0",
+    "scaffold": "O=C1C=CC2c3ncnc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5951176",
+    "smiles": "CC1(C)C(=O)C(C#N)=C[C@@]2(C)c3nc(-c4ccnc5c(F)cccc45)nc(-c4ccccc4F)c3CC[C@H]12",
+    "activity_label": "agonist",
+    "potency_nm": "60.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4ccnc5ccccc45)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3598057",
+    "smiles": "[2H]C([2H])([2H])N(C(=O)c1c(F)cccc1Cl)c1ccc(-c2cc(NC(=O)C3CC3)nn2C(C)C)cc1N1CC2CC2C1",
+    "activity_label": "antagonist",
+    "potency_nm": "7.6",
+    "scaffold": "O=C(Nc1ccc(-c2cc(NC(=O)C3CC3)n[nH]2)cc1N1CC2CC2C1)c1ccccc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4866533",
+    "smiles": "CC(Oc1ccc2c(c1)N(CCc1ccc(NC(=O)Cc3ccc(S(C)(=O)=O)cc3)cc1)CCO2)C(F)(F)F",
+    "activity_label": "agonist",
+    "potency_nm": "4.4",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CCN2CCOc3ccccc32)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5771001",
+    "smiles": "CC(C)CS(=O)(=O)NC[C@H]1CN(S(=O)(=O)c2ccc(F)cc2)c2cc(NC(=O)OC(C)(C)C(F)(F)F)ccc2O1",
+    "activity_label": "antagonist",
+    "potency_nm": "7.66",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccccc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4859771",
+    "smiles": "C[C@@H](C[C@H]1CN(S(=O)(=O)c2cccc(C(F)(F)F)c2)c2cc(-c3cc(F)ccc3F)ccc2O1)C(=O)O",
+    "activity_label": "agonist",
+    "potency_nm": "4.0",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCOc2ccc(-c3ccccc3)cc21"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5092278",
+    "smiles": "CCCN(Cc1ccc(NC(=O)Cc2ccc(S(=O)(=O)CC)cc2)cc1)CC1CCCO1",
+    "activity_label": "agonist",
+    "potency_nm": "285.0",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CNCC2CCCO2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5769179",
+    "smiles": "Cc1noc(C)c1-c1nc(-c2ccccc2F)c2c(n1)[C@]1(C)C=C(C#N)C(=O)[C@H](C)[C@H]1CC2",
+    "activity_label": "agonist",
+    "potency_nm": "88.0",
+    "scaffold": "O=C1C=CC2c3nc(-c4cnoc4)nc(-c4ccccc4)c3CC[C@@H]2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3581530",
+    "smiles": "CC(=O)N1CCN(c2ccc(CN(C3CCC3)S(=O)(=O)Cc3ccccc3)c(F)c2)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "11.0",
+    "scaffold": "O=S(=O)(Cc1ccccc1)N(Cc1ccc(N2CCNCC2)cc1)C1CCC1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL6058199",
+    "smiles": "Cn1cncc1[C@](O)(c1ccnc(C(F)(F)F)c1)c1ccc2nc(C3CC3)c(CN3CCC(C(F)(F)F)CC3)c(Cl)c2c1",
+    "activity_label": "antagonist",
+    "potency_nm": "21.0",
+    "scaffold": "c1cc(C(c2ccc3nc(C4CC4)c(CN4CCCCC4)cc3c2)c2cnc[nH]2)ccn1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL3965066",
+    "smiles": "CC[C@]1(C(=O)N2CC[C@](c3ccc(C(F)(C(F)(F)F)C(F)(F)F)cc3)(S(=O)(=O)c3ccc(F)cc3)C2)CC[C@H](C(=O)O)CC1",
+    "activity_label": "antagonist",
+    "potency_nm": "31.0",
+    "scaffold": "O=C(C1CCCCC1)N1CC[C@](c2ccccc2)(S(=O)(=O)c2ccccc2)C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL5094172",
+    "smiles": "CCCN(Cc1ccccc1)Cc1ccc(NC(=O)Cc2ccc(S(C)(=O)=O)cc2)cc1",
+    "activity_label": "agonist",
+    "potency_nm": "43.1",
+    "scaffold": "O=C(Cc1ccccc1)Nc1ccc(CNCc2ccccc2)cc1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4847617",
+    "smiles": "CC(=O)N1CCN(c2ccc3c(c2)CCN(S(=O)(=O)N(C)Cc2c(F)cccc2Cl)C3)[C@H](C)C1",
+    "activity_label": "agonist",
+    "potency_nm": "23.0",
+    "scaffold": "O=S(=O)(NCc1ccccc1)N1CCc2cc(N3CCNCC3)ccc2C1"
+  },
+  {
+    "molecule_chembl_id": "CHEMBL4435106",
+    "smiles": "O=C(O)CC1Cc2ccc(-c3cccc(OC(F)(F)F)c3)cc2N1S(=O)(=O)c1cccc(C(F)(F)F)c1",
+    "activity_label": "agonist",
+    "potency_nm": "31.1",
+    "scaffold": "O=S(=O)(c1ccccc1)N1CCc2ccc(-c3ccccc3)cc21"
+  }
+]

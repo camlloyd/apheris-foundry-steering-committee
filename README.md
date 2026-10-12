@@ -52,8 +52,9 @@ instead of the reference structures we'd chosen ourselves:
   and margin.
 
 Full numbers, every caveat, and the statistics behind each line are in
-`JUDGES_ROLLUP.md` — read that first if you're judging this. The slide
-version is `PITCH_SLIDES.md`.
+`JUDGES_ROLLUP.md` — read that first if you're judging this. The pitch
+deck is at **[TODO: deck link]** — single consolidated deck, superseding
+the markdown version that used to live in this repo as `PITCH_SLIDES.md`.
 
 ## How this repo is organized
 
@@ -61,7 +62,6 @@ version is `PITCH_SLIDES.md`.
 JUDGES_ROLLUP.md          Start here. The synthesized story end to end,
                            every result, every correction, what to say and
                            what not to overclaim.
-PITCH_SLIDES.md           The deck, as marp-flavored markdown.
 HANDOFF.md                The Day-1 plan this project worked from: target,
                            hypothesis, experimental grid, task split.
 

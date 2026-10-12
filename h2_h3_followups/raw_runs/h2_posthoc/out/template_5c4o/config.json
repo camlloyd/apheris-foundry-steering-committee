@@ -1,0 +1,16 @@
+{
+  "msa_dir": "/msa",
+  "num_diffusion_samples": 10,
+  "schema_version": "foundry.cli.v1",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "template_paths": [
+    "/templates/5C4O.cif"
+  ],
+  "weights": "/app/weights/of3-ob-2025-06-30-174k.pt"
+}

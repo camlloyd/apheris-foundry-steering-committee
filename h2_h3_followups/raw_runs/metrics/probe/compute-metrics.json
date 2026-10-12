@@ -1,0 +1,303 @@
+{
+  "description": "Compute quality metrics for predictions against optional references. Two input forms, which may be combined: pass prediction structure files directly as one or more (repeatable) --input flags with an optional --reference (they form a single ensemble), or pass YAML manifests (or directories holding them) as --input, each carrying a `samples` list of entries with a `prediction` path or list, an optional `reference` and an optional `id` - so one run can score many references. Metrics for every sample, grouped by reference, are written to result.json in --output, keyed by the given `id` or the stem of the prediction. Samples without a reference get reference-free (inference) metrics.",
+  "exit_codes": [
+    {
+      "category": "success",
+      "code": 0,
+      "meaning": "success"
+    },
+    {
+      "category": "internal",
+      "code": 1,
+      "meaning": "unexpected or uncaught error"
+    },
+    {
+      "category": "usage",
+      "code": 2,
+      "meaning": "bad invocation or invalid config"
+    },
+    {
+      "category": "input-data",
+      "code": 3,
+      "meaning": "inputs present but invalid"
+    },
+    {
+      "category": "precondition",
+      "code": 4,
+      "meaning": "required resource absent"
+    },
+    {
+      "category": "output",
+      "code": 5,
+      "meaning": "result produced but could not be persisted"
+    },
+    {
+      "category": "cancelled",
+      "code": 130,
+      "meaning": "cancelled by SIGINT or SIGTERM"
+    }
+  ],
+  "input_schema": {
+    "$defs": {
+      "MetricsSampleDefinition": {
+        "description": "One reference and the prediction sample(s) to score against it.",
+        "properties": {
+          "id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Id"
+          },
+          "prediction": {
+            "items": {
+              "format": "file-path",
+              "type": "string"
+            },
+            "minItems": 1,
+            "title": "Prediction",
+            "type": "array"
+          },
+          "reference": {
+            "anyOf": [
+              {
+                "format": "file-path",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Reference"
+          }
+        },
+        "required": [
+          "prediction"
+        ],
+        "title": "MetricsSampleDefinition",
+        "type": "object"
+      }
+    },
+    "description": "Manifest for a compute-metrics invocation: one entry per reference with its prediction(s).",
+    "properties": {
+      "samples": {
+        "items": {
+          "$ref": "#/$defs/MetricsSampleDefinition"
+        },
+        "title": "Samples",
+        "type": "array"
+      }
+    },
+    "required": [
+      "samples"
+    ],
+    "title": "ComputeMetricsInput",
+    "type": "object"
+  },
+  "inputs": [
+    {
+      "flag": "--input",
+      "repeatable": true,
+      "required": true,
+      "type": "file or directory"
+    }
+  ],
+  "invocation": "apheris-data compute-metrics --input ./in --output ./run",
+  "name": "compute-metrics",
+  "output": {
+    "flag": "--output",
+    "required": true,
+    "type": "directory"
+  },
+  "output_schema": {
+    "$defs": {
+      "JobMetrics": {
+        "description": "Metrics for every prediction scored against one reference (or none, for inference metrics).",
+        "properties": {
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "metric_set": {
+            "enum": [
+              "default",
+              "inference"
+            ],
+            "title": "Metric Set",
+            "type": "string"
+          },
+          "reference": {
+            "anyOf": [
+              {
+                "format": "path",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Reference"
+          },
+          "samples": {
+            "items": {
+              "$ref": "#/$defs/SampleMetrics"
+            },
+            "title": "Samples",
+            "type": "array"
+          }
+        },
+        "required": [
+          "id",
+          "metric_set",
+          "samples"
+        ],
+        "title": "JobMetrics",
+        "type": "object"
+      },
+      "SampleMetrics": {
+        "description": "Metrics for a single prediction sample.",
+        "properties": {
+          "averages": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "title": "Averages",
+            "type": "object"
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "prediction": {
+            "format": "path",
+            "title": "Prediction",
+            "type": "string"
+          },
+          "weighted_averages": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "title": "Weighted Averages",
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "prediction",
+          "averages",
+          "weighted_averages"
+        ],
+        "title": "SampleMetrics",
+        "type": "object"
+      }
+    },
+    "description": "Result of the compute-metrics task: metrics grouped by reference.",
+    "properties": {
+      "failures_path": {
+        "anyOf": [
+          {
+            "format": "path",
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "title": "Failures Path"
+      },
+      "jobs": {
+        "items": {
+          "$ref": "#/$defs/JobMetrics"
+        },
+        "title": "Jobs",
+        "type": "array"
+      },
+      "num_failed": {
+        "title": "Num Failed",
+        "type": "integer"
+      },
+      "num_samples": {
+        "title": "Num Samples",
+        "type": "integer"
+      },
+      "num_successful": {
+        "title": "Num Successful",
+        "type": "integer"
+      }
+    },
+    "required": [
+      "jobs",
+      "num_samples",
+      "num_successful",
+      "num_failed"
+    ],
+    "title": "ComputeMetricsResult",
+    "type": "object"
+  },
+  "parameters": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Configuration for the compute-metrics task.",
+    "properties": {
+      "metric_set": {
+        "anyOf": [
+          {
+            "enum": [
+              "default",
+              "inference"
+            ],
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Which metric set to run: 'default' (the full DEFAULT_METRICS, requires a reference) or 'inference' (reference-free DEFAULT_INFERENCE_METRICS). Defaults to 'inference' for samples without a reference and 'default' for samples with one.",
+        "title": "Metric Set"
+      },
+      "n_digits": {
+        "anyOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Round average scores to this many decimal places (default: no rounding).",
+        "title": "N Digits"
+      },
+      "reference": {
+        "anyOf": [
+          {
+            "format": "file-path",
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Reference structure for prediction files passed directly as --input. Manifests carry their own per-sample reference, so this cannot be the only input form; omit for reference-free metrics.",
+        "title": "Reference"
+      }
+    },
+    "title": "ComputeMetricsConfig",
+    "type": "object",
+    "x-foundry-flags": {
+      "metric_set": "--metric-set",
+      "n_digits": "--n-digits",
+      "reference": "--reference"
+    }
+  },
+  "schema_version": "foundry.cli.v1"
+}

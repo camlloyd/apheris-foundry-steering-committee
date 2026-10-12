@@ -7,6 +7,16 @@
 > that file §5 — but report numbers from here with that context, not as
 > the organizers' own definition.
 
+> **⚠ Correction (2026-10-02, no re-run):** the H12-local pLDDT values below
+> (87.50 / 77.52 / 83.19 / 77.00) are computed over construct residues
+> **480–487**, not the 479–486 stated throughout this report and
+> elsewhere — an off-by-one in `h12_state_classifier.py`'s token indexing
+> (see `PER_STRUCTURE_PREDICTIONS_NOTES.md` for the mechanism). The values
+> themselves are correct as measured; the documented window was wrong.
+> **The arm ordering (apo > C2 > C1 ≈ C3) and the p = 0.0079 separation
+> have not been re-verified under the corrected window — this note does
+> not claim they hold, only that they haven't been checked.**
+
 **Hypothesis registered:** `H3_PREREGISTRATION.md`, timestamped 2026-10-01 14:56 UTC, before any H3 job ran.
 **This report written:** 2026-10-01, after all 4 arms completed and scored.
 
@@ -71,6 +81,14 @@ p = 0.0079 is the tightest attainable value for a 5-vs-5 exact permutation test 
 - Not the monotonic pocket-confound pattern (predicted apo < C1 < C2) — the order is reversed from that.
 
 **What *is* resolved cleanly: the rigidity/pocket-filling confound is rejected.** C3 (rigid, pocket-filling, like C2) patterns statistically with C1 (flexible, like itself pharmacologically an agonist) — p = 0.60, indistinguishable — not with C2. Since C3 shares C2's physical property (rigid, fills the pocket) but behaves like C1, H12-local confidence tracks **pharmacological class, not ligand rigidity**. That is exactly the question the 4th arm was added to answer, and it answers it.
+
+![H12-local pLDDT, all 200 structures across the four arms, colored by pharmacological class rather than rigidity. C1 and C3 are both agonists (blue) despite C3 being rigid like C2; C2 is the inverse agonist (red). C3 lands with C1, not with C2, by eye and not only by the permutation test.](h3_confound_figure.png)
+
+This is the panel a reader needs to see rather than be told: every individual
+C3 structure's H12-local pLDDT falls in or near the C1 cloud, not the C2
+one, despite C3 sharing C2's rigid, pocket-filling geometry. The confound
+control isn't just a p-value on seed means — it holds structure by
+structure.
 
 ### 3.2 Secondary: pocket-residue pLDDT (back-pocket residues 362, 379, 380, 396, 401, 480)
 

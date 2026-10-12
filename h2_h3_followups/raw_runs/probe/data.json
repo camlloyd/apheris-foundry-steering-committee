@@ -1,0 +1,8 @@
+apheris-data 0.26.0
+CLI contract: foundry.cli.v1
+
+Tasks:
+  preprocess-structures - Preprocess structures into standardised CIF files.
+  compute-metrics - Compute quality metrics for predictions against optional references. Two input forms, which may be combined: pass prediction structure files directly as one or more (repeatable) --input flags with an optional --reference (they form a single ensemble), or pass YAML manifests (or directories holding them) as --input, each carrying a `samples` list of entries with a `prediction` path or list, an optional `reference` and an optional `id` - so one run can score many references. Metrics for every sample, grouped by reference, are written to result.json in --output, keyed by the given `id` or the stem of the prediction. Samples without a reference get reference-free (inference) metrics.
+
+Use '<task> describe' for details, or add --json for machine output.

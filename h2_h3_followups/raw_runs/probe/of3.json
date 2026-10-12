@@ -1,0 +1,10 @@
+apheris-openfold3 0.15.1
+CLI contract: foundry.cli.v1
+
+Tasks:
+  predict-openfold3 - No description.
+  generate-openfold3-dataset - No description.
+  finetune-openfold3 - No description.
+  test-openfold3 - No description.
+
+Use '<task> describe' for details, or add --json for machine output.
